@@ -1,0 +1,170 @@
+=================================================================================
+* LEVEL INFORMATION *
+---------------------------------------------------------------------------------
+TITLE                   : Tratoria
+FILENAME                : ahl_tratoria.bsp
+AUTHOR                  : [DoD]K@0$,[DoD]BeerDog, and [DoD]Father Brandon
+DATE                    : October, 2003
+GAME                    : Action Half-Life
+TYPE                    : All modes
+EMAIL ADDRESS           : jaysunrad@hotmail.com/ Beerdog@comcast.net/ ahlmapper@hotmail.com 
+HOMEPAGE URL            : http://www.denofdeath.com
+---------------------------------------------------------------------------------
+This is a DoD Productions map. 
+What does that mean? We are a community of mappers. While some of our maps are done
+in a communal fashion, most are made by individual DoD Production members with 
+intense support from the group. If you are a mapper (or are just friendly) come 
+on by and say hello at http://www.denofdeath.com. And if you see us in game...
+run for cover!
+---------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+---------------------------------------------------------------------------------
+A small European town where technology has not kept up with the times.  The town's
+government is corrupt and there are rumors that the Overon Biotechnology company 
+might have their hands in the city officals pockets.  With the backing of an unknown 
+supporter, a small group of rebels rise up to take back their beloved town of Tratoria.
+Who can this supporter be?  In other news, Western Dynamics ..........
+---------------------------------------------------------------------------------
+SINGLE PLAYER           : No
+CO-OPERATIVE            : No
+DEATHMATCH              : Yes
+SUGGESTED PLAYER LOAD   : 6-12
+DIFFICULTY SETTINGS     : None
+Prefabs			: 4postbed by Daddycool
+NEW TEXTURES            : Yes (see credits)
+NEW SOUNDS              : No
+NEW SKYBOX 		: No 
+Secret			: Yes
+---------------------------------------------------------------------------------
+* CONSTRUCTION *
+---------------------------------------------------------------------------------
+MAP BASE                : Scratch                      
+EDITOR(S) USED          : Valve Hammer Editor 3.4
+OTHER UTILITIES USED    : Wally, Paintshop Pro 6, Zoner's Half-Life Compile Tools, 
+                          Adobe Photoshop 5.0
+KNOWN BUGS              : Nope
+COMPILE MACHINE         : PIII 800 MHz, 384 MB RAM. Compile time: 45 minutes.
+
+---------------------------------------------------------------------------------
+* OTHER RELEASED LEVELS BY THE AUTHORS *
+---------------------------------------------------------------------------------
+ACTION HALF-LIFE	: ahl_midnight, ahl_white, ahl_killington
+---------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+---------------------------------------------------------------------------------
+Unzip this (with path recursing on) to your \Action directory. If somehow
+you can't: 
+
+.bsp/.ini/.txt/.res/.loc go in \action\maps.
+.wad go in \action
+.tga/.bmp go in \action\gfx\env
+.spr go in \action\sprites
+.mdl go in \action\models
+.wav go in \action\sound\tratoria
+---------------------------------------------------------------------------------
+* CREDITS / SPECIAL THANKS *
+---------------------------------------------------------------------------------
+Id Software, Valve Software, GearBox Software, and The Akimbo-Team.
+
+Custom Textures by:
+X-Tender, banana, blazeer, and corpsinhere, Father Brandon, BeerDog and PVK where 
+ever you are please come back.
+
+Custom Models by:
+Tazus
+
+
+We'd also like to thank:
+
+
+The DoD clan and the ARG clan for being so supportive of our efforts.
+
+
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+================================================================================
+This level is (C) 2003 Den of Death Productions
+
+Authors MAY NOT use this level as a base to build additional levels.
+No decompiling, hacking, or modification of the .bsp or related files will be 
+tolerated.  But if you ask for permission then go for it!!!  :)
+ 
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS! If you don't co-operate, then DON'T DISTRIBUTE
+IT IN ANY FORM!
+ 
+This LEVEL may be distributed ONLY over the Internet. No money may be charged for 
+this level AT ALL without first getting WRITTEN permission from the authors.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way other than through a FREE ACCESS website or FTP site without my permission.
+
+Action Half-Life (C) 1998-2001 The A-Team.
+Half-Life (C) 1998-2001 Sierra On-line and Valve L.L.C. All rights reserved.
+
+
+                                    .Y  .    .++.+                                       
+                             .... ...$D0222A0  $+%%%%%....+++%++                                
+                              ..+$20YAHHUAU0DY%YYYYY00Y000Y..%%$..                              
+                             $$ADD0Y220UQHHDAH.YY2$$$DU##HADD2++.%%.                            
+                          +YA0Y22$$%%%%20QHQAH.YY2%%2UA0002YY00D%+.+$.                          
+                        Y00Y2$%%+++++++%$2UHUH.YY2%%0UY++++%%$2Y00Y$$2+                         
+                     %20YY$%%%++++++++%$YDQ#AH.YY2%%0A0%%%++++%%$$22$2$22+                      
+                   +YD02$$%%++++++%%%%20AQHAAH.YY2%%$0DDDD2++++++++%%222AU$                     
+                 .DQA22$%%++++++++%$$2UA0DU0AH.YY2%%$2YDDDD$+++++%$2Y00YYDU2                    
+                .YU#D$$++++++%%%$$20YDHQD0DYAH.Y22$202YY2YQY%+++$AAAAQD$$$$Y0                   
+             . +20DQA$%++++%%$220D0UM##H000YAH.2$2YAD#U0DD#02%++AA$++0A%+%$$U#                  
+           +. YAA0AQUDDDDDY2Y0A2QNM$   Q#AUAAH.2$2YD+  2UNHAD0YYAY$..2DY$%$2UH#                 
+          ..%0QUAAQHQ0DDAAQDD0DD%2      HHHH#N+2$Y#U+     2U#HH#D%+..+$0DADUHNQD%               
+         .++UU0222DQ0%%$YDHDAY++        YQAUQM$22A#D        +0N#Y$%+...+%$$$AHDYU.              
+         +.0#A2%%%YAD%%2DUHA$           +QDDQM200A#0          0AD02+.......+0UY$0Y.             
+        2+D#DY$%%%2DA2$0UNA              +UYUN$#NMQ0            $QA$+..... .0A$%$0Y             
+       .+$D02$$2Y0DUDY0#U$               %HYA#.ANHA+             UHU2%+.....YUD2Y00+            
+      . +$02%$DDDAADYQHD                 $MN##.0%A2.              +YQ0%++.. +20DAAA$%           
+      ..%Y2$%$UY%%2Y0AY                  %ANA#.YUA+                 $#0$%..   .++0UDD           
+     +. Y$$%%$UY%%2DQ$                    AHU#.DU0.                  YA$$+.. .+%%0D0D.          
+     %.+Y$$%%$ADY0U#0                     %AQ#.UHQ+                   0AY%+..%2DD0$$0Y          
+     .+0YYY2$$2DU#N#                      +YUAYUH#+                    YY$++2D$%2$+%2DU         
+    $$YUQUUUDY%$YD2                     .  .22YHHY+.                    Q0++0A%...+%0HU         
+    +2Q#Y$$0UD$2DQ                     +.  ..$%.%2%+%2$                 $Q$$AD%. .%DQU2         
+   +0YQA2%%0QA0A#+                  ..  .%$YDDAD02%+$YYY$+               2D2DU2+++$UU0D+        
+   $QUA2$%%2AUQ#D                    .$YAHNNMMMMMN#Q02$$YDY               MQ##ADDDAU02A+        
+   $ADY%%%%%$2A#2               .  +2DHNMN#QUUUUUUQHHU0$YDU0+             2QHH000002%2D+        
+   $$$$%%%%%$$A+               +  $UHMMH0         .2UN#AY2DUH              AQA$..+..+$D+        
+   Y%$%%%%%%$Y%+            ..+.+YUNMH+    %%%%%%+..+AMHAAYDUM             %NU$.....+$DA        
+   Y2$$%++%%$Y.            %2+ .0QHMN% .%$%%+++++%%++2D#QU00AN2            $NUY$2$+.+%DU        
+   Y2$%%%%%%2D+            $%++0UHMQ2.$2%+..    ...+++%YU#QUAUNA            DDAAUU2.+$DY        
+   Y2$%%%+%%2A$            2$$YUQMH+..2$+.        ....+$YAQQUQNM+           0Y2$2UD++$DD        
+   Y2$$%%%%%YU2           2DAYUQHM0..$22$%%+   .+%%%$$$YY%0QAANM0           +0%++0A$+$D0        
+   0Y2%%%%%%0U%           UAD0Q#NM%$$D022Y0$%.+%2Y2222YY0H.QUAQNN           +AY00AD%+$DA        
+   U02$$$$22DQ$          %#AYDQQMMMAMMMMMM#Y2%$2UNMMMNH#$02UQDUHM           $N#AD0%%+YQ+        
+   00YYDAUUQQD           2DDYUQQQHNMMMMMMMMU2%2DMMMMMMMN#Y.0UUQHM           YMU2$%++$U#+        
+   .Q0AUDYY0Q#%          YAD0###QHNHNMMMMMMD%$YDMMMMMNHNU$%AUQQHM           2MDY2$%YUQ0         
+   +QAUA2$%2QH%          0HQU#HHNMNY2UHHHHQ%%0YUQHNHHD2UH##QUUU#M           YM02Y$2U#U$         
+    D#HUY%%$DQ0          0NH#Q#MMMD   .    .00#Y       %UQ#QUDQHM           AMUUUAAQUU0         
+     #Q02$%%YD#           MMHQHMNY..0$    00HDM#     .$$2UMM#UQHM           #MQUUUQ000          
+     0YY2$%%2Y0           MMHQ##HMNY02222Y0D% %%%2$$$22%MMD%2QHMM           0#02.Y22A2          
+     %QY2$$$$2A%          0MMQAAHMMH0202$%%. . . $%%%Y0YUY.$DHNM0          .%ADD+$$YA+          
+     .QA02$$$2A%          2MMHQQQHMMMNU+$YY2$$Y$%Y220UUH0%$UQHMM2          $2Q0$2$YQY           
+      Y#DY2$$2UU$          #MNH##QHMMMQYYDAA#0DD0HAAYMMU.%UUQNM#           A20Y2$$D#+           
+       00002$2#U2           0MMH##UH2%. NMMMMMMMMNMMQMQ+2DUQHM#2          %+$Y$$$YA             
+        +UDY$2QUD.           MMN##QHM0YMMMMMMMMMMNMMNMN#Q#QHMM           +++$Y$$2U%             
+        +HQ022UUU%           0MMN##NMNMMMMMMMMMMMMMMMMNNQHMMM+           $.+YY$YU0              
+         +0U0Y0U#H+            #MMNHU222222222222222222DNMM0+           ++2Q#U0U2               
+          +HQD20DUD+           +0MMNU2$%+++%+%%%++%%$0D#MM0            .+.0AAQQY                
+           0HQY2Y0QD             2#MMNN#QQQQUUUUUQ##NMMMU0            .$.%Y20HQ                 
+            2UU0YYQN2              2UMMMMMMMMMMMMMMMMM#2              + +$22QU                  
+             $AUUD#NH+               2#MMMMMMMMMMMMMU                  .0AAH$                   
+               $ANMM##Q                  +22222222                    %UQHN+                    
+                +AHMUY0Y+                                            +QUQY                      
+                 +0#UD0Y2%                                         .$UNQY                       
+                   +UQADY0$                                       .0Q#D++                       
+                     0MAUDDY.                                    YQ0QU                          
+                       QA0UD0.                                .%0$$2                            
+                        +$$DDYY.                             2NA$                               
+                          .$22000Y%.                    +$0UD2                                  
+                             ..+Y0D2$               %$2$DA2$+                                   
+                                                    %$2 .                                       
+                                                                                                
+                                                                                                
+                                                                                                

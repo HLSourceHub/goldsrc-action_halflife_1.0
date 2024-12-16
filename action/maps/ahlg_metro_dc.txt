@@ -1,0 +1,19 @@
+Metro - Hunted
+==============
+
+VIP's from Western Dynamics need to escape assassins and 
+reach safety. They need to reach Western Dynamics Corporate HQ,
+using the backdoor. The backdoor is at the end of a dark alley. 
+Head for the yellow works hut and then through the gate in the 
+Wooden fence to reach it. 
+
+Body Guards have been called in to protect the VIPs from the
+would be assassins. 
+
+If a VIP reaches safety, Western Dynamics get 2 points. 
+If the assassins kill a VIP, they will get 1 point.
+
+BodyGuards and Assassins have infinite lives and a 5 second 
+Respawn Delay.
+
+Original Map Author : Lodo

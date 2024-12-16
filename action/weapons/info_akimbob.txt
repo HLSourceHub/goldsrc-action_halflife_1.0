@@ -1,0 +1,12 @@
+BASICS:
+Type        : Akimbo 9mm semi-auto pistols
+Firing modes: Semi-Auto/full-Auto
+Ammo loadout: 30 rounds/2 clips, 2 extra clips
+Firing rate : Medium/fast
+Damage      : Low
+
+TACTICAL/COMMENTS:
+Blessed with a high ammo count and average damage, akimbo light pistols are a good selection for many players. There is nothing more stylish than rushing an enemy, both guns blazing. Additionally, the Berettas can be equipped with silencers making them perfect for infiltration.
+
+AS SEEN IN:
+Akimbo pistols have their place in every movie made by John Woo like Hard Boiled and The Killer. For the silenced akimbo crowd, check out Ghost Dog or Boondock Saints.

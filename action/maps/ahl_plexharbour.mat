@@ -1,0 +1,170 @@
+// Action Half-Life Texture Types.
+//  'M' metal, 'V' ventillation, 'D' dirt, 'S' slosh liquid , 'N' snow ,
+//  'T' tile, 'G' grate (Concrete is the default), 'W' wood, 'P' computer, 'Y' glass
+// NOTE: only the first 12 characters of the texture name are used
+// NOTE: a maximum of 512 textures may be tagged in this file
+
+// ahl_hkheat
+D carpet2
+D blackflowerdd
+D carpetthing
+W wood
+
+// ahl_clinic16
+D h_carpet
+
+// ahl_hbraid
+M kinmet4
+
+// ahl_cliff2_snow
+M snow_galv
+M snow_shinemetal
+N snow_generic2
+N snow_noslip
+N snow_generic
+N snowy
+
+// ahl_bananamans
+W BN_wood3        
+W BN_wood4        
+W BN_wood5        
+W BN_wood6        
+D mlobn_grass5a
+T BN_floor7b
+T BN_floor7
+
+// ahl_skylounge & ahl_Inner_CityXL
+D od_carpet1
+D od_carpet2
+D od_70carp1
+D od_70carp2
+D od_70carp3
+D od_oricarp1
+D od_oricarp2
+M rust_steel
+M rust1
+M rust2
+T newlino
+W woodfloor
+W woodfloor2
+W staffwood
+D tarmack
+T ceramicfloor
+D od_carpet4
+
+// ahl_blockwar
+D cpt2_lb
+D cpt2_lg
+
+// ahl_nocredit
+D bank_carpet
+D hgrass
+D HGLobby_CR
+T cstore_floor
+M cstore_gasceil
+M police_roof
+M police_back
+M trk2_hoodred
+M trk2_roofred
+W bank_wood2
+
+// ahl_astorage
+M BN_container1a  
+M BN_container1c  
+M BN_container2a  
+M BN_container2c  
+M BN_container3a  
+M BN_container3c  
+W BN_crate3a      
+W BN_crate3b      
+W BN_crate4a      
+W BN_crate4b      
+D BN_crete6       
+M BN_dumpster1b   
+M BN_dumpster2b   
+M BN_N1           
+M BN_N3           
+D BN_rails1       
+M BN_zugende      
+M BN_zugseite2    
+
+// ahl_doombank2
+D hg_plainbfloor2
+D hg_plainbfloor
+T doom_prooffloor
+
+//clamtex.wad
+T mlobamboo1
+T mlobamboo2
+D mlocarpet1
+D mlocarpet2
+D mlocarpet3
+D mlocarpet4
+D mlocarpet5
+D mlocarpet6
+D mlocarpet7
+D mlodirt
+W mlofence
+D mlogravel1
+D mlogravel2
+D mlogravel3
+D mlonature01
+D mlonature02
+D mlonature03
+D mlonature04
+D mlonature05
+D mlonature06
+D mlonature07
+D mlonature08
+D mlonature10
+D mlonature11
+D mlonature12
+M mlorust1
+M mlorust2
+D mlosand1
+D mlosand2
+T mlotile8
+T mloftile6
+T mlotile15
+T mlotile16
+W mlowood01
+W mlowood13
+W mlowood14
+W mlowood15
+W mlowood16
+W mlowood17
+W mlowood18
+W mlowood19
+W mlowood20
+W mlowood21
+
+//kintex.wad
+M kinmet1
+M kinmet3
+M kinmet6
+T kintile1
+T kintile2
+T kintile3
+T kintile8
+T kincrete5k
+T kincrete5l
+T kincrete5la
+T kincrete7c
+
+//harbour
+M e_konte1
+W l_palettestack
+W l_palettetop
+M mtlturbine4
+W plbox1
+W plbox2
+W plexfence
+M plriv1
+M plrtgara
+W l_spool2
+M sqcontainersen1
+M sqcontainerside
+M sqcontainersid3
+M GENERIC015N
+Y GLASS_DARK
+M GENERIC_111A

@@ -1,0 +1,86 @@
+//THIS FILE CANNOT EXCEED 16384 BYTES IN LENGTH
+//(the caps indicate that this is an important thing)
+
+name=Angus
+model=costa
+
+yawspeed=70
+//yawspeed is degrees turned per frame. In this case it's 90 degrees per frame
+
+accuracy=50
+//A low value is good, a high value is bad (so 1 will be basically perfect accuracy, disregarding
+//the standard weapon inaccuracy)
+
+intlevel=4
+//Can be 0-4. 4 is a high intelligence level, while 0 is low. The int level just decides whether
+//or not the bot can do certain more advanced things.
+
+fov=80
+//Field of view, 90 is the default (same as a player's)
+
+distance=0
+//the maximum distance a bot can see in game units. The default is 0, which means the distance is unlimited.
+
+reflex=0.3
+//Time it takes for the bot to react to a threat. A value of 0.1 would be 1/10 of a second, whereas 1 would be 1 second.
+
+candive=1
+//This means the bot can dive. If the value is 0 then the bot cannot dive.
+
+suicidal=1
+//Is the bot prone to suiciding in bad situations? (1 means yes)
+
+canchat=1
+//A value of 0 means the bot will never speak, a value of 2 means the chat section of default.bif is used.
+
+favweapon=3
+favuniqueweapon=15
+favspecial=4
+
+//These are the chat sections. At the moment, chat is only used to communicate messages to team members.
+//Also note that the %x options in regular chat will work here as well (e.g. %l for location). Each chat
+//section can also have an unlimited number of lines (which one is used is decided at random), but remember
+//not to exceed the max file size mentioned above.
+//Here's what each section (by number) is for:
+//1 - Enemy spotted
+//2 - Taking fire
+//3 - Need backup
+//4 - Enemy down
+//5 - The bot says it's going to a sniping location
+//6 - The bot says it's going directly after the enemy
+//7 - Suicide lines (if applicable)
+
+[CHAT=1]
+Enemy %v spotted at %o
+I've spotted %v at %o, a little help please?
+[CHATEND=1]
+
+[CHAT=2]
+I'm taking fire at %o, from %v. Im at %h
+Under fire from %v at %o
+[CHATEND=2]
+
+[CHAT=3]
+Need backup at %l
+Requesting assistance at %l
+[CHATEND=3]
+
+[CHAT=4]
+I just took an enemy out at %l
+Enemy down at %l
+[CHATEND=4]
+
+[CHAT=5]
+I'm going to a good sniper location with my %w
+Currently at %l, heading toward sniper location with my %w
+[CHATEND=5]
+
+[CHAT=6]
+I'm on the offense with my %w at %h
+Reporting in.  Got a %w at %l
+[CHATEND=6]
+
+[CHAT=7]
+This is all Colin's fault. I'll sort it out with him in hell.
+See if I ever follow Colin's advice again. 
+[CHATEND=7]

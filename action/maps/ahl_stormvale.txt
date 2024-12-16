@@ -1,0 +1,108 @@
+
+=====================================================================
+   Half-Life Map Spec Sheet
+=====================================================================
+
+------General Information--------------------------------------------
+
+Title		: Storm Vale
+Filename	: ahl_stormvale
+Authors		: [iSk]Jinx (conversion and additional mapping work)
+		: [manah] (original open-source map)
+Authors Email	: matthewblevins@hotmail.com (Jinx) manah@planethalflife.com (manah)
+Home pages	: http://pooka45.tripod.com (Jinx) and http://www.planethalf-life.com/manah/ (manah)
+Description	: a village near the mountains on a stormy night
+Previous Maps	: ahl_hypersanctum and ahl_gebasement (Jinx). flf_miasma and dmc_manah01 (manah).
+Upcoming Maps   : ahl_meatpit and ahl_temple (Jinx). h2o_kismet, h2o_vidar2, ns_caged, and rdm_heresy (manah).
+
+
+------About This Map-------------------------------------------------
+
+First of all, this readme is being written by Jinx. This map is a conversion of Manah's open-sourced "kismet" map, originally started for the cancelled Stargate SG1 mod. The map was a pretty solid base, and I thought it would play well in AHL, so I talked to Manah and got his blessing to convert it. It has been renamed for release because it changed so much the original name didn't really fit it anymore.
+
+Most of the map was already there when I got it; all the architecture and a lot of the texturing etc. My job was basically to fix missing textures, add spawns, add more ambience and connectivity, etc. So if you love the architectural style and texturing, thank manah... if you love the ambience, sounds, etc, thank me! And if you love both... clearly you have good taste :)
+
+Manah also wanted me to remind mappers that the kismet open-source stuff is available on his site, http://www.planethalf-life.com/manah/. In addition to kismet there are a lot of other neat map starts in the pack that may be useful, and he has some great texture wads available as well. Just be sure to let manah know what you are doing with his stuff, and to credit him properly! He's been very generous and it's the least you can do.
+
+
+------Credits and Thanks---------------------------------------------
+
+Manah of course for open-sourcing this cool map!
+
+The A-Team for this great mod.
+
+Payback for getting the cool new rain effects working.
+
+Alice for doing an excellent rain sprite.
+
+BORG for taking interest in this map and for his great suggestions. Also for the nice ambient sounds he gave me (borg_ prefix).
+
+MeanRabbit.com (http://www.meanrabbit.com) for some of the nice ambient sounds you hear in this map (mr_ prefix). I emailed them about using their sounds in my maps, and they were very cool about it. 
+
+[iSk]Fiend for giving me time from the clan to get my mapping work done. And for his testing help, friendship, and support.
+
+Playtesters, and everyone who gave feedback. It's more helpful that people think.
+
+My clanmates, fellow mappers, and the rest of the AHL community for being great people to work with and game with. Much luv all.
+
+
+------Texture Credits------------------------------------------------
+
+Manah: some textures from his public wads. (http://www.planethalf-life.com/manah/)
+
+3DMike: some textures from his de_predator wad. (http://www.3d-mike.com/) (http://www.lanmaniax.com/)
+
+Banana: a few textures here and there from his wad. (included with AHL). banana always has nice stuff :)
+
+Cayle George: a few from his "megawad", very nice. (http://www.planethalflife.com/cayle/)
+
+Deathmatch Classic: some textures are from this mod's wad. (it's valve, so I think it's free to use)
+
+Half-Life Exodus Open-Source: a couple from this cancelled mod's wad. (http://www.code4me.de/exodus/)
+
+
+------Additional Info, Tips, and Notes-------------------------------
+
+Use the occasional lightning as a distraction- either to get away from a fight, to close the distance, or to toss a grenade :). You will also find some nice nooks and crannies to hide and bandage in.
+
+
+------Play Information-----------------------------------------------
+
+Single Player   : No grunts or assassins, but you can play bots of course.
+Deathmatch	: Yes.
+Teamplay        : Yes.
+LMS		: Yes.
+Modification    : Action Half-Life
+Map Description	: a village near the mountains on a stormy night
+How Many Players: 4+ (medium-sized map)
+
+
+------Map Information------------------------------------------------
+
+New Textures	: Yes, almost no default HL textures here. (see credits)
+New Sounds	: Yes. A few from Borg, a few from http://www.meanrabbit.com (see credits)
+New Models	: Yes, if you count the new player models in this AHL beta.
+New Sprites	: Yes, a great rain sprite by Alice!
+New Skymap	: Yes. I got "Dark" By The Counterstrike Team from Wadfather (http://www.planethalf-life.com/wadfather) and darkened it a bit myself in Photoshop. I renamed the darker version "jxstorm" to distinguish it.
+
+
+------Construction---------------------------------------------------
+
+Base		: "kismet" from Manah's Open Source Map Pack (http://www.planethalf-life.com/manah/)
+Editor(s) used	: Worldcraft 3.3, Zoner's Tools
+Texture editors : Wally, Photoshop
+Compile Machine	: Pentium II 400 with 384mb ram
+Compile time	: About an hour
+Playtest time	: A few sessions, some quite large (10+). Mostly TP and LMS.
+
+
+------Copyright-Permissions------------------------------------------
+
+Authors may not use this level as a base to build additional levels without our direct permission.
+
+You MAY NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS!!!.
+
+This BSP may be distributed ONLY over the Internet.
+You are NOT authorized to put this BSP on any CD or distribute it in
+any way without my permission- which I may give, just ASK ME!

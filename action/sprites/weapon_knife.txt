@@ -1,0 +1,13 @@
+8
+
+// 320
+weapon			320 320_wknifeu		0	0	56	36
+weapon_s		320 320_wknifes		0	0	56	36
+ammo			320 320_hud_ammo	100	0	20	20
+crosshair		320 crosshairs		24	0	24	24
+
+// 640
+weapon			640 640_wknifeu		0	0	112	72
+weapon_s		640 640_wknifes		0	0	112	72
+ammo			640 640_hud_ammo	200	0	40	40
+crosshair		640 crosshairs		24	0	24	24

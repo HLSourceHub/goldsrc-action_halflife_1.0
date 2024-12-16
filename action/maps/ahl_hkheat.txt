@@ -1,0 +1,40 @@
+                       --Hong Kong Heat--
+
+My tribute to the Hong Kong Blood Opera genre. 
+ 
+March 18, 2001
+
+===========================================================================
+
+Title                   : hkheat
+Files                   : ahl_hkheat.bsp, ahl_hkheat.txt, abt.wav,
+			  hbjazz.wav, thekiller.wav
+Author                  : Nick Cramer (drumdude)
+Email Address           : drumdude37@yahoo.com
+Recommended # of Players: No idea
+
+===========================================================================
+
+New Textures		: Yes
+New Sounds		: 5
+Editor used		: Worldcraft 3.3
+
+===========================================================================
+
+COPYRIGHT INFORMATION
+
+Hong Kong Heat is copyright 2000 Nick Cramer.
+
+When distributing this map, this text file must be included.  
+No modifications, please.  If you'd like to see changes or 
+borrow elements, contact me first.
+
+This map may be distributed free of charge (and ONLY free of charge).
+
+
+===========================================================================
+
+CREDITS
+
+Special Thanks:
+  John Woo, Chow Yun-Fat, Borg for the ABT music, Mloclam for textures.

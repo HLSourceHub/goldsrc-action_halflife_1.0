@@ -1,0 +1,88 @@
+=======================================================================================
+==  abandoned storage facility ==== (c)2002 ===
+=======================================================================================
+
+a storage facility, a house, sewers and some rails.
+second edition, optimized for ahl beta5.
+
+=======================================================================================
+---------------------------------------------------------------------------------------
+* LEVEL INFORMATION *
+---------------------------------------------------------------------------------------
+TITLE                   : Astorage
+FILENAME                : ahl_astorage.bsp
+AUTHOR                  : Dirk Schraeer (aka banana)
+DATE                    : december.2001
+GAME                    : Action Half-Life
+EMAIL ADDRESS           : banana@gamigo.de
+HOMEPAGE URL            : http://www.planet-action.net
+ 
+---------------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+---------------------------------------------------------------------------------------
+The big small map, although its rather large, the layout and its connectivity
+allow even smaller ammounts of players to have a fun game. 
+---------------------------------------------------------------------------------------
+SINGLE PLAYER           : No.
+CO-OPERATIVE            : No.
+DEATHMATCH              : 12 DM Starts.
+SUGGESTED PLAYER LOAD   : 6 to 16+.
+ 
+NEW TEXTURES            : Yes. Most by me, 1 by Mloclam, some based on textures by him.
+NEW SOUNDS              : Yes, by [A$Z]Borg.
+CD TRACK #              : No cd track is played.
+ 
+---------------------------------------------------------------------------------------
+* CONSTRUCTION *
+---------------------------------------------------------------------------------------
+MAP BASE                : Original.
+PREFABS USED            : None.
+EDITOR(S) USED          : Quark (http://www.planetquake.com/quark)
+OTHER UTILITIES USED    : Picture Publisher6
+                          Wally
+                          ZhltGui
+ 
+KNOWN BUGS              : None.
+
+TOTAL COMPILE TIME	: About 6 hours ?.
+ 
+---------------------------------------------------------------------------------------
+* OTHER LEVELS BY BANANA *
+---------------------------------------------------------------------------------------
+ahl_astorage, ahl_bananamans, ahl_bankdoom, ahl_calypso, ahl_engholm, ahl_napoli,
+ahl_tovarich all for AHL.
+ 
+---------------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+---------------------------------------------------------------------------------------
+Have fun finding the 2 easter eggs :D
+ 
+---------------------------------------------------------------------------------------
+* CREDITS *
+---------------------------------------------------------------------------------------
+The A-Team              : For creating a mod that's fun mapping for.
+The QuArK Team		: For the best editor for Quake Engine Games there is.
+The #ahlgerman fr00ts	: For help,testing and the endless hours of compiling 
+			  maps i forced them to.
+[A$Z]Borg		: For his music,being cool and general willingness to help.
+Luebbi			: For the loc file and coolnes and for not 
+                          beating me up at borgs lan.
+[BR]Colm		: For his bot waypoint files.
+
+=======================================================================================
+* COPYRIGHT / PERMISSIONS *
+---------------------------------------------------------------------------------------
+This level is (C) 2002 Dirk Schraeer.
+
+Authors MAY NOT use this level as a base to build additional levels.
+No decompiling, hacking, or modification of the .bsp or related files will be 
+tolerated.
+ 
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS! If you don't co-operate, then DON'T DISTRIBUTE
+IT IN ANY FORM!
+ 
+No money may be charged for this level AT ALL without first getting permission from me.
+
+Action Half-Life (C) The A-Team.
+Half-Life (C) Sierra On-line and Valve L.L.C. All rights reserved.

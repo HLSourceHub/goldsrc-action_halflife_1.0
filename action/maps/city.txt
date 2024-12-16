@@ -1,0 +1,62 @@
+============================================================================================
+(THE CITY) by ruskprick, converted to AHL by MP*Stinger
+============================================================================================
+Title: (THE CITY)
+Author: ruskprick, converted to AHL by [AMC]Stinger, the artist formerly known as MP*Stinger
+Date Complete: Jan. 19 2000
+Date Released: Jan. 19 2000
+Filename: city.bsp
+Email Address: stinger@midsouth.rr.com
+Quick Description: A City at Night...
+Other : Map originally made for AQ2 by ruskprick, converted to AHLby me, Stinger.  The music
+        is not KOSOM! It's Karlsson, a foreign TV show about a guy who lives on a roof.
+        "Karlsson, Karlsson" not "KOSOM KOSOM!"
+Special Thanks:  The A-Team for making AHL, and starting it all with AQ2.  Holy Goat 
+        for the l33t texture for the billboard (the AHL one) and help with other things.  
+        MPELP for being a 00b3rl33t clan.  uNF uNF.  Karlsson.  Beta3 Testers.  oh ya, the 
+        A-Team again! :) Valve too. Holy Goat also helped with the batch file and the 
+        looping .wav file. Dang, he pretty much did the map himself. :) uNF uNF! 
+        Also, Karlsson radio does not blow up... because he never should have been made to!
+============================================================================================
+
+
+
+
+*Play Information*
+
+Single Player		:No.
+Deathmatch		:Yes.
+Teamply 		:Yes.
+Difficulty Settings	:No.
+New textures		:Yes. (for AHL, textures from AQ2)
+New sounds		:Yes. (Karlsson, Karlsson.)
+Running the level	:Just unzip the ZIP file, pointing to your half life directory.
+                         Remember to unzip retaining folder names, and the appropriate
+                         files should be put into the appropriate directories.  Otherwise
+                         just copy the bsp file into your 
+                         Half-Life\action\maps directory.  Start the game normally and the map
+                         should appear in the multiplayer game start setup... or join a server
+                         already running it.
+Base			:Converted
+Editor used		:Worldcraft 2.1
+Build time		:Not long
+Known bugs		:None. /me thinks
+Textures		:Done by ruskprick
+Compile machine		:P2 333 w/128mb RAM,  16mb Monster Fusion. 
+                         
+============================================================================================
+*Story*
+
+Karlsson 0wnz j00!
+
+============================================================================================
+Karlsson really does 0wn j00!
+
+*Permissions*
+
+You may not distribute this level (city.bsp) unless you include this file, unmodified and
+whole, along with it, and have the permission of the author.  You may not modify this level.
+You may not use this level as a base for your own levels.  You may not charge for this level
+in any form, without the author's permission.  
+
+============================================================================================

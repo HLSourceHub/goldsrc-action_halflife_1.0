@@ -1,0 +1,32 @@
+Action-Halflife Map
+-----------------------------------------------------------------------------------------------------------------------------------
+NAME                      : ahl_snowmax
+FILENAME                  : ahl_snowmax.zip
+AUTHOR                    : Duion (Christian Femmer)
+GAME                      : AHL
+EMAIL                     : Duion@web.de
+ICQ                       : 77284475
+__________________________________________________________________
+
+COPYRIGHT/PERMISSIONS
+__________________________________________________________________
+
+Copyright 2002 Christian Femmer (Duion)
+
+You may not distribute this level unless you have the permission of the author and
+ include this file with no modifications!.You may not modify this level.You may not 
+use this level as a base to build other levels and you may not charge for this level
+without the authors permission.
+__________________________________________________________________
+
+Texture Credits:
+"The textures in this file are property of Remedy Entertainment Ltd., and can be used only as long as the work is recognized as original artwork by Remedy, and no financial profit is made in the process. 
+(C)1998-2001 Remedy Entertainment Ltd."
+__________________________________________________________________
+
+Snow sprite by Alice with a little help from Banana
+
+Snow and a few tweaks and bug fixes by Jinx
+
+Sounds with the "mr_" prefix are from http://www.meanrabbit.com
+__________________________________________________________________

@@ -1,0 +1,259 @@
+Changes (dd/mm/yyyy)
+
+16/07/2003
+==========
+Fixed the weapon + dropitem server crash
+Removed the crouch + shoot = instant accuracy bug
+decreased stamina recharge rate
+Weapon balance change on m4, mp5 and berettas
+
+
+04/01/2003
+==========
+Long break :D
+Put nvg effects in
+Got rain + snow working again
+linux .so file created from this build
+
+
+14/11/2002
+==========
+Back to the old spectator menu coz the amount of hassle the new one causes
+Akimbo colt accuracy lowered slightly
+Added flashlight effect back in to see if that was causing the crashes
+Hopefully crashes were because of dead bodies and logging errors
+
+05/11/2002
+==========
+
+The health appearing seemed to cause problems with guns
+Changed it to use a different variable when passing it to clients.
+
+03/11/2002
+==========
+Finally found a way of getting health to appear in spectator mode
+Increased m4 accuracy
+Decreased m4 damage.
+
+29/11/2002
+==========
+Its my birthday and Im giving out dlls \(^_^)/
+Missed the changes.txt in the last one so heres both...
+Added all particle effects back in
+Increased accuracy on colts
+Added the headshot detection code on mp5 only
+Spectator cam should now remember what view you last used
+Spectator cam wont go to the last view if its not possible (everyone is dead, no teammates, etc)
+
+15/11/2002
+==========
+Fully working spectator menu
+Shrunk top bar so it doesnt obscure deaths
+Made it so if you are watching a dead player it finds a new player for you
+Fixed the 3 crash bugs found during testing last Sunday
+New titles.txt and delta.lst.  MAKE SURE YOU ADD THEM
+
+05/11/2002
+==========
+
+Merged with latest valve sdk
+All logging data updated to use method shown in valve code.
+Removed calls to snow/rain effects
+
+22/10/2002
+==========
+
+Removed all references to particle effects and flashlight/nvg
+Thats it.  Trying to figure out whats causing the group crashes.
+
+28/07/2002
+==========
+
+Fixed silencer preventing muzzle flashes appearing on magnum etc
+
+25/07/2002
+==========
+
+Better bot routefinding. 
+Green line shows bot route, check it!!!
+Rain does not rotate when you look straight up.
+Fog should appear correctly on all PCs now.
+
+15/07/2002
+==========
+
+Can no longer longjump whilst bandaging, (fixes the other half of the bug)
+monster_hostage working more
+Rain changed to fall at all angles
+Fog changed to use entity again (or cl_fog 2 to force it on)
+
+13/07/2002
+==========
+
+Can no longer bandage whilst longjumping (fixes a bug)
+monster_hostage semi working
+CTF stuff appears to be working (the map I have works as it should)
+Admin mod fix added.  Should not crash at round start now.
+Added fog in again (to test).  To turn it on and off, use cl_fog 1/0
+Tell me if this works for those ppl that had problems with fog before
+
+
+06/07/2002
+==========
+
+Made bandage anim start immediatly
+Made bullets have a smaller radius before wizz and 50/50 chance of the wizz happening anyway
+Added extra checks for the flashlight lighting up players.
+
+30/06/2002
+==========
+
+Removed backdive firing restriction
+Increased side roll speed
+Removed bonus on handcannon during dives
+Put some of the prediction for weapons back in
+
+29/06/2002
+==========
+
+Went back to the code from 6th May, and merged with latest code leaving anything related to 
+weapon prediction out.
+So, it should be exactly like the last dll, only without weapon prediction I guess.
+
+20/06/2002
+==========
+
+Removed visible bullets
+Turned off player ID system in non-spectator mode
+Added a custom sprite var to the weather effect (add "sprite" to the entity, and give the path from the hl dir)
+If it cant find the sprite, the default sprite will be loaded.
+
+
+19/06/2002
+==========
+
+Mp5 accuracy increased
+Single 1911 accuracy increased
+Forward dive time increased
+Call to equip menu made clientside, may help with joinbug
+Semi-auto sniper rifle fire time increased
+Fixed client crash caused by flashlight
+
+
+12/06/2002
+==========
+
+Found out what was causing the funky single pistol stuff and fixed it
+Made the flashlight hit players instead of going through them and hitting the wall
+Added some extra checks to the damage flash thingy...
+
+09/06/2002
+==========
+
+Fixed the knife + grenade not resetting after longjump (needs new delta.lst)
+Fixed red damage splash on round start
+Added code to check each weapon does not exceed its max ammo amount
+Added a bullet model to the fire code
+
+06/06/2002
+==========
+
+MORE knife prediction
+MORE grenade prediction
+Fixed muzzleflash problems.  Im amazed it worked the way it did....
+First person mode on fists.  cl_kungfudist = distance 1-150.  0 = off
+Cant reload before round starts now
+Flashlight blind now almost completely white. Duration is very short so the effect is
+still useful if you keep your torch aimed at them, but allows the nvg user to recover
+if you arent aiming at them
+Bleed damage now flashes the screen a faint red
+Player ident view dist reduced
+bullets appearing in world again
+All tracers removed except for m4 + mp5 ( :( I liked that, but apparently I am star wars today )
+Wiz noise added if bullets are close...  Need to set it up so own bullets dont wiz.
+Fixed rain not being rendered correctly, may help with ppl that couldnt see rain before.
+Flashlight from you and others now lights a person up if the beam hits a point within 200 units of the player
+Throwing + immediatly grabbing your last knife making p_model disappear fixed.
+
+
+
+25/05/2002
+==========
+
+Knife anims now predicted
+Grenade ammo now predicted
+Some grenade anims working, others stutter.
+
+18/05/2002
+==========
+
+Fix for strafing giving walking accuracy
+Knife now predicted.  Animations are messed up because of this.
+Ammo should work though...
+
+15/05/2002
+==========
+
+NVG now has green + lit players rather than the glow
+More changes to the knife ammo prediction.  Didnt work :(
+
+13/05/2002
+==========
+
+NVG now has glowing shell around players
+fixes valves "wallhack"
+
+10/05/2002
+==========
+All ammo types are now predicted correctly
+Knives now have ammo prediction (ammo prediction only)
+Changed nvg to not use sprite, have a greener tint, have players glow, and decrease lit distance.
+
+
+06/05/2002
+==========
+Delta.lst changed to allow higher weapon amounts.
+Fix for akimbo weapons ammo amounts changing when longjumping
+Fix for handcannon having no ammo
+Fix for infinite colt 1911 ammo bug
+Changed code for rain effect to send less messages on map start (temporarily prevents it working in single player)
+Rain speed increased to look more realistic.
+
+05/05/2002
+==========
+All weapon info moved into player packet. Reduces number of messages + hopefully loss
+Fixed radio command being used to crash servers
+New delta.lst for weapon info stuff
+Tried more on CTF still not working :(
+
+04/05/2002
+==========
+Fixed grenade not appearing on menu
+Fixed one variant of CTF (where flag respawns instantly) 
+Looked into and (hopefully) fixed choke issue
+Fixed "stealth slippers being turned off" bug
+Changed number of team menu images to 64... Watch this get abused.
+
+27/04/2002
+==========
+Bullet models removed - fixes hearing beretta sound everywhere
+Cheat detection code removed
+Created linux version
+Fog removed from code - causes issues with non-nvidia cards
+
+18/04/2002
+==========
+Muzzle flash added. Transparency removed in the hope it will improve fps
+Debris added. Spin on debris slowed down. Debris will bounce (not working right yet)
+Smoke added.
+Rain added. Use env_rain entity
+Snow added. Use env_snow entity
+Fog added. Use env_fog entity
+Mp5 accuracy increased by 8%
+Delay on semi-auto sniper rifle re-added (roughly half of last used value)
+cl_ cvars added again for particle effects 
+
+
+
+
+

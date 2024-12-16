@@ -1,0 +1,30 @@
+======================================================================================
+AHL Default Model ==== www.havenofrags.de
+======================================================================================
+"Eclipse" for AHL
+
+
+Models	 :	"Nympho" Model by Kris Hauser(hauser@uclink.berkeley.edu)(http://squiresoft.web.com/)
+		Converted to AHL by Luebbi
+Animation:	
+Skin	 :	Re-skin by [BR]JT+ :Jay Thomas (Jtplus@heavenofrags.com) and [A$Z]Svugg
+Sprites	 :	
+Sounds	 :	
+
+This model is based on Eclipse. Hope you like her. 
+I would like to thank: Eclipse for the use of her beautiful face,
+Deimos for starting the skin, and allowing me to touch her up, 
+and, Borg for all his support, and great ideas.   
+
+*Update* and for svugg who just 1337ified it : )
+======================================================================================
+Only replacement models that are being offered for download at WWW.HAVENOFRAGS.DE
+may carry the tag "official". Those models are approved to work with the latest Action
+Half-Life build.
+Do NOT mirror or link to any replacement model files at HoF.
+Do NOT download replacement models from ANY other site or mirror than Haven 'o Frags.
+======================================================================================
+
+All material in this zipfile is (c)copyright in 2001 by their respective owners.
+Any use of this material outside of Action Half-Life without the written permission
+of the respective copyright owners is strictly prohibited.

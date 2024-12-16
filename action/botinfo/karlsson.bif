@@ -1,0 +1,72 @@
+//THIS FILE CANNOT EXCEED 16384 BYTES IN LENGTH
+//(the caps indicate that this is an important thing)
+
+name=Karlsson
+model=knifer2k
+
+yawspeed=90
+//yawspeed is degrees turned per frame. In this case it's 90 degrees per frame
+
+accuracy=45
+//A low value is good, a high value is bad (so 1 will be basically perfect accuracy, disregarding
+//the standard weapon inaccuracy)
+
+intlevel=3
+//Can be 0-4. 4 is a high intelligence level, while 0 is low. The int level just decides whether
+//or not the bot can do certain more advanced things.
+
+fov=90
+//Field of view, 90 is the default (same as a player's)
+
+distance=0
+//the maximum distance a bot can see in game units. The default is 0, which means the distance is unlimited.
+
+reflex=0.6
+//Time it takes for the bot to react to a threat. A value of 0.1 would be 1/10 of a second, whereas 1 would be 1 second.
+
+candive=1
+//This means the bot can dive. If the value is 0 then the bot cannot dive.
+
+suicidal=1
+//Is the bot prone to suiciding in bad situations? (1 means yes)
+
+canchat=2
+//A value of 0 means the bot will never speak, a value of 2 means the chat section of default.bif is used.
+//A value of 1 means that the bot will use it's own chat lines.
+
+favweapon=0
+//Favorite weapon choices are:
+//0 - Random
+//3 - Beretta
+//4 - Magnum
+//5 - Colt
+//6 - DEagle
+//7 - SAA
+
+favuniqueweapon=0
+//Favorite unique weapon choices are:
+//0 - Random
+//3 - Throwing knives
+//10 - Akimbo berettas
+//11 - Akimbo colts
+//12 - Akimbo SAA's
+//13 - Handcannon
+//14 - Shotgun
+//15 - MP5
+//16 - M4
+//17 - Sniper rifle
+//18 - 50 cal sniper rifle
+
+favspecial=0
+//Favorite special item choices are:
+//0 - Random
+//2 - Bandolier
+//3 - Flashlight
+//4 - Laser sight
+//5 - Night vision
+//6 - Silencer
+//7 - Stealth
+//8 - Armor vest
+//9 - Holster
+//10 - Frag grenade
+

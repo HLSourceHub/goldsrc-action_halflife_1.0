@@ -1,0 +1,12 @@
+BASICS:
+Type        : .44 Magnum Revolver
+Firing modes: Single shot, drill
+Ammo loadout: 6 rounds/drum, 2 extra drums
+Firing rate : Slow/medium
+Damage      : High
+
+TACTICAL/COMMENTS:
+Having a good stopping power together with great penetration, the .44 Magnum revolver is used best on close quarters even though it is still very accurate in medium-ranged fire fights. It is even more deadly when used together with a laser sight, making it nearly 100% accurate.
+
+AS SEEN IN:
+The 44. Magnum revolver is an icon of action movies and is featured in the Dirty Harry series and The Long Kiss Goodnight. 

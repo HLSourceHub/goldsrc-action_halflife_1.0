@@ -1,0 +1,58 @@
+// Action Halflife mapcycle.txt
+// Designates what maps are in the server rotation.
+//
+// You can also set parameters that designate whether a map
+// will load or not based on the amount of players in the 
+// game.
+//
+// To make a minimum number of players required for a map to 
+// change, use "\minplayers\#" where # is a number.
+// ex: ahl_map "\minplayers\4"
+// This would make the map only load if there were at least 
+// 4 players in the game at the time of map change.
+//
+// Similar to the minimum number of players, you can set a 
+// maximum number of players. If there are more than the 
+// specified number of players in the game at the time of 
+// map change, then the map will not load and will skip to
+// the next one. This is best for small maps that wouldn't
+// have enough room for large games. 
+// ex: ahl_map "\maxplayers\12"
+// This would make AHL check to see if there were more than 
+// 12 players in the game at the time of map change, and if
+// there were, the map wouldn't load and the next map in the
+// list would instead.
+//
+// You can also combine the min and max player fields.
+// ex: ahl_map "\minplayers\2\maxplayers\12"
+// This would only load the map if there were between 2 and
+// 12 players in the game.
+
+ahl_nocredit
+ahlg_plexharbour_dc "\minplayers\8"
+ahlg_onslaught2_dc "\minplayers\6"
+ahlg_engholm_dc
+ahlg_wikkedcity_dc
+ahlg_urban_riot_dc "\minplayers\6"
+ahl_bananamans "\minplayers\4"
+ahl_tratoria
+ahl_bankdoom "\maxplayers\8"
+ahl_beemer "\minplayers\4"
+ahl_plexcity
+ahl_killington "\maxplayers\10"
+ahl_calypso "\minplayers\4"
+stalkyard
+ahl_cliff2_snow "\maxplayers\8"
+ahl_casagrande "\minplayers\4"
+ahl_snowmax
+ahl_tgx2 "\maxplayers\6"
+ahl_monorail "\minplayers\4"
+ahl_streets
+ahl_loungesky "\maxplayers\6"
+ahl_temple "\minplayers\6"
+ahl_hkheat
+ahl_innercityxl
+ahlg_actionrail_dc "\minplayers\6"
+ahlg_wikkedkorp_dc "\minplayers\8"
+ahlg_metro_dc "\minplayers\4"
+ahl_plexhbraid "\maxplayers\8"

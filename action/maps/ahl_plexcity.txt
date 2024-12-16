@@ -1,0 +1,80 @@
+================================================================================
+* LEVEL DESCRIPTION *     ahl_plexcity by Plexor
+================================================================================
+A city map that has moving cars that cause more player deaths then all of action
+Half-Lifes weapons combined! (WARNING diving on the bridge, cars or in the copy 
+room will get you killed due to a bug in AHL b5.6)
+================================================================================
+* LEVEL INFORMATION *
+================================================================================
+TITLE                   : ahl_plexcity
+FILENAME                : ahl_plexcity.bsp
+AUTHOR                  : Mark Bennink (Plexor)
+DATE                    : 12-06-2003
+GAME                    : Action Half-Life
+EMAIL ADDRESS           : m.bennink@quicknet.nl
+HOMEPAGE URL            : http://home.quicknet.nl/qn/prive/m.bennink/
+
+================================================================================
+SINGLE PLAYER           : 1 Player Start
+CO-OPERATIVE            : Uhm?
+DEATHMATCH              : 21 DM Starts.
+SUGGESTED PLAYER LOAD   : 8 
+NEW TEXTURES            : Yes, textures by Mloclam, BananA, Doenerking,
+			  Undule, Evile Dick and Remedy Entertainment.
+NEW SKY			: Yes by Muad'Dib.
+NEW SOUNDS              : Yes 3, one from Borg.
+CD TRACK #              : None.
+ 
+================================================================================
+* CONSTRUCTION *
+================================================================================
+MAP BASE                : None
+PREFABS USED            : Banana's lamp. 
+EDITOR(S) USED          : Worldcraft 3.3. 
+OTHER UTILITIES USED    : Wally, Zoners Tools, Paintshop pro. 
+KNOWN BUGS              : None	   
+COMPILE MACHINE         : Athlon 650, 512MB RAM
+
+================================================================================
+* OTHER LEVELS BY Plexor *
+================================================================================
+ACTION HALF-LIFE       : ahl_autoshop, ahl_streetwars, ahl_streetfight,
+			 ahl_plexharbour, ahl_plextrains, ahl_casagrande.
+			 ahl_plexhbraid 
+================================================================================
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+================================================================================
+None
+================================================================================
+* Plexor's CREDITS *
+================================================================================
+The A-Team                : For making AHL.
+Prefab and texture makers : For making the textures & prefabs.
+The testers	  	  : For all those suggestions and bugs found. 
+T-2			  : For letting me use his server for map testing.
+Section31		  : For making me a new website.
+And anybody I forgot....  : For whatever they did to help.
+ 
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+================================================================================
+-The Map-
+
+This level is (C) 2003 Mark Bennink & Nick Cramer.
+
+Authors MAY NOT use this level as a base to build additional levels.
+No decompiling, hacking, or modification of the .bsp or related files will be 
+tolerated.
+ 
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS! If you don't co-operate, then DON'T DISTRIBUTE
+IT IN ANY FORM!
+ 
+This LEVEL may be distributed ONLY over the Internet. No money may be charged for 
+this level AT ALL without first getting WRITTEN permission from the authors.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way other than through a FREE ACCESS website or FTP site without my permission.
+
+Action Half-Life (C) 1998-2001 The A-Team.
+Half-Life (C) 1998-2001 Sierra On-line and Valve L.L.C. All rights reserved.

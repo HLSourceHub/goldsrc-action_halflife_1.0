@@ -1,0 +1,12 @@
+BASICS:
+Type        : Throwing knives
+Firing modes: Slash/throw
+Ammo loadout: 10 knives
+Firing rate : ---/Medium
+Damage      : High
+
+TACTICAL/COMMENTS:
+Those who like stealth will love the knives. They are very powerful and long ranged but arc when thrown, making them a weapon for the highly-skilled. When the enemy is close enough you can easily stab them. Thrown knives can also be recollected and used again. Best used with the stealth slippers or bandolier.
+
+AS SEEN IN:
+To see how deadly throwing knives can be, simply watch Desperado. 

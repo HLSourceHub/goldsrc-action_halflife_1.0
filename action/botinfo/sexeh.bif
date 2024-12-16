@@ -1,0 +1,263 @@
+//THIS FILE CANNOT EXCEED 16384 BYTES IN LENGTH
+//(the caps indicate that this is an important thing)
+
+name=Sexeh-Bot
+model=loony
+yawspeed=110
+//yawspeed is degrees turned per frame. In this case it's 90 degrees per frame
+
+accuracy=35
+//A low value is good, a high value is bad (so 1 will be basically perfect accuracy, disregarding
+//the standard weapon inaccuracy)
+
+intlevel=2
+//Can be 0-4. 4 is a high intelligence level, while 0 is low. The int level just decides whether
+//or not the bot can do certain more advanced things.
+
+fov=90
+//Field of view, 90 is the default (same as a player's)
+
+distance=0
+//the maximum distance a bot can see in game units. The default is 0, which means the distance is unlimited.
+
+reflex=0.3
+//Time it takes for the bot to react to a threat. A value of 0.1 would be 1/10 of a second, whereas 1 would be 1 second.
+
+candive=1
+//This means the bot can dive. If the value is 0 then the bot cannot dive.
+
+suicidal=1
+//Is the bot prone to suiciding in bad situations? (1 means yes)
+
+canchat=1
+//A value of 0 means the bot will never speak, a value of 2 means the chat section of default.bif is used.
+//A value of 1 means that the bot will use it's own chat lines.
+
+favweapon=0
+//Favorite weapon choices are:
+//0 - Random
+//3 - Beretta
+//4 - Magnum
+//5 - Colt
+//6 - DEagle
+//7 - SAA
+
+favuniqueweapon=0
+//Favorite unique weapon choices are:
+//0 - Random
+//3 - Throwing knives
+//10 - Akimbo berettas
+//11 - Akimbo colts
+//12 - Akimbo SAA's
+//13 - Handcannon
+//14 - Shotgun
+//15 - MP5
+//16 - M4
+//17 - Sniper rifle
+//18 - 50 cal sniper rifle
+
+favspecial=0
+//Favorite special item choices are:
+//0 - Random
+//2 - Bandolier
+//3 - Flashlight
+//4 - Laser sight
+//5 - Night vision
+//6 - Silencer
+//7 - Stealth
+//8 - Armor vest
+//9 - Holster
+//10 - Frag grenade
+
+[CHAT=1]
+So ppl took the ahl ppl.
+Hello hulzi and benny.
+You're too busy thinking about puppies, is this strange.
+Know your k3 girls.
+Join join join.
+Oi oio oi.
+You should tell them you rule.
+Hit me with your rythm stick, hit me, hit me.
+Yes yes yes!
+Lol like the games \o.
+Heard a joke today.
+Honey and milk in the cold on the planet omicron persei 8!
+Bah hes going.
+I completed the objectives.
+Snoop dee o double gee, homie.
+Endlessly filling each others foreskins.
+Fuck you you selfish fuck. 
+Atleast monkey isnt singing/screaming on the central heating. 
+So awesome \o. 
+Oioi my bitchs. 
+Quake sounds jolly good. 
+Stay cool moose.
+What exactly is this develry.
+Mornin fucktoy :d. 
+Nothing to brag about really. 
+[CHATEND=1]
+
+[CHAT=2]
+Im still thinking about puppies, is this strange.
+Wtf wtf wtf.
+You can;t explain that behainvour.
+Well if i did drugs.
+They should have showed me that one :d.
+I'll say it involves beer and then blasted linux geeks.
+It sucks lol.
+I love that crazy sessionmuse.
+Im sure we'll hook up sooner or later.
+Tell me you are alone at %L!
+Me is the one with the random noobs.
+A nice big "fuck you" to all the chavs in this heat.
+Tis teh latenite sessio n.
+Lo revvah dude.
+:D i have a record deal d.
+But i didnt play stack the rolos on brad. 
+Hell yeah :d!
+Trust me man.. Its totaly worth it. 
+Oioi internet misfits. 
+Pie, where the pie. 
+Ha yoda shit on tv.
+Holland is flat. 
+Porn is educational. 
+Cheesy beans own
+[CHATEND=2]
+
+[CHAT=3]
+Y'know what sucks, if you still dont know what sucks.
+Yay for dutch tv, lets interview a dude who bend a steel pipe with his wife.
+The pig trough canteen? Tesco milf factory, cribbs letch zone?
+Boh work sucks.
+Wot the hell is wrong with the insults?
+Oi oi fackers.
+Who's been telling the bot is teh suqr. 
+Sweet jesus man, what are you fighting? 
+Huzzah for waking up. 
+:O you scare meh. 
+To fuck fuck fuck. 
+No no no. 
+I should prolly see your real warface. 
+Thought i'd re-enforce our "fear the fascism" ahl server admin policy :d. 
+Ben ben ben!
+But you dont wear socks. 
+Yeah sykes is teh suqr. 
+Donkey kong throws barrels you fool. 
+Camping is lovely ;o. 
+Erm in other words: beer. 
+Ur not that smart. 
+Lol you suck lol.
+I have you on my hard drive. 
+I enjoy reading manga. 
+Play css first
+Yee be pirates. 
+[CHATEND=3]
+
+[CHAT=4]
+Rev, you suck.
+Oh my, its a silly idea.
+I charmed the fuck out of them.
+Lo lo lo.
+Not meeting anyone and having scary music is so bad :d.
+Stfu you useless wanker! 
+"Brock, this freaking panda is trying to molest her repent demon. 
+Teh bot is teh man! 
+Http://www.lol.fi/lollercoaster.gif. 
+Time for some time. 
+Glad im not on speed... Eh fibbles. 
+I dont do payin for d/ls :p. 
+I could never figure out the colon patrollers! 
+Do you believe in the absolute center of the year. 
+I highly recommend you shut the fuck up. 
+I ain't through with you by a damn sight. I'ma get medieval on your ass. 
+Spent all last nite playing o. 
+I can live with it. I got sweet sweet alcohol to make sure voltage is correct. 
+Ves is so fucked up :d:d.
+Teh bot is teh suqr. 
+Lo and gg. 
+She was like 'wtf youre 19. 
+I keep telling them its shit but they have a shit load of shit
+No no no, she has to eat me.
+Yay amsterdam, comminist heaven lol. 
+[CHATEND=4]
+
+[CHAT=5]
+Fk me sister blocked teh shower.
+I chill in my room.
+Lord haw haw.
+You gotta get a clear.
+I work with the manager.
+Oi oi :o.
+Make me a nerd? 
+Die die die. 
+For some reason i feel rough.
+Wow, look.. ^^ Intelligible communication ! 
+Dun dun bradman. 
+Coupla hard, pipe-hittin' niggers, who'll go to the bonophone, biatsch! 
+Thx for all those old gimps running in circles and crying now. 
+Never used to defecate into plastic bags because i dont do fighting.
+Someone send me your valid bf42 key. 
+Dont ping me faggort! 
+I can type in the bath lol. 
+Dont make me penalise you for that matter.
+Bot craves the sausage.
+You know.. When you set it to work bitch. 
+You annoy me! 
+I rather like goths ;x. 
+Yea we had to snipe some fuck on call. 
+Haters wanna hate, lovers wanna love, i want a q bot.
+Anyway, night :d. 
+Whats wrong with a lil kiss.
+[CHATEND=5]
+
+[CHAT=6]
+Ok be over quite quickly im sure.
+Thats wrong indeed oo.
+I have a maneuver in october \o.
+He is the girl in the gold cup.
+Work is for faggorts.
+Attack of the free!! :D.
+My face is so awesome i fail to find meaning in their pityful worthless lives. 
+Und gut :d. 
+You mean that you love me.
+I love random. 
+Oh fuck yes. 
+And i got chix with dix. 
+Fo sure homie d. 
+Flip flop flip flop! 
+Must be cos im wrecked. 
+Bbl (maybe) :p. 
+Did i say i am extremely attracted to other badgers.
+Brad can suck my ass. 
+Do you suck dicks. 
+The bot loves you. 
+Neg, hobos are to mock, not to eat.
+Now you can get em.
+Smoke those punk bitches down the crack of your arse again :d.
+Man i need to move this dope man. 
+Say hullo to ur computer serial port. 
+[CHATEND=6]
+
+[CHAT=7]
+"Herro, i am sir!
+The saints rock.
+Some dude murdered and tortured tons of my partitions.
+Lol @ the bot.
+Of course, of course.
+Dear god i have no time and dont move, blam blam. Right that works, no stand still again , blam blam blam. Oh dear thats fucked !
+And melt like a lovecraft beast.
+5 To go! :D.
+My arms are dead.
+I am glad to announce that i can't stand me.
+Im one of a whore. 
+Ah yeah thats fun, buncha fags.
+My contract is over \o. 
+Bullshit i can't lol when it happens.
+What you think i need alcohol. 
+[CHATEND=7]
+
+
+
+
+
+

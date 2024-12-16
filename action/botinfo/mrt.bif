@@ -1,0 +1,90 @@
+//THIS FILE CANNOT EXCEED 16384 BYTES IN LENGTH
+//(the caps indicate that this is an important thing)
+
+name=Mr. T
+model=t
+
+yawspeed=100
+//yawspeed is degrees turned per frame. In this case it's 90 degrees per frame
+
+accuracy=45
+//A low value is good, a high value is bad (so 1 will be basically perfect accuracy, disregarding
+//the standard weapon inaccuracy)
+
+intlevel=4
+//Can be 0-4. 4 is a high intelligence level, while 0 is low. The int level just decides whether
+//or not the bot can do certain more advanced things.
+
+fov=90
+//Field of view, 90 is the default (same as a player's)
+
+distance=0
+//the maximum distance a bot can see in game units. The default is 0, which means the distance is unlimited.
+
+reflex=0.1
+//Time it takes for the bot to react to a threat. A value of 0.1 would be 1/10 of a second, whereas 1 would be 1 second.
+
+candive=1
+//This means the bot can dive. If the value is 0 then the bot cannot dive.
+
+suicidal=0
+//Is the bot prone to suiciding in bad situations? (1 means yes)
+
+canchat=1
+//A value of 0 means the bot will never speak, a value of 2 means the chat section of default.bif is used.
+
+favweapon=0
+favuniqueweapon=0
+favspecial=0
+
+[CHAT=1]
+I pity the fool. (%L)
+I'm gonna shut this fool up for good. (%L)
+I see them suckas at %O
+Let's just say we ain't your friends, sucka. (%L)
+[CHATEND=1]
+
+[CHAT=2]
+They're closin'. They got us! (%L)
+You messed up, now I gotta mess you up. It's the law!
+Hey sucka, you gonna pay!
+I think I dislocated my shoulder.
+[CHATEND=2]
+
+[CHAT=3]
+Stop jibba-jabberin' and start shootin'! (%L)
+What's that fool talking about?
+If these guys wanna get rough, we can get rough.
+Whatchu doin', sucka?
+[CHATEND=3]
+
+[CHAT=4]
+I believe in the Golden Rule — The Man with the Gold . . . Rules.
+I pity the fool who goes out tryin' a' take over da world, then runs home cryin' to his momma!
+Shut up, foo'!
+Always said he was nothing.
+Sucka's ain't giving us no more trouble.
+Dead meat!
+Foo's crazier than Murdock.
+Now vibe on that, sucka!
+Take that, sucka!
+[CHATEND=4]
+
+[CHAT=5]
+He's on the jazz, man!
+I don't start no trouble. I mind my own business.
+[CHATEND=5]
+
+[CHAT=6]
+It takes a smart guy to play dumb.
+I'm a damage that sucka with this %W
+There's gonna be a lot of pain near %L
+I got no time for the jibba-jabba.
+[CHATEND=6]
+
+[CHAT=7]
+I die before I fly.
+I ain't gettin' on no plane!
+You got that right, crazy man.
+You crazy, fool!
+[CHATEND=7]

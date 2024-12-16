@@ -1,0 +1,85 @@
+ARCHIVE NAME	NEWSKY1.ZIP
+AUTHOR		PHOSTOXIN (Jako Malan)
+
+CONTACT		dfm@msi.imt.za
+
+DESCRIPTION	Three premium quality sky-maps for 
+                Quake 2.
+
+		Sky1 : Sunset on a deserted planet
+		Sky2 : Nukage sea on Mars
+		Sky3 : Mountains on earth
+		
+FTP	 	This archive is available ON FTP.CDROM.COM
+
+
+INFORMATION
+---------------------------------------------------------
+OPEN GL IMAGES		Yes
+SOFTWARE IMAGES		No
+
+PROGRAMS USED		VistaPRO 3 by John Hinkley
+
+
+INSTRUCTIONS/USAGE
+---------------------------------------------------------
+
+Create a new sub-directory off your normal Quake2 directory.
+
+Unzip ALL the *.TGA files to the :
+
+	/QUAKE2/YOUR_DIRECTORY/ENV/
+
+directory.
+
+RUN "Quake2 +set game YOUR_DIRECTORY"
+
+Start a New Single Player or Multi Player game.
+
+At the console type one of the following :	
+
+	"sky sky1_"
+	"sky sky2_"
+	"sky sky3_"
+
+Then have a look around at the windows and outdoor
+areas.  You should see the Q2 Sky replaced with a
+new one.
+
+
+FOR TOTAL CONVERION AUTHORS :
+---------------------------------------------------------
+
+I shall in future release more sky replacement packages. However,
+if you have any specific sky requests, please E-Mail them to me.
+I shall try my best to assist you.
+
+NOTE : Sorry, but I cannot E-Mail the renderer to people whom ask
+       for it.  It's not just illegal, but also well over 500mb in 
+       size.
+
+
+CONTACT INFORMATION
+---------------------------------------------------------
+
+I am looking forward to hearing what people think of this
+add-on.  If you have any comments or suggestions, please 
+E-Mail them to the above address.
+
+
+CONDITIONS/PERMISSIONS
+---------------------------------------------------------
+
+Althought this archive contains no code intended to harm
+you or your PC, I cannot be held responsible for ANY
+losses or damages occuring as a direct- or indirect result
+of downloading, unzipping or using this archive.
+
+If you would like to use any of these skys in your maps or
+conversions, please give me some credit in your TXT file.
+
+You MAY use these skys as a base for new ones, as long as 
+you give me some credit and release it as a different name.
+
+Some of these skys are -BASED ON- original landscapes designed
+by John Hinkley.

@@ -1,0 +1,14 @@
+// overview description file for ahl_hkheat.bsp
+
+global 
+{
+	ZOOM		1.85
+	ORIGIN	930.31	 -313.00	-145.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/ahl_hkheat.tga"
+	HEIGHT	-453
+}

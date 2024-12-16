@@ -1,0 +1,165 @@
+// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED, 
+//DO NOT EDIT THIS HEADER, YOUR COMMENTS WILL BE LOST IF YOU DO
+// Multiplayer options script
+//
+// Format:
+//  Version [float]
+//  Options description followed by 
+//  Options defaults
+//
+// Option description syntax:
+//
+//  "cvar" { "Prompt" { type [ type info ] } { default } }
+//
+//  type = 
+//   BOOL   (a yes/no toggle)
+//   STRING
+//   NUMBER
+//   LIST
+//
+// type info:
+// BOOL                 no type info
+// NUMBER       min max range, use -1 -1 for no limits
+// STRING       no type info
+// LIST          delimited list of options value pairs
+//
+//
+// default depends on type
+// BOOL is "0" or "1"
+// NUMBER is "value"
+// STRING is "value"
+// LIST is "index", where index "0" is the first element of the list
+
+
+// Half-Life Server Configuration Layout Script (stores last settings chosen, too)
+// File generated:  Fri Aug 05 05:54:09 PM
+//
+//
+// Cvar	-	Setting
+
+VERSION 1.0
+
+DESCRIPTION SERVER_OPTIONS
+{
+	"mp_bots"
+	{
+		"Bot Players"
+		{ NUMBER 0.000000 16.000000 }
+		{ "0.000000" }
+	}
+
+	"sv_botgrudge"
+	{
+		"Bots auto forgive TeamKills"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"mp_gametype"
+	{
+		"Game Type"
+		{
+			LIST
+			"Deathmatch" "0"
+			"Last Man Standing" "1"
+			"LMS with equipment" "2"
+			"LMS random equip" "3"
+			"Teamplay" "4"
+			"Teamplay w/o rounds" "5"
+		}
+		{ "5.000000" }
+	}
+	
+	"mp_nogoals"
+	{
+		"Disable Goal modes"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"mp_chasecam"
+	{
+		"Chasecam"
+		{
+			LIST
+			"Ghosts only" "0"
+			"Enabled" "1"
+			"Team Mates only" "2"
+		}
+		{ "1.000000" }
+	}
+
+	"mp_tkdeal"
+	{
+		"How to deal with Team Killer's"
+		{
+			LIST
+			"Do nothing" "0"
+			"Punish them" "1"
+			"Auto Kick" "2"
+		}
+		{ "1.000000" }
+	}
+
+	"mp_forcerespawn"
+	{
+		"Force Respawn"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"mp_friendlyfire"
+	{
+		"Friendly Fire ON"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"mp_teamkills"
+	{
+		"Max 'teamkills' before action is taken"
+		{ NUMBER 0.000000 -1.000000 }
+		{ "5.000000" }
+	}
+
+	"mp_roundtimelimit"
+	{
+		"Round Time Limit (Min.)"
+		{ NUMBER 0.000000 -1.000000 }
+		{ "3.000000" }
+	}
+
+	"mp_timelimit"
+	{
+		"Time Limit (Min.)"
+		{ NUMBER 0.000000 -1.000000 }
+		{ "20.000000" }
+	}
+
+	"mp_fraglimit"
+	{
+		"Frag/Team Score Limit"
+		{ NUMBER 0.000000 -1.000000 }
+		{ "50.000000" }
+	}
+
+	"sv_sendvelocity"
+	{
+		"Low ping server physics"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"sv_alltalk"
+	{
+		"Allow Players to talk to eachother (between teams)"
+		{
+			LIST
+			"Behave as normal" "0"
+			"Allow interteam chat" "1"
+			"Allow interteam + dead chat" "2"
+		}
+		{ "0.000000" }
+	}
+
+}

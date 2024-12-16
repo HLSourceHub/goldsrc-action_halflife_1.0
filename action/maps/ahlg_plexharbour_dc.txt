@@ -1,0 +1,17 @@
+Plexharbour  - Assassination
+============================
+
+The Usual Suspects must get aboard the ship in the Harbour
+and kill the account. 
+ 
+The accountant is hiding in the stairway near the bridge.
+
+The Ship's Crew get infinite lives but have a delay in re-spawning.
+
+The Usual Suspects get 3 lives each.
+
+The Usual Suspects must kill the accountant to win. 
+
+The Ship's Crew must eliminate all of the Usual Suspects to win.
+
+Original Map Author : Mark Bennink (Plexor)

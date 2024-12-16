@@ -1,0 +1,100 @@
+================================================================================
+* LEVEL DESCRIPTION *     ahl_plexhbraid by Plexor & Drumdude
+================================================================================
+Remake of Drumdude's ahl_hbraid, wich is based on the movie Hard Boiled. 
+
+Borg asked me if I could update ahl_hbraid, because it was always a fun map to 
+play but the original had some problems(bad access to the roof, the corridor of
+death and the original textures where also so-so). The result is hopefully a 
+beter looking and more fun map. Altough in the end it turned out to be more of a
+ahl_warehouse then a scene out of the movie Hard Boiled. But since people had 
+lots of fun on it I kept it this way and gave it a sleightly other name so people
+can still play the original without getting confused by the map names.   
+
+================================================================================
+* LEVEL INFORMATION *
+================================================================================
+TITLE                   : ahl_plexhbraid
+FILENAME                : ahl_plexhbraid.bsp
+AUTHOR                  : Mark Bennink (Plexor) & Nick Cramer (drumdude)
+DATE                    : 02-02-2003
+GAME                    : Action Half-Life
+EMAIL ADDRESS           : m.bennink@quicknet.nl
+HOMEPAGE URL            : http://home.quicknet.nl/qn/prive/m.bennink/
+
+================================================================================
+SINGLE PLAYER           : 1 Player Start and some grunts.
+CO-OPERATIVE            : Uhm grunts?.
+DEATHMATCH              : 14 DM Starts.
+SUGGESTED PLAYER LOAD   : 8 
+NEW TEXTURES            : Yes, textures by Mloclam, BananA, Doenerking,
+			  Undule, Evile Dick and Remedy Entertainment.
+NEW SKY			: No.
+NEW SOUNDS              : Yes, the music from hard boiled
+CD TRACK #              : None.
+ 
+================================================================================
+* CONSTRUCTION *
+================================================================================
+MAP BASE                : Ahl_hbraid
+PREFABS USED            : Banana's lamp, Fork Lift by Adam Grebinsky
+EDITOR(S) USED          : Worldcraft 3.3. 
+OTHER UTILITIES USED    : Wally, Zoners Tools, Paintshop pro. 
+KNOWN BUGS              : None	   
+COMPILE MACHINE         : Athlon 650, 512MB RAM
+
+================================================================================
+* OTHER LEVELS BY Plexor *
+================================================================================
+ACTION HALF-LIFE       : ahl_autoshop, ahl_streetwars, ahl_streetfight,
+			 ahl_plexharbour, ahl_plextrains, ahl_casagrande. 
+================================================================================
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+================================================================================
+None
+================================================================================
+* Plexor's CREDITS *
+================================================================================
+The A-Team                : For making AHL.
+Prefab and texture makers : For making the textures & prefabs.
+The testers	  	  : For all those suggestions and bugs found. 
+T-2			  : For letting me use his server for map testing.
+Section31		  : For making me a new website.
+And anybody I forgot....  : For whatever they did to help.
+ 
+================================================================================
+* Drumdude's CREDITS *
+================================================================================
+Borg, Holy-Goat	  	  :For helping me loop that damn hbalan1.wav. 
+Mloclam, Banana           :For the textures.
+The A-Team                :For making Action great.
+John Woo, Chow Yun-Fat,   :For the magic that is HB.
+Tony Leung Chiu-Wai 
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+================================================================================
+-The Map-
+
+This level is (C) 2003 Mark Bennink & Nick Cramer.
+
+Authors MAY NOT use this level as a base to build additional levels.
+No decompiling, hacking, or modification of the .bsp or related files will be 
+tolerated.
+ 
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS! If you don't co-operate, then DON'T DISTRIBUTE
+IT IN ANY FORM!
+ 
+This LEVEL may be distributed ONLY over the Internet. No money may be charged for 
+this level AT ALL without first getting WRITTEN permission from the authors.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way other than through a FREE ACCESS website or FTP site without my permission.
+
+Action Half-Life (C) 1998-2001 The A-Team.
+Half-Life (C) 1998-2001 Sierra On-line and Valve L.L.C. All rights reserved.
+
+-The Movie-
+
+Hard Boiled is copyright 1992 Golden Princess Film Productions Ltd.
+The Hard Boiled soundtrack is copyright 1993 Mute Productions Ltd.

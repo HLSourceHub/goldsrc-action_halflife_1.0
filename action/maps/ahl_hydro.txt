@@ -1,0 +1,137 @@
+
+
+
+
+Hydro Dam Bust up.  (ahl_hydro)
+by Octave Doctor
+copyright 2002 Shiningwitz Productions
+
+A brand new Action DM and Teamplay map, inspired by the classic Daydam.  This is a totally NEW bsp built from scratch, Taking the original layout ideas and adding custom textures, sounds and better connectivity along with typical OD quirkyness and ideas all over the shop.  
+Now go! Stop reading this! 
+
+Map testing credits:   1st*Dead* (aka Agent Orange), Biscuits,Nifta,Mak,Nemesis,Rocketdog,Vera Duckworth's clit ring(aka Kragvar),Chootah Jedi,Bananaman, Byroid, TSU crew, and many others.  
+
+Special Thanks to:
+
+Hondo and Banana for helping with early and recent compile/speed problems. Everyone who's provided extra textures at some point. Everyone on the LAN for joining in and giving great input. Holygoat and the original Daydam guy for the inspiration- sorry I couldn't track you down!
+Chpx, Payback, Borg, Luebbi,Warthog,Oddjob, Moore+, Cairath,Mloclam ,Gen,Quamosity and everyone else for all the encouragement and good times. 
+
+
+OctaveDoctor@telefragged.com
+www.hosted.havenofrags.com/octavedoctor
+                
+Other Levels By Me      : Inner-city,Inner-city2,Windmill,Powerstation,The Wing Kong Exchange(out soon!),Seventies Super Sky Lounge,InnercityXL,
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+* Play Information *
+
+ Single Player           : um, not really-
+ Deathmatch 2-4          :Ace laugh
+ Deathmatch 5-16         : Perfect.
+ Deathmatch 17-100       : Erm no
+ Teamplay                :Yes
+ Bots:                        Yes
+ Loc File:                   Yes
+ Mat File:                   Yes
+ Res File:                  Yes
+ New Sound              :Yes, wind and air and stuff
+ New Graphics          :Yes-custom textures throughout the level and a custom skybox
+ New music               :No
+ Prefabs                    :Yes, A pickup truck by:
+
+* Construction *
+
+ Base                    : None, built from scratch but inspired by Daydam
+ Build Time              : 2 months last Autumn (2001), and these last two weeks (april 2002) 
+ Compile Time            : 40-50-odd minutes full compile p3 550,256 mb ram,37 gig HD
+ Editor(s) used          : WorldCraft v.3.1, Wally.
+ Known Bugs              :May encounter small collision bugs but nothing awful.
+
+. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+* Other Info *
+* Distribution /Legal *
+
+ Copyright 2002 Shining Wits Productions
+ 
+ This level has been made out of the sheer enjoyment of AHl for fun, It is Public Domain, It is not to be sold on or involved in any  such profit making enterprises.  (eg renting hiring etc)
+ This map is not to be re-destributed on CD's,DVD-ROms, or any other digital storage format without the Author's permission
+ Niether is this map to be included in any map pack without the author's prior consent. However you may freely upload/store this map  where you like provided that the zip file it is contained in remains intact and all files including this text document are included.    Apart from any wps/loc files that you may come up with you may not add anyfiles to any uploaded versions of this zip. 
+ 
+ Don't modify this map in any way. If a new version of AHL comes out with new stuff I need to add, 
+ I'll probably know, and release a new version myself.
+
+ The Octave Doctor
+
+
+
+Some old beta history:
+
+
+3/4/02:
+
+Ok RL is still hectic but I wanna get this map out there. I've retextured places and replaced the A-team van with somthing else. (coz I didn't like the model)  anyway check it out.  Feedback to the usual address:   octavedoctor@telefragged.com   
+This is the final layout 
+
+
+New:
+17/10/01
+
+LOC file!!! :D :D :D
+
+16/10/01
+
+Major overhauls of certain areas- mostly tidying up ropey brush work, added more realistic textures. Added two extra security cameras that both look inside the dam. Added a 'booth' around cam controls.  Sparky bits added.  map.ini file added.
+
+12/10/01
+
+Nothing new
+
+11/10/01
+The A-team Van, start that baby up! sounds sweet.
+More ammo, and knives in the water.
+Moved handcannon down to deep pool over cracks where bubbles come out. Moved colt 1911 that was there up to the top of the round turbine booth.
+Added lights to the shallow water- looks much better and you can see what's going on now.
+
+8/10/01
+Whole new area: Turbine room in centre of dam, turbines activate when the master switch is thrown up in the round control booth outside, turbines hot (20 damage) when active. 
+New sounds: various industrial sounds raided from valve's pak. Not too black mesa-ry
+9/10/01
+Added another 'creaky bit' by the ladder and broken planks.
+
+Fixes:
+17/10/01
+
+Fixed CSG error on A-team van. Fixed lift entrance, tweaked some other stuff.
+
+16/10/01
+
+Now impossible to break turbines! Huzzah!  Adjusted hieght of light polls on top dam u can now dive freely off the dam!  Fixed lift area completely- no more dying at top or bottom- no lights clip the lift either. Fixed the sky 'spike' that Luebbi and Pokey both pointed out. Some other stuff but I can't remember
+
+12/10/01
+
+Fixed the trigger_pushes in the water you should no longer get stuck
+Added a delay to the turbine switches- it should now be impossible to break them.
+
+11/10/01
+
+Fixed the lift because a few people will still sticking their heads out this now means light fixtures can be seen passing through the lift itself so I dunno what to do- cry mebe?
+Added clip brushes around suspended ceiling pipes -should stop people from getting stuck now.
+Made the vertical turbine suck even stronger- this now means you can do marvelous stingray dives out of the water when the turbines are on- oh and if you don't swim you get sucked down very quickly.
+
+8/10/01
+
+You have the proper sky!!! I never put it in the zip (doh)  nice sunrise now. 
+More ammo (but not much)
+various stuff that broke whilst adding the new room (hence the jump from b3 to b5)
+
+9/10/01
+Fixed Turbine suck in water- now the right  way round!
+Fixed the staircase leading to the main turbine room- you don't get stuck any more
+
+
+
+
+
+

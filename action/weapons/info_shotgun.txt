@@ -1,0 +1,13 @@
+BASICS:
+Type        : Shotgun 
+Firing modes: Single buckshot
+Ammo loadout: 6 shells, 12 spare
+Firing rate : Medium
+Damage      : Low at medium range, high at close range
+
+TACTICAL/COMMENTS:
+The perfect close-assault weapon thanks to its good firerate, damage and ammo loadout. Victims won't stand a chance against its buckshot at close range, and it causes a fair amount of damage at medium range. Preferred usage is in combination with either a kevlar vest or stealth slippers.
+
+AS SEEN IN:
+Shotguns have been seen in films like Hard Boiled, Way of the Gun, and Terminator II.
+

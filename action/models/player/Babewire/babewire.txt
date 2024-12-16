@@ -1,0 +1,75 @@
+Type: 		Action Halflife Multiplayer Pluggin Model
+
+Name: 		BabeWire
+
+Release Date: 	25th Feb 2002
+
+Author:		Ian Waugh    
+
+E-Mail:		gundam@btinternet.com 
+
+Homepage: 	Go G-net
+                http://freespace.virgin.net/ian.waugh/index.htm  
+		(not updated anymore)
+
+Files:		barbwire.mdl, barbwire.bmp, barbwire.txt 			
+
+Instructions:	Either create a folder Half-life\action\models\player\barbwire            
+                and just unzip all the file into there (This might cause problems for
+		other players who don't have this model though )
+                
+                OR choose and exiting model you whish to replace, back it up, then unzip the files
+                into its directory and rename the barbwire.mdl.mdl and barbwire.mdl.txt to the same name as
+                the model you are replaceing. This probably a better thing to do.
+
+		This model can be freely distributed as long as this text file is included, unmodified.
+
+                This model/skin was done specifically for ACTION HALFLIFE 
+		DO NOT EVEN THINK ABOUT CONVERTING IT TO OTHER MODS, it is AHL only.
+
+		If you want to do a skin for this model and are a good skinner ( i.e. better than me ) then emailme, 
+                and I'll help you out with base skins. Please no crude skins (well not too crude)
+
+Description: 	BarbWire. Don't call me Babe.                
+
+Influences:	Pamela Anderson's character in the film of the same name of course. 
+		(I haven't read the original comic)
+		The film itself is a multilayed reworking of the Casblanca mytholgy, postmodern in approach,			heavy with irony and subtext. Either that or its an excuse for large amounts of T'n'A , gun fights,
+		and explosions. I forget which. But hey an improbably proptioned woman in fetishwear and a desert
+		eagle works for action halflife (well I think it does anyway). 
+		                            
+Model Info:	Vertices   	: 606
+		Polygons      	: 1211 tris
+		Skins       	: 4 FaceBMP.bmp  	256x256
+                                    LegBMP.bmp   	256x256
+                                    ArmBMP.bmp   	256x256
+                                    LeotardBMP.bmp	256x256
+                                    No Team Colours
+                Skeleton     	: Valves Standard Biped
+		Animation      	: Standard Action Halflife B5
+
+		
+Model Notes:	I kind had this sitting on my hard disk for a while. A while back The film was on telly and I 			though, hrmm, I	could do a quick reskin of misswong and get a Barbwire, the body and basic outfit 		are basically similar and could be adapted easily. I can never do quick and ended up reworking it an 		awfull lot. The model was the misswong mesh, but the face, hair, boobs, hips, calfs, boots all sorts 		where heavily reworked and a couple of hundred extra pollies where added. Again the skin was redone, 
+		a few bits of wong remain, but not that much. I sort of bored with it though, abd since I cannot
+		get the DVD on region 2 I kind of gave it up for a while. But the release of AHL B5 sort of inspired
+		me to finish it. I got a tape out, studied it and completed the model. Blond tousled hair is Very
+		hard to do in low poly.
+
+		The model is kind of heavy poly and skin wise so the model is really only for people with highend 		machine's. I've tested it on my 1.4 Athlon + Geforce3 and have no problems with frame rate.
+
+		Its not actually a very good likeness of Pamela Anderson. This is due to me finding it diffucult to 
+		get good reference (i.e not over posed or artisticly lit). Also the HL skeleton forces me to 
+		comprimise the proportions. Plus I'm crap.
+
+
+Tools used:  	Mesh			: Max3.1
+		Mapping and boning 	: 3D Studio Max R3.,1 and Character Studio 2.2
+		Skins			: Corel Photopaint 8.0 ( nope no photoshop )
+		Compiling		: StudioMDL	
+		Viewing			: Half-Life Model Viewer v1.1
+
+Other:  	I sometimes can be found as "Seburo", late at night on Jolt, Barry's world and other UK servers, 
+                playing Action Halflife. I'm a LPD and play rough, but use one of my models or skins and I might
+		go easy on you ;)
+	
+

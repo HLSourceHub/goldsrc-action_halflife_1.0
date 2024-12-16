@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {
+	background-color: #000000;
+}
+.style1 {font-family: Verdana, Arial, Helvetica, sans-serif}
+.style2 {font-size: 12px}
+.style3 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+-->
+</style>
+</head>
+<body marginwidth="0" marginheight="0" leftmargin="0" topmargin="0">
+<table width="100%" height="100%" border="0" cellpadding="4" cellspacing="0">
+  <tr> 
+    <td bgcolor="#000000"><table width="640" height="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="640" height="154" background="images/sections/tech.jpg">&nbsp;</td>
+      </tr>
+      <tr>
+        <td valign="top" background="images/filler.jpg"><div align="center">
+          <blockquote>
+            <p align="left"><span class="style1"><span class="style2"><strong>Q: </strong> You keep saying download this and download that, where the *hell* do I download from? <br>
+                  <strong>A: </strong> There is a list of mirrors we constantly update in the download section at <a href="http://ahl.action-web.net">http://ahl.action-web.net </a></span></span></p>
+            <p align="left" class="style3"><strong>Q: </strong> Does AHL B5 work with retail Counterstrike? <br>
+                <strong>A: </strong> Yes, point the AHL B5 installer to your \counter-strike\ folder, edit your AHL shortcut and replace "hl.exe" with "cstrike.exe" but keep the commandline parameters. </p>
+            <p align="left" class="style3"><strong>Q: </strong> Should I uninstall older AHL versions before I install AHL B5? <br>
+                <strong>A: </strong> Yes, it is very important that you do that to avoid bugs noone will know where they came from. Just erase your old action dir completely (no uninstaller necessary, erasing is fine) before you install AHL B5. </p>
+            <p align="left" class="style3"><strong>Q: </strong> I can't use the mouse to select VGUI menu options!! <br>
+                <strong>A: </strong> Make sure you set 'hud_capturemouse' to '1'. If that doesn't work, try vgui_emulatemouse "1". Unfortunately, sometimes WikkedGL causes the mouse to not be usable even with these two settings on. </p>
+            <p align="left" class="style3"><strong>Q: </strong> I want to run a LAN game and it keeps trying to connect to the internet and auth with won, how do I stop that?! <br>
+                <strong>A: </strong> Either from your console commandline do "+sv_lan 1" (without the quotes) or edit listenserver.cfg in your \action\ folder and change the entry "sv_lan 0" to "sv_lan 1". This is a bug that will be adressed in the next patch so you don't have to manually do that change (it doesn't happen when you host a dedicated server). </p>
+            <p align="left" class="style3"><strong>Q: </strong> Why do I get this CL_ParseServerMessage error? <br>
+                <strong>A: </strong> This a bug in Half-Life that occurs when you first try to join a server. It is caused by you having you model set to a non-Action Half-Life model. Try selecting a model from the Multiplayer-&gt;Customise menu and then reconnecting. Alternately, run HL with the command line "hl.exe -game action", then select a model, quit, then run it again and try connecting (By quitting out you ensure your player model has been set to an AHL player model). </p>
+            <p align="left" class="style3"><strong>Q: </strong> I can't get into the console, wtf? <br>
+                <strong>A: </strong> open up the config.cfg you'll find in your \action\ folder and make sure you have the following 3 entries there (add them if necessary): </p>
+            <p align="left" class="style3"><em>bind "~" "toggleconsole" <br>
+  bind "`" "toggleconsole" <br>
+  console "1.0" </em></p>
+            <p align="left" class="style3"><strong>Q: </strong> Console commands, what are they? <br>
+                <strong>A: </strong><a href="http://scripts.planetaction.net">See Action Scripting Central </a> for informatino about console commands. </p>
+            <p align="left" class="style3"><strong>Q: </strong> Where does "Could not load ...\Half-Life\action\cl_dlls/client.dll." come from and how do I fix it? <br>
+                <strong>A: </strong> You have to update your Half-Life to the latest version to fix this. Either use Half-Life's inbuilt auto updater or download an update from the <a href="http://www.sierrastudios.com/games/half-life/support.html">Sierra website </a></p>
+            <p align="left" class="style3"><strong>Q: </strong> I'm trying to play single play in AHL but right after the first map it exits to windows, what am I doing wrong? <br>
+                <strong>A: </strong> You probably are trying to run AHL on Counterstrike retail. Unfortunately Counterstrike retail does not come with a single player version, so only when running AHL B5 together with Half-Life retail lets you play the Half-Life missions AHL style. </p>
+            <p align="left" class="style3"><strong>Q: </strong> Can I play in 3rd person mode? <br>
+                <strong>A: </strong> You have to do "+sv_cheats 1" in your console, then load up a map, in that map you can do "+sv_chasecam 1" in console then to get chasecam. </p>
+            <p align="left" class="style3"><strong>Q: </strong> Help! I can't see my crosshair on some levels, how do I get that to appear? <br>
+                <strong>A: </strong> You can change your crosshair with the simple command "crosshair x", x being a number between 0 and 25. There's plenty to choose from! </p>
+            <p align="left" class="style3"><strong>Q: </strong> I've heard you can play HL single player in AHL cooperative style? How do I do that? <br>
+                <strong>A: </strong> Unfortunately this is more of hack, and therefore pretty unstable, but if you'd still like to give it a go, in your game console do the following: </p>
+            <p align="left" class="style3"><em>set coop 1 <br>
+  set maxplayer 4 <br>
+  sv_cheats 1 <br>
+  map c2a5e </em></p>
+            <p align="left" class="style3">Of course you can use any other map here, just open up half-life\valve\pak0.pak with e.g. qped ( <a href="http://www.planetquake.com/qped">www.planetquake.com/qped </a>), look into the maps directory in pak0.pak and write down a few of the maps' filenames. </p>
+            <p align="left" class="justified  style1">&nbsp;</p>
+          </blockquote>
+        </div></td>
+      </tr>
+      <tr>
+        <td width="640" height="137" valign="top" background="images/footer.jpg">&nbsp;</td>
+      </tr>
+    </table> </td>
+  </tr>
+</table>
+</body>
+</html>
+

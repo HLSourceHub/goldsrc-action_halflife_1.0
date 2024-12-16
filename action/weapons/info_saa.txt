@@ -1,0 +1,12 @@
+BASICS:
+Type        : Single action revolver
+Firing modes: Single shot/fanning
+Ammo loadout: 6 rounds/drum, 12 spare
+Firing rate : Medium/fast
+Damage      : Medium
+
+TACTICAL/COMMENTS:
+The Single Action Army is a difficult to maintain handgun. Both its good accuracy and penetration have a price: reloading is very complicated therefore find a safe place when attempting to reload. One of the pros of the SAA is the ability of "fanning" when used single-handed. Releasing the hammer in quick succession can result in an excellent rate of fire.
+
+AS SEEN IN:
+Starring mostly in westerns, the SAA is not a very common sight in action movies but shows up from time to time.

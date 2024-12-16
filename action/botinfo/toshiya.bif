@@ -1,0 +1,38 @@
+//THIS FILE CANNOT EXCEED 16384 BYTES IN LENGTH
+//(the caps indicate that this is an important thing)
+
+name=Toshiya
+model=maggie
+
+yawspeed=90
+//yawspeed is degrees turned per frame. In this case it's 90 degrees per frame
+
+accuracy=10
+//A low value is good, a high value is bad (so 1 will be basically perfect accuracy, disregarding
+//the standard weapon inaccuracy)
+
+intlevel=4
+//Can be 0-4. 4 is a high intelligence level, while 0 is low. The int level just decides whether
+//or not the bot can do certain more advanced things.
+
+fov=90
+//Field of view, 90 is the default (same as a player's)
+
+distance=0
+//the maximum distance a bot can see in game units. The default is 0, which means the distance is unlimited.
+
+reflex=0
+//Time it takes for the bot to react to a threat. A value of 0.1 would be 1/10 of a second, whereas 1 would be 1 second.
+
+candive=1
+//This means the bot can dive. If the value is 0 then the bot cannot dive.
+
+suicidal=0
+//Is the bot prone to suiciding in bad situations? (1 means yes)
+
+canchat=2
+//A value of 0 means the bot will never speak, a value of 2 means the chat section of default.bif is used.
+
+favweapon=0
+favuniqueweapon=0
+favspecial=0

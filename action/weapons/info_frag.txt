@@ -1,0 +1,12 @@
+BASICS:
+Type        : Fragmentation grenade
+Firing modes: Short, medium and long range
+Ammo        : 1 grenade
+Firing rate : Slow
+Damage      : High
+
+TACTICAL/COMMENTS:
+Grenades only have one purpose: mass destruction. They are very useful when the enemies are crowded or camping around a corner. But beware, once the pin has been pulled, detonation is inevitable. Diving out of the way can save your ass when you see a grenade land next to you more often than not, learn to dive when you hear that clank of the grenade landing nearby. Be wary when shooting somebody holding a live grenade, when they die it will fall to the floor and explode.
+
+AS SEEN IN:
+Leon(The Professional), Hard Boiled, Desperado to name a few. 

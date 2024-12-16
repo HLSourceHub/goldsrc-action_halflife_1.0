@@ -1,0 +1,489 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<meta name="generator" content="Adobe GoLive 5">
+		<title>AHLDC Manual Nav</title>
+		<link rel="stylesheet" href="styles/master.css">
+	</head>
+
+	<body bgcolor="#ffffff" background="images/background.jpg" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0">
+		<table border="0" cellpadding="0" cellspacing="0" width="64">
+			<tr>
+				<td><img src="images/spacer.gif" width="480" height="32" border="0"></td>
+			</tr>
+			<tr>
+				<td align="center"><img src="images/page_header.jpg" width="480" height="16" border="0"></td>
+			</tr>
+			<tr>
+				<td align="center"><img src="images/spacer.gif" width="480" height="8" border="0"></td>
+			</tr>
+			<tr>
+				<td align="center"><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="481" HEIGHT="201" id="general_02" ALIGN="">
+						<PARAM NAME=movie VALUE="general_02.swf">
+						<PARAM NAME=quality VALUE=high>
+						<PARAM NAME=bgcolor VALUE=#000000>
+						<EMBED src="general_02.swf" quality=high bgcolor=#000000  WIDTH="481" HEIGHT="201" NAME="general_01" ALIGN=""
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED> 					</OBJECT><br>
+					<br>
+					<br>
+					<span class="headline">GOAL MAPPING</span></td>
+			</tr>
+			<tr>
+				<td class="blocksatz"><span class="subheadline">Introduction</span><br>
+				Half-life : Directors Cut allows map entities to control a game. If a server is running in teamplay with 
+				rounds mode and has goal modes enabled (mp_goalsoff 0) ,it will check to see if any game_score 
+				entities exist in the map upon loading. If any do exist in the map, the server will 
+				use the entities in the map to run the game.
+				This effectively allows mappers to create their own game modes 
+				using existing half-life entities and AHL specific entities. 
+				Specific AHL entities are described in the Map entities section. 
+				Here we will describe how some of those entities are used. For the purposes of this tutorial
+				we will use examples from two maps in RC2. Urban Riot and Action Railroad. Entities described
+				in this tutorial have been extracted from the maps with the 'ripent' tool. This tool allows you
+				to import and export entities to and from a BSP map file. This allows mappers to edit entities
+				without recompiling the map.
+				<br>
+				<br>	
+				<span class="subheadline">Noreset Flag</span><br>
+				The noreset flag is used to stop entities being used in normal DM play. The noreset flag should be set to '2'  to do this.
+				<br>
+				<br>	
+				<span class="subheadline">Game Team Masters</span><br>
+				Urban Riot is setup with two teams. Each team has game_team_master entity. Here I have kept things very simple. Each master is assigned a teamname. This teamname is used to reference the info_team entity that will be described a little later on. 
+
+				<br>
+				<br>
+				{<br>
+				"origin" "-3131 3347 -1962"<br>
+				"targetname" "t1master"<br>
+				"teamname" "The Cops"<br>
+				"noreset" "2"<br>
+				"classname" "game_team_master"<br>
+				}<br>
+				<br>
+				{<br>
+				"origin" "-3128 3236 -1962"<br>
+				"targetname" "t2master"<br>
+				"teamname" "The Mob"<br>
+				"noreset" "2"<br>
+				"classname" "game_team_master"<br>
+				}<br>
+				<br>
+				In some maps you may find that a game_team_master has a field called 'teamindex' followed 
+				by a number. This is an older way of indexing teams in AHL. People would either 
+				specify the team order with '1','2','3' and so forth, or use '-1' to let the engine 
+				create the order. Some entities would then later reference the teamindex number, 
+				rather than use the teamname field. 
+				<br>
+				<br>
+				<span class="subheadline">Info Teams</span><br>
+				Each team also has an info_team entity. This entity defines the team's name, 
+				model, lives and respawn times. Each info_team entity MUST have a master that 
+				is a game_team_master. A -1 in the lives field simply means 'infinite'. Respawn 
+				times are in seconds. In Urban riot there are no subteams. We will discuss 
+				subteams later on. When you have set an info_team entity master's field to a 
+				targetname of a master, you need to set it's 'name' field to match the 
+				game_team_master's teamname field. 
+				<br>
+				<br>
+				{<br>
+				"origin" "-3128 3314 -1938"<br>
+				"master" "t1master"<br>
+				"name" "The Cops" <br>
+				"angle" "360"<br>
+				"model" "nsi_swat"<br>
+				"lives" "-1"<br>
+				"respawn" "5"<br>
+				"noreset" "2"<br>
+				"classname" "info_team"<br>
+				}<br>
+				<br>
+				{<br>
+				"origin" "-3128 3268 -1938"<br>
+				"master" "t2master"<br>
+				"name" "The Mob"<br>
+				"angle" "360"<br>
+				"model" "jawb"<br>
+				"lives" "3"<br>
+				"respawn" "0.5"<br>
+				"noreset" "2"<br>
+				"classname" "info_team"<br>
+				}<br>
+				<br>
+
+				NOTE: The order of the info_team entities is very important. The order in which they 
+				appear in the entity list of a map, is the order they will appear in the game. 
+				For teams without subteams this is simple. info_team order for subteams will be discussed later.
+				 <br>
+				<br>
+				<span class="subheadline">Monster Victims</span><br>
+				The NPC victim for Urban Riot is a monster_victim entity. monster_victim entities are like their name, victims. They stay in one spot and can be killed. 
+				Urban Riot's looks like the following :<br>
+				<br>
+				{<br>
+				"origin" "-1969 1587 -1810"<br>
+				"model" "models/player/alan/alan.mdl"<br>    
+				"rendercolor" "0 0 0"<br>  
+				"angle" "180" <br> 	
+				"vic_init_health" "500" <br>       
+				"master" "t1master" <br>
+				"deadtarget" "t1_deadwit" <br>  
+				"noreset" "2"<br>			
+				"classname" "monster_victim"<br>
+				}<br>
+				<br>
+				The monster_victim entity defines the model, angle, health of the NPC. If the NPC has a master, that team is effectively allied with the NPC and they cannot harm the NPC at all.Having the NPC share the same master of 'The Cops' means that no one from that team could spoil the game by killing the person they are supposed to be protecting.  deadtarget describes the entity that should be triggered upon the demise of the NPC. 
+				<br>
+				<br>
+				<span class="subheadline">When a NPC Dies</span><br>
+				The entity that deadtarget triggers to is t1_deadwit. This is a multi_manager entity. 
+				This particular multi-manager triggers two further entities. 
+				roundend and t2_score which are both multi-managers. roundend has a delay of 2 seconds here. 
+				<br>
+				<br>
+				{<br>
+				"origin" "-2033 1570 -1792"<br>
+				"targetname" "t1_deadwit"<br>
+				"roundend" "2"<br>
+				"t2_score" "0"<br>
+				"noreset" "2"<br>
+				"classname" "multi_manager"<br>
+				}<br>
+				<br>
+			
+				<span class="subheadline">When a NPC Dies</span><br>
+				There is only one roundend entity in urban riot. Only one is really need as it 
+				simply just ends the current round. There is a pause of 3.5 seconds before it fires.
+				<br>
+				<br>
+				{<br>
+				"origin" "-2475 3272 -1960"<br>
+				"wait" "3.5"<br>
+				"targetname" "roundend"<br>
+				"noreset" "2"<br>
+				"classname" "game_roundend"<br>
+				}<br>
+				<br>
+				<span class="subheadline">Events for NPC Death</span><br>
+				The t2_score entity is another multi-manager that kicks off entities to give a victory 
+				to 'The Mob'. The endroundcam camera entity is called to give a view of the NPC.
+				 Next the t2_scorecounter, t2_scoretext and t2_gamescore entities are called 
+				with a 1 second delay. <br>
+				<br>
+				{<br>
+				"origin" "-2060 1567 -1832"<br>
+				"endroundcam" "0"<br>
+				"t2_scorecounter" "1"<br>
+				"t2_scoretext" "1"<br>
+				"t2_gamescore" "1"<br>
+				"targetname" "t2_score"<br>
+				"noreset" "2"<br>
+				"classname" "multi_manager"<br>
+				}<br>
+				<br>
+				<span class="subheadline">Camera Entity</span><br>
+				The standard halflife camera entities consist of two parts. 
+				The camera itself (trigger_camera) and a target (info_target).
+				 Basically a camera will be set up to aim at the target and will show that view 
+				when triggered. The 'wait' field for the camera defines how long (in seconds) 
+				the view should be held. The target field is set to an info_target entity 
+				(camtarg). The spanwflags is set to 12. This equates to the following bit flags being set.
+				<br> 
+				"Freeze Player" = 4 <br>
+				"Force ALL Players To Camera = 8 <br>
+				<br>
+				{<br>
+				"origin" "-2236 1516 -1743"<br>
+				"deceleration" "500"<br>
+				"acceleration" "500"<br>
+				"wait" "5"<br>
+				"target" "camtarg"<br>
+				"targetname" "endroundcam"<br>
+				"spawnflags" "12"<br>
+				"noreset" "2"<br>
+				"classname" "trigger_camera"<br>
+				}<br>
+				<br>
+				The camera targets simply have a name that the camera references for it view angle. 
+				<br>
+				<br>
+				{<br>
+				"origin" "-2010 1566 -1775"<br>
+				"targetname" "camtarg"<br>
+				"noreset" "2"<br>
+				"classname" "info_target"<br>
+				}<br>
+				<br>
+				<span class="subheadline">Game Counter</span><br>
+				There are two game_counter entities in Urban Riot, one for each team.
+				 The t2_scorecounter keeps tracks of how many rounds 'The Mob' have one. 
+				The health field is the threshold at which this entity will trigger the 'gameover' entity. 
+				Each time the t2_scorecounter is called it increments it count by one. 
+				Therefore if 'The Mob' kill the NPC 5 times, the game will end. 
+				<br>
+				<br>  
+				{<br>
+				"origin" "-1945 1520 -1836"<br>
+				"targetname" "t2_scorecounter"<br>
+				"health" "5"<br>
+				"target" "gameover"<br>
+				"noreset" "2"<br>
+				"classname" "game_counter"<br>
+				}<br>
+				<br>
+				<span class="subheadline">Game End</span><br>
+				The game_end entity simply ends the current game. 
+				Can be used to end a game when a certain score is reached for example.
+				<br>
+				<br>
+				{<br>
+				"origin" "-3200 -71 -579"<br>
+				"targetname" "gameover"<br>
+				"noreset" "2"<br>
+				"classname" "game_end"<br>
+				}<br>
+				<br>
+				<span class="subheadline">Game Text</span><br>
+				There are two game_text entities in Urban riot. 
+				They notify the two teams on who has won the round. The t2_scoretext 
+				entity below notifies everyone that the NPC has died. Currently game_text entities 
+				are not team specific yet. <br>
+				<br>
+				{<br>
+				"origin" "-1946 1547 -1840"<br>
+				"targetname" "t2_scoretext"<br>
+				"message" "The Mob have silenced the rat!"<br>
+				"channel" "4"<br>
+				"fxtime" "0.25"<br>
+				"holdtime" "5"<br>
+				"fadeout" "0.1"<br>
+				"fadein" "0.1"<br>
+				"color2" "240 110 0"<br>
+				"color" "255 255 255"<br>
+				"y" "0.4"<br>
+				"x" "-1"<br>
+				"spawnflags" "1"<br>
+				"noreset" "2"<br>
+				"classname" "game_text"<br>
+				}<br>
+				<br>
+				<span class="subheadline">Game Score</span><br>
+				The game_score entity is extremely important. 
+				The detection of one of these entities make AHL recognise that there is a goal.
+				 This entity can be used to add or subract points from a team. To subtract points simply use 
+				a negative value. The points are added to whatever teamname is specified. 
+				Game_score will add points to the team specified by the teamname attribute. <br>
+				<br>
+				{<br>
+				"origin" "-1968 1543 -1840"<br>
+				"points" "1"<br>
+				"teamname" "The Mob"<br>
+				"targetname" "t2_gamescore"<br>
+				"noreset" "2"<br>
+				"classname" "game_score"<br>
+				}<br>
+				<br>
+				<span class="subheadline">Game Player Die</span><br>
+				The game_player_die entity is used to fire an event either when a whole team 
+				is killed, or a person on a team has been killed. 
+				The targetname field for this entity MUST be game_playerdie, otherwise this 
+				entity will not function. Here the entity will fire 't2_alldeadmm' 
+				(which is a multimanager to scoring a notification entities) 
+				when all of 'The Mob' team is dead. The presence of spawnflags=1 makes the 
+				game_player_die entity fire its target only when a whole team is dead 
+				(when no body has any lives left). If the spanwflag=1 is not present or some 
+				other value, the entity will fire upon every death of a member of that team.
+				 The most important attribute for the game_player_die entity is the master.
+				 This must be set to be the same as the team's game_team_master if you wish to act
+				 on the death of all members of that team. Dependent on the type of team it is, 
+				you will need to set the spawnflags to either :<br>
+				<br>
+				1 = Whole Team <br>
+				2 = Sub Team (See Terrorist Leader in actionrail).<br>
+				<br>  
+				{<br>
+				"origin" "-2573 3225 -1968"<br>
+				"target" "t2_alldeadmm"<br>
+				"master" "t2master"<br>
+				"targetname" "game_playerdie"<br>
+				"spawnflags" "1"<br>
+				"noreset" "2"<br>
+				"classname" "game_player_die"<br>
+				}<br>
+				<br>
+				<span class="subheadline">Spawn Points</span><br>
+				Spawn points for Goals are handled differently than say Teamplay. For a team
+				to spawn, you must have a number of spawn points (one per expected member of the
+				team). This is slightly different from Teamplay spawn points whereby one spawn
+				is chosen and the whole team is spawned around it. There are adavantages to this
+				approach however. You can now spawn a team over a number of different spawn points
+				(like the bodyguards in Wikkecity), or you could just put all their spawn points 
+				near each other (as in urban riot). <br>
+				Spawn points are tied to specific teams by tieing them to a specific master. This 
+				also has the upshot of effectively disabling them during Teamplay and DM modes.<br>
+				<br>
+				{<br>
+				"origin" "-2944 2421 -1943"<br>
+				"master" "t1master"<br>
+				"classname" "info_player_deathmatch"<br>
+				}<br>
+				<br>
+
+				<span class="subheadline">Maximum and Minimum Team Sizes</span><br>
+				You may wish to produce a map where you have a team of which you want only 1
+				 player to be a part of, or for some other reason you want to limit the maximum number
+				 of players for. This is achieved through the max_members field in the info_team entity.
+				 Below is an example of the terrorist in actionrail.
+				 Here no more than 1 person may join the team.<br>
+				You may also wish to make sure that a team has a certain number of
+				 players before starting a game. The actionrail Terrorist Leader is a good 
+				example for this also. The Terrorist Leader is an integral part of the game mode,
+				 therefore it would be stupid to allow players to start a game without one. 
+				This is solved by the min_members attribute. 
+				The min_members attribute will stop a game starting if the minimum numbers of 
+				players is not reached. If during a game the number of players falls below the 
+				min_members value, the game will halt and restart upon satisfying 
+				the min_numbers attribute.<br>
+				<br>
+				{<br>
+				"origin" "-3248 -736 -256"<br>
+				"max_members" "1"<br>
+				"min_members" "1"<br>
+				"sub_team" "Terrorists"<br>
+				"model" "trinRAGE"<br>
+				"name" "Terrorist Leader"<br>
+				"noreset" "2"<br>
+				"classname" "info_team"<br>
+				}<br>
+				<br>
+
+
+				<span class="subheadline">Subteams</span><br>
+				You may wish to have subteams on a goal map such as a VIP/Bodyguards or split one 
+				team into two for guarding two tactical locations. The order in which you have to 
+				create these is important. The example we are going to use here is actionrail. 
+				Actionrail has two main teams. <br>
+				<br>
+				Counter Terrorists <br>
+				Terrorists <br>
+				<br>
+				The Counter Terrorist team is made up of two teams :<br>
+				<br>
+				Tactical Ops<br>
+				SWAT<br>
+				<br>
+				The Terrorists team is made up of two teams :<br>
+				<br>
+				Terrorist Leader<br>
+				Thugs<br>
+				<br>
+				How do these link? Its relatively simple. Declare the first two main teams 
+				like the example below : <br>
+				<br>
+				{<br>
+				"origin" "-3248 -864 -256"<br>
+				"name" "Counter Terrorists"<br>
+				"noreset" "2"<br>
+				"classname" "info_team"<br>
+				}<br>
+				<br>
+				{<br>
+				"origin" "-3248 -704 -256"<br>
+				"name" "Terrorists"<br>
+				"noreset" "2"<br>
+				"classname" "info_team"<br>
+				}<br>
+				<br>
+				Now you have to declare the other 4 teams in a specific order dependant 
+				on how you delcared the first two. In this example we declared the Counter 
+				Terrorists first, so now we have to declare BOTH Counter Terrorist subteams.  
+				<br>
+				<br>
+				{<br>
+				"origin" "-3248 -896 -256"<br>
+				"sub_team" "Counter Terrorists"<br>
+				"lives" "4"<br>
+				"respawn" "1"<br>
+				"model" "tacteq"<br>
+				"name" "Tactical Ops"<br>
+				"noreset" "2"<br>
+				"classname" "info_team"<br>
+				}<br>
+				<br>
+				{<br>
+				"origin" "-3248 -928 -256"<br>
+				"sub_team" "Counter Terrorists"<br>
+				"respawn" "1"<br>
+				"lives" "4"<br>
+				"model" "nsi_swat"<br>
+				"name" "SWAT"<br>
+				"noreset" "2"<br>
+				"classname" "info_team"<br>
+				}<br>
+				<br>
+				And now we declare the two Terrorist Subteams.<br>
+				<br>
+				{<br>
+				"origin" "-3248 -736 -256"<br>
+				"max_members" "1"<br>
+				"sub_team" "Terrorists"<br>
+				"model" "trinRAGE"<br>
+				"name" "Terrorist Leader"<br>
+				"noreset" "2"<br>
+				"classname" "info_team"<br>
+				}<br>
+				{<br>
+				"origin" "-3248 -768 -256"<br>
+				"lives" "4"<br>
+				"respawn" "1"<br>
+				"sub_team" "Terrorists"<br>
+				"model" "the_one"<br>
+				"name" "Thugs"<br>
+				"noreset" "2"<br>
+				"classname" "info_team"<br>
+				}<br>
+				<br>
+				BUT HANG ON! Havent you made a mistake, it says here in the entity above 
+				that the sub_team is Terrorists? Yes it does, in actual fact you have 4 teams,
+				 2 of which are actually linked by that sub_team. The team structure 
+				internally in the game is thus :<br>
+				<br>
+				<img src="images/subteams.jpg" width="376" height="159" border="2"><br><br><br>
+
+				
+				<span class="subheadline">Game Player Die for Subteams</span><br>
+				
+				Game_player_die with a spawnflag of 1 will fire when a whole team id dead. 
+				If a team consists of two or more subteams, then it will only fire when there are 
+				no members left alive in any of the subteams. Obviously this would be bad on a map
+				 like actionrail. For if the Leader died, no trigger would activate as the rest
+				 of her team would still be alive in the other subteam. Therefore you have to 
+				use a spawnflags '2' setting if you wish to activate game_playerdie for 1 
+				individual subteam like below. <br>
+				<br>
+				{<br>
+				"origin" "-3168 -704 -256"<br>
+				"master" "wiliger_master"<br>
+				"target" "wiliger_dead"<br>
+				"targetname" "game_playerdie"<br>
+				"spawnflags" "2"<br>
+				"classname" "game_player_die"<br>
+				}<br>
+				<br>
+
+				<span class="subheadline">Summary</span><br>
+				Making a simple goal map for AHL is not too hard (I managed it didnt I?). 
+				Plenty of the halflife entities should work in AHL, so go mad an experiment.
+				 There is always help in the forums if your stuck. <br>
+				<br>
+
+				</td>
+			</tr>
+		</table>
+		<p></p>
+	</body>
+
+</html>

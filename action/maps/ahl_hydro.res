@@ -1,0 +1,17 @@
+sound/octaved/ahl_dawndam/start_rev22k.wav
+sound/octaved/ahl_dawndam/lmain_turb.wav
+sound/octaved/ahl_dawndam/generatorhum.wav
+sound/octaved/ahl_dawndam/dam_wind.wav
+sound/octaved/arcloop.wav
+sound/octaved/staf_sewer.wav
+gfx/env/staff2up.tga
+gfx/env/staff2rt.tga
+gfx/env/staff2lf.tga
+gfx/env/staff2ft.tga
+gfx/env/staff2dn.tga
+gfx/env/staff2bk.tga
+maps/ahl_hydro.ini
+maps/ahl_hydro.loc
+maps/ahl_hydro.mat
+maps/ahl_hydro.txt
+maps/ahl_hydro.awf

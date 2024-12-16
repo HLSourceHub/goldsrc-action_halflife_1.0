@@ -1,0 +1,13 @@
+BASICS:
+Type        : Assault rifle
+Firing modes: Semi-auto/3-burst/Full aoto
+Ammo loadout: 30 rounds/clip, 1 extra clip
+Firing rate : Medium/fast
+Damage      : Medium
+
+TACTICAL/COMMENTS:
+The M4 is best used for medium to long ranged fire support. You only have 24 bullets per clip, so using single shot or 3 round burst is recommended. It's a bulky weapon that decreases the player's movement capabilities when fired, so it may be wise to use it with a kevlar vest to shrug off enemy fire. Once you open fire, it will tear through your opponents with its high damage and penetration.
+
+AS SEEN IN:
+Action movies with great assault rifle firefights are Heat and Bullet in the Head.
+

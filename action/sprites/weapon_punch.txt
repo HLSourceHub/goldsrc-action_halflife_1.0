@@ -1,0 +1,9 @@
+4
+
+// 320
+weapon			320 wfistsu	77	27	51	22
+weapon_s		320 wfistss	77	27	51	22
+
+// 640
+weapon			640 wfistsu	0	0	112	72
+weapon_s		640 wfistss	0	0	112	72

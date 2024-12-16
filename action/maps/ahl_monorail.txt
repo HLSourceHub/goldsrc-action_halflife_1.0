@@ -1,0 +1,128 @@
+
+=========================================================================
+* LEVEL INFORMATION *
+---------------------------------------------------------------------------------
+TITLE                   : Monorail
+FILENAME                : ahl_monorail.bsp
+AUTHOR                  : Bulletbait (Dave Regis)   (& some retexturing by Jinx)
+DATE                    : June 25, 2002 (Sept 2003 for new version)
+GAME                    : Action Half-Life
+TYPE                    : All modes
+EMAIL ADDRESS           : bulletbait@yahoo.com
+HOMEPAGE URL            : http://mass.dabait.com
+ 
+---------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+---------------------------------------------------------------------------------
+
+ahl_monorail is set in a small city... parts of the city
+are made up of crusty old buildings, while other parts 
+have been modernized.  Part of the modernization effort
+was the construction of an efficient, clean monorail system 
+to tie together the old and new.
+
+The map is all about the exteriors, streets, ledges,
+rooftops, and the monorail system itself.  Building
+interiors are very minimal, only provided as a means
+of travel.
+
+---------------------------------------------------------------------------------
+SINGLE PLAYER           : Yes
+CO-OPERATIVE            : No
+DEATHMATCH              : Yes
+TEAMPLAY                : Yes
+SUGGESTED PLAYER LOAD   : 4-14
+DIFFICULTY SETTINGS     : None
+NEW TEXTURES            : Yes (see credits)
+NEW SOUNDS              : Yes
+ 
+---------------------------------------------------------------------------------
+* CONSTRUCTION *
+---------------------------------------------------------------------------------
+MAP BASE                : all new
+PREFABS USED            : none
+EDITOR(S) USED          : Hammer (WC 3.4)
+OTHER UTILITIES USED    : Wally, Paintshop Pro 7, Zoner's, HLCC, ResGen
+KNOWN BUGS              : Elevators of death
+COMPILE MACHINE         : Pentium 4 1500, 768mb RAM
+
+---------------------------------------------------------------------------------
+* OTHER RELEASED LEVELS BY THE AUTHOR *
+---------------------------------------------------------------------------------
+ACTION HALF-LIFE	: Nshift11, 
+                          bbCity, bbCity2,
+                          ahl_Dayshift,
+                          ahl_bbDistrict,
+                          Subway2, ahl_hood (these two are AQ2 ports)
+
+---------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+---------------------------------------------------------------------------------
+Unzip this (with path recursing on) to your \Action directory. If somehow
+you can't, the .bsp/.ini/.txt go in \maps, the .tga files go in \gfx\env.
+
+ 
+---------------------------------------------------------------------------------
+* CREDITS / SPECIAL THANKS *
+---------------------------------------------------------------------------------
+Id Software, Valve Software, and The Akimbo-Team.
+
+The Music:
+     A huge round of applause for [A$Z]Borg, creator of the music
+     you hear on this map.  He composed 'Follow the god that
+     railed' for this map, and I was given the challenge of
+     trying to select short sequence loops to include on this
+     map.  
+
+Mapping Support:
+    Everyone who makes http://ahlmd.telefragged.com/ possible, those
+    who host it, the moderators and the contributors.
+
+    Everyone who hangs out on #ahl_mapping (gamesnet IRC)
+
+    "The Handy Vandal", http://www.karljones.com/halflife/almanac.asp
+
+The Textures:
+
+Blazeeer: This guy has a ton of great original textures available, and they are the primary textures I used when I retextured the map. (http://www.blaz.cscentral.com/textures.htm) -Jinx
+
+     Banana... a few of the textures.
+	
+     Remedy Entertainment Ltd. for their gracious sharing of the 
+     MaxPayne textures... great stuff!
+            (C)1998-2001 Remedy Entertainment Ltd.
+
+     Cayle George -- cg_megawad_v1 texture.wad
+ 
+     Chronic Textures by MasterPlan inc. and Fullerene Productions 
+     Inc. (meatpak@hotmail.com) -- Chronic.wad
+
+     I did most of the signs, and some heavy modification of some of the
+     textures from the above mentioned WADs (e.g., take a given wall 
+     with windows, make a version without windows or vice-versa... or 
+     brightening a texture).
+
+poke646- I think I replaced most of them, but there are probably a few left in here -Jinx
+
+Play-Testing:
+     Thanks for the crew at the Doghouse for tolerating the developing
+     iterations of this map and for providing great feedback and 
+     play-testing.
+
+The LOC file:
+    Jinx: I'll do it ya bastard! ;P
+
+The sky: 
+    City 2 -- an environment map by Vlas (from Wadfather) (new version)
+
+
+=================================================================================
+* COPYRIGHT / PERMISSIONS *
+---------------------------------------------------------------------------------
+If you want to include this map in anything, please get my permission.
+Since I can't stop anyone decompiling my work, if it's not just to have a look 
+or to do some random personal editing, please just tell me. (As in, converting 
+to another mod) I will decide if I want to support it or not.
+
+This archive must remain intact.
+

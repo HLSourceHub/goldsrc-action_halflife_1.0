@@ -1,0 +1,13 @@
+8
+
+// 320
+weapon			320 320_wde50u		0	0	56	36
+weapon_s		320 320_wde50s		0	0	56	36
+ammo			320 320_hud_ammo	40	20	20	20
+crosshair		320 crosshairs		48	0	24	24
+
+// 640
+weapon			640 640_wde50u		0	0	112	72
+weapon_s		640 640_wde50s		0	0	112	72
+ammo			640 640_hud_ammo	80	40	40	40
+crosshair		640 crosshairs		48	0	24	24

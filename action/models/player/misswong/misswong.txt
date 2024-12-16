@@ -1,0 +1,95 @@
+Type: 		Halflife Multiplayer Pluggin Model
+
+Name: 		MissWong
+
+Release Date: 	3rd Jume 2001
+
+Author:		Ian Waugh    
+
+E-Mail:		gundam@btinternet.com or ian.waugh@virgin.net
+
+Homepage: 	Go G-net
+                http://freespace.virgin.net/ian.waugh/index.htm  
+
+Files:		misswong.mdl, misswong.bmp, misswong.txt 			
+
+Instructions:	Either create a folder Half-life\action\models\player\misswong               
+                and just unzip all the file into there (This might cuase problems for
+		other players who don't have this model though )
+                
+                OR choose and exiting model you whish to replace, back it up, then unzip the files
+                into its directory and rename the misswong.mdl and misswong.txt to the same name as
+                the model you are replaceing. This probably a better thing to do.
+
+		This model can be freely distributed as long as this text file is included, unmodified.
+
+                This model/skin was done specifically for ACTION HALFLIFE Haven O'Frags player model competion,
+		DO NOT EVEN THINK ABOUT CONVERTING IT TO OTHER MODS, it is AHL only.
+
+		If you want to do a skin for this model and are a good skinner ( i.e. better than me ) then email me, 
+                and I'll help you out with base skins. Please no crude skins
+
+Description: 	Miss Patrica Wong, an up and comming Hong Kong Category III Movie starlet
+		She looks good with a DE, Beretta(s), Magnum or SMG                                  
+
+Influences:	Sshe is not based on anybody in particular, she is just a pretty (but fairly well built) 
+		chinese girl, done in a realistic, if idealised way,
+		inspired by HK movies and Japanese Manga and my own perverted imagination. 
+		The costume is original I think (and it probably chafes)
+                            
+Model Info:	Vertices   	:568 
+		Polygons      	:1028 tris
+		Skins       	:4  FaceBMP.bmp  	256x256
+                                    LegBMP.bmp   	256x256
+                                    ArmBMP.bmp   	256x256
+                                    LeotardBMP.bmp	256x256
+                                    No Team Colours
+                Skeleton     	: Valves Standard Biped
+		Animation      	: Standard Action Halflife
+
+Model Notes:	4x256x skins = 1x512k skin, which although is a lot by original Halflife standard, actually is not much at all
+		for modern graphics cards. Unreal Tournement uses 4x256s and both Counter Strike and TFC use 512's and quite a few
+		people play those don't they?
+
+                I used 4x256 instead of 1x512, because my graphics cards are slow old Voodoo II's  and they don't support 512 size
+		textures. There is a apparently a slight performance hit by using mutliple skins with different palettes, 
+		as the card has more work to do to convert all of them into 16 bit colour space for display though.
+
+		Multiple photo's from different sources where used as a base, MUCH MUCH work was done by hand to make it all fit, blend 
+		and shade, its not a photo skin by any stretch of the immagination.
+
+		The polycount of 1028 is high to, but again sticking to 600-800 for a HL character aint all that necesary any more, unless
+		you want to run on a 233 with a voodoo I, the Haven'O'frags competion stated a max of 1200 anyway, so I'm way under. 
+		There are extra polies on the face around the eyebrows and bridge of the nose that look unnecessary though. 
+		These are there to make the gourand shading work, if they were not there the forhead would have dark streaks 
+		as the shader tries to smooth across the big polies of the forhead and the sharply angled eye sockets.
+
+		The model is an single mesh, not segmented, and the sholders are brought in to make it more femmenine. It is NOT easy to
+		build a Halflife model based on the Standard HL skeleton like this that still deforms nicely.
+		I think I have managed to achive this fairly well, the model deforms quite well within certain limits. The std. skeleton
+		still forces me to make the model stockier than I would have liked (Dam you Gordon Freeman, Dam you to hell).
+
+		I've tested the model in game alot, replacing other models to make sure I see her and have had no performance problems even
+		with 5 on the screen at once ( running in 800x600 on a pII 450 with voodoo II SLI and wicked3d drivers ).
+		
+		There are no custom anims, I though about doing some, (especialy for the shooting of the unique weapons as these distort
+		a little cause the right arm is to far back) but without the orignal source anims or BIP files to modifiy it would of 
+		been to had to make original ones that still fit in. ( Plus I was running out of time and am lazy )
+
+Tools used:  	Mesh			: Inspire 3D 1.0  and Max3.1
+		Mapping and boning 	: 3D Studio Max R3.,1 and Character Studio 2.2
+		Skins			: Corel Photopaint 8.0 ( photoshop, whats that all about then? )
+		Compiling		: StudioMDL	
+		Viewing			: Half-Life Model Viewer v1.1
+
+Other:  	I sometimes can be found as "Seburo", late at night on Wireplay, Barry's world and other UK servers, 
+                playing Action Halflife. I'm a LPD and play rough, but use one of my models or skins and I might
+		go easy on you ;)
+	
+Thanks:		The websites (polycount/Q2PMP, Cold Fusion) that have posted my models in the past.
+                Everybody who emailed me previous work. Many thanks for the words of encouragment.
+		Every one who has done a Player or a weapon model before, thanks for the inspiration 
+		and now I really appreciate the work you put in to bring them to life.
+		The AHL team for doing such good work on Beta4. I'm an old school AQ2 player and 
+		AHL never really did anything for me, until beta4, now its back and better than every before.
+                Oh and valve Software, For Half Life of course

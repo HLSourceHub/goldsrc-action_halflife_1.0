@@ -1,0 +1,51 @@
+// Action Half-Life Texture Types.
+//  'M' metal, 'V' ventillation, 'D' dirt, 'S' slosh liquid , 'N' snow ,
+//  'T' tile, 'G' grate (Concrete is the default), 'W' wood, 'P' computer, 'Y' glass
+// NOTE: only the first 12 characters of the texture name are used
+// NOTE: a maximum of 512 textures may be tagged in this file
+
+V 350fnt
+M armycratesside1
+M armycratetopsi
+M BN2_container1a
+M BN2_container1b
+M BN3_canister1
+M cabblack
+V carbottom
+W d_boxes2
+V DUCT_FLR01A
+V DUCT_FLR02A
+V DUCT_VNT2
+V DUCT_WALL03
+W eastcratelgtp
+W eastcratelgtp2
+V g_vanfrt
+V g_vankck
+V g_vanside
+M GarbageCan02b
+M GENERIC117
+M GENERIC74
+M in_door6
+M in_door8
+W j192_signature2
+M kinmet4
+M C1A3_DR1
+M metalcolmn
+M MetalContainer0
+W mlowood02
+M pl_barreltop
+M pl_fence33
+M pl_metalcon
+M plexcontop
+M plrtcorru2
+M sqcontainersen1
+M sqcontainerside
+M STEEL
+V tdk_ford1_t
+V tdk_ford2low
+V tdk_ford3low
+V tdk_volvo_1
+V tdk_volvo_2mlow
+V tdk_volvo_3
+D rtconk_4a
+M FIFTIES_DSK5A

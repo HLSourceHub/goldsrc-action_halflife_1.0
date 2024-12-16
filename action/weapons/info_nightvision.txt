@@ -1,0 +1,9 @@
+BASICS:
+Type        : Night vision goggles
+Usage       : Lets you see in dark areas
+
+TACTICAL/COMMENTS: 
+The first choice for ultimate night fighting. The advantage over the flashlight is that only you benefit from the night vision. However the disadvantage is that you are very vulnerable to strong light sources. Stay away from enemies using flashlights and only turn the goggles on when needed.
+
+AS SEEN IN:
+Nigh vision goggles are featured in movies like Patriot Games and Silence of the Lambs.

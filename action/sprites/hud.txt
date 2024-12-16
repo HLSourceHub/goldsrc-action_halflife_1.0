@@ -1,0 +1,212 @@
+146
+
+//		        res     file    	across  down    across  down
+//                      ----------------------------------------------------
+selection		320	640_hud_deaths	32	0	1	1
+
+bucket1			320	320hud7 	84	36	10	10
+bucket2			320	320hud7 	94	36	10	10		
+bucket3			320	320hud7 	104	36	10	10		
+bucket4			320	320hud7 	84	46	10	10		
+bucket5			320	320hud7 	84	46	10	10		
+bucket0			320	320hud7 	104	46	10	10		
+
+number_0		320	320_hud_numbers	0	0	12	12
+number_1		320	320_hud_numbers	12	0	12	12
+number_2		320	320_hud_numbers	24	0	12	12
+number_3		320	320_hud_numbers	36	0	12	12
+number_4		320	320_hud_numbers	48	0	12	12
+number_5		320	320_hud_numbers	60	0	12	12
+number_6		320	320_hud_numbers	72	0	12	12
+number_7		320	320_hud_numbers	84	0	12	12
+number_8		320	320_hud_numbers	96	0	12	12
+number_9		320	320_hud_numbers	108	0	12	12
+
+divider			320	320hud7		120	0	1	20
+
+cross			320	320_hud_icons	0	0	20	20
+// added by sykes
+lives			320	640_hud_icons	20	0	20	20
+inflives		320	640_hud_icons	40	0	20	20
+
+
+train_back		320	320hud3 	0	0	48	48
+train_stop		320	320hud3 	48	0	48	48
+train_forward1		320	320hud3 	96	0	48	48
+train_forward2		320	320hud3 	144	0	48	48
+train_forward3		320	320hud3 	192	0	48	48
+
+title_half		320	320hud3 	0	48	128	16
+title_life		320	320hud3 	128	48	116	16
+
+// weapon deaths
+//		        res     file    	x	y	width	height
+//                      ----------------------------------------------------
+d_knife			320	320_hud_deaths	0	8	32	8
+d_frag			320	320_hud_deaths	0	16	16	8
+d_beretta		320	320_hud_deaths	0	24	16	8
+d_anaconda		320	320_hud_deaths	0	32	16	8
+d_colt			320	320_hud_deaths	0	40	16	8
+d_de50			320	320_hud_deaths	0	48	16	8
+d_saa			320	320_hud_deaths	0	56	16	8
+d_akimbob		320	320_hud_deaths	0	64	16	8
+d_akimcolt		320	320_hud_deaths	0	72	16	8
+d_akimsaa		320	320_hud_deaths	32	0	16	8
+d_handcannon		320	320_hud_deaths	32	8	24	8
+d_ithaca		320	320_hud_deaths	32	16	32	8
+d_hkmp5			320	320_hud_deaths	32	24	16	8
+d_m4			320	320_hud_deaths	32	32	24	8
+d_sniper		320	320_hud_deaths	32	40	32	8
+d_50cal			320	320_hud_deaths	32	48	32	8
+
+// misc deaths
+//		        res     file    	x	y	width	height
+//                      ----------------------------------------------------
+d_kick			320	320_hud_deaths	0	0	16	8
+d_splat			320	320_hud_deaths	32	56	16	8
+d_head			320	320_hud_deaths	32	64	16	8
+d_skull			320	320_hud_deaths	32	72	16	8
+
+// unique items
+//		        res     file    	across  down    across  down
+//                      ----------------------------------------------------
+item_silencer		320	320_hud_items	0	0	20	20
+item_laser		320	320_hud_items	20	0	20	20
+item_stealth		320	320_hud_items	40	0	20	20
+item_bandolier		320	320_hud_items	60	0	20	20
+item_flashlight		320	320_hud_items	80	0	20	20
+item_nightvision	320	320_hud_items	0	20	20	20
+item_vest		320	320_hud_items	20	20	20	20
+item_holster		320	320_hud_items	40	20	20	20
+item_frag		320	320_hud_items	60	20	20	20
+
+// crosshairs
+//		        res     file    	across  down    across  down
+//                      ----------------------------------------------------
+crosshair2              320     ahl_xhairs      24      0       24      24
+crosshair3              320     ahl_xhairs      48      0       24      24
+crosshair4              320     ahl_xhairs      72      0       24      24
+crosshair5              320     ahl_xhairs      96      0       24      24
+crosshair6              320     ahl_xhairs      120     0       24      24
+crosshair7              320     ahl_xhairs      144     0       24      24
+crosshair8              320     ahl_xhairs      168     0       24      24
+crosshair9              320     ahl_xhairs      192     0       24      24
+crosshair10             320     ahl_xhairs      0	0       24      24
+crosshair11             320     ahl_xhairs      216     0       24      24
+
+crosshair12             320     ahl_xhairs      0       24      24      24
+crosshair13             320     ahl_xhairs      24      24      24      24
+crosshair14             320     ahl_xhairs      48      24      24      24
+crosshair15             320     ahl_xhairs      72      24      24      24
+crosshair16             320     ahl_xhairs      96      24      24      24
+crosshair17             320     ahl_xhairs      120     24      24      24
+crosshair18             320     ahl_xhairs      144     24      24      24
+crosshair19             320     ahl_xhairs      168     24      24      24
+crosshair20             320     ahl_xhairs      192     24      24      24
+crosshair21             320     ahl_xhairs      0     	0       24      24
+
+
+//		        res     file    	across  down    across  down
+//                      ----------------------------------------------------
+selection		640	640_hud_deaths	32	0	1	1
+
+bucket1			640	640hud7		168	72	20	20
+bucket2			640	640hud7		188	72	20	20		
+bucket3			640	640hud7		208	72	20	20		
+bucket4			640	640hud7		168	92	20	20		
+bucket5			640	640hud7		188	92	20	20		
+bucket0			640	640hud7		208	92	20	20		
+
+number_0		640	640_hud_numbers	0	0	24	24
+number_1		640	640_hud_numbers	24	0	24	24
+number_2		640	640_hud_numbers	48	0	24	24
+number_3		640	640_hud_numbers	72	0	24	24
+number_4		640	640_hud_numbers	96	0	24	24
+number_5		640	640_hud_numbers	120	0	24	24
+number_6		640	640_hud_numbers	144	0	24	24
+number_7		640	640_hud_numbers	168	0	24	24
+number_8		640	640_hud_numbers	192	0	24	24
+number_9		640	640_hud_numbers	216	0	24	24
+
+divider			640	640hud7		240	0	2	40
+
+cross			640	640_hud_icons	0	0	40	40
+// added by sykes
+lives			640	640_hud_icons	40	0	40	40
+inflives		640	640_hud_icons	80	0	40	40
+
+
+train_back		640	640hud5 	170	0	72	72
+train_stop		640	640hud5 	170	72	72	72
+train_forward1		640	640hud5 	170	144	72	72
+train_forward2		640	640hud6 	170	0	72	72
+train_forward3		640	640hud6 	170	72	72	72
+
+title_half		640	640hud4		0	226	256	30
+title_life		640	640hud5		0	226	220	30
+
+// weapon deaths
+//		        res     file    	x	y	width	height
+//                      ----------------------------------------------------
+d_knife			640	640_hud_deaths	0	16	64	16
+d_frag			640	640_hud_deaths	0	32	32	16
+d_beretta		640	640_hud_deaths	0	48	32	16
+d_anaconda		640	640_hud_deaths	0	64	32	16
+d_colt			640	640_hud_deaths	0	80	32	16
+d_de50			640	640_hud_deaths	0	96	32	16
+d_saa			640	640_hud_deaths	0	112	32	16
+d_akimbob		640	640_hud_deaths	0	128	32	16
+d_akimcolt		640	640_hud_deaths	0	144	32	16
+d_akimsaa		640	640_hud_deaths	64	0	32	16
+d_handcannon		640	640_hud_deaths	64	16	48	16
+d_ithaca		640	640_hud_deaths	64	32	64	16
+d_hkmp5			640	640_hud_deaths	64	48	32	16
+d_m4			640	640_hud_deaths	64	64	48	16
+d_sniper		640	640_hud_deaths	64	80	64	16
+d_50cal			640	640_hud_deaths	64	96	64	16
+
+// misc deaths
+//		        res     file    	x	y	width	height
+//                      ----------------------------------------------------
+d_kick			640	640_hud_deaths	0	0	32	16
+d_splat			640	640_hud_deaths	64	112	32	16
+d_head			640	640_hud_deaths	64	128	32	16
+d_skull			640	640_hud_deaths	64	144	32	16
+
+// unique items
+//		        res     file    	across  down    across  down
+//                      ----------------------------------------------------
+item_silencer		640	640_hud_items	0	0	40	40
+item_laser		640	640_hud_items	40	0	40	40
+item_stealth		640	640_hud_items	80	0	40	40
+item_bandolier		640	640_hud_items	120	0	40	40
+item_flashlight		640	640_hud_items	160	0	40	40
+item_nightvision	640	640_hud_items	0	40	40	40
+item_vest		640	640_hud_items	40	40	40	40
+item_holster		640	640_hud_items	80	40	40	40
+item_frag		640	640_hud_items	120	40	40	40
+
+// crosshairs
+//		        res     file    	across  down    across  down
+//                      ----------------------------------------------------
+crosshair2              640     ahl_xhairs      24      0       24      24
+crosshair3              640     ahl_xhairs      48      0       24      24
+crosshair4              640     ahl_xhairs      72      0       24      24
+crosshair5              640     ahl_xhairs      96      0       24      24
+crosshair6              640     ahl_xhairs      120     0       24      24
+crosshair7              640     ahl_xhairs      144     0       24      24
+crosshair8              640     ahl_xhairs      168     0       24      24
+crosshair9              640     ahl_xhairs      192     0       24      24
+crosshair10             640     ahl_xhairs      0	0       24      24
+crosshair11             640     ahl_xhairs      216     0       24      24
+
+crosshair12             640     ahl_xhairs      0       24      24      24
+crosshair13             640     ahl_xhairs      24      24      24      24
+crosshair14             640     ahl_xhairs      48      24      24      24
+crosshair15             640     ahl_xhairs      72      24      24      24
+crosshair16             640     ahl_xhairs      96      24      24      24
+crosshair17             640     ahl_xhairs      120     24      24      24
+crosshair18             640     ahl_xhairs      144     24      24      24
+crosshair19             640     ahl_xhairs      168     24      24      24
+crosshair20             640     ahl_xhairs      192     24      24      24
+crosshair21             640     ahl_xhairs      0     	0      24      24

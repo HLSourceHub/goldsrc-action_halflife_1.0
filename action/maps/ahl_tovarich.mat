@@ -1,0 +1,124 @@
+// Half-Life Texture Types.  Modify this file only if texture names are changed!
+// 'M' metal
+// 'V' ventillation
+// 'S' slosh liquid 
+// 'T' tile
+// 'G' grate 
+// 'C' Concrete
+// 'W' wood
+// 'P' computer
+// 'Y' glass
+// 'B' Wooden Tiles
+// 'R' Carpet/Fabric
+// 'X' Generic (concrete sound, generic decal)
+// 'Z' None (no decals, only sound)
+// 'K' Rock
+// 'L' Gravel/Dirt
+// 'N' Snow
+ 
+// NOTE: only the first 12 characters of the texture name are used
+// NOTE: a maximum of 512 textures may be tagged in this file
+
+// AHL_TOVARICH by bananana
+
+
+
+Z {BN_lamp2
+Z {BN_lamp2b
+V {BN_window2
+M {bn1_grate1
+M {bn1_rungs1
+M {BN2_maidcart
+M {BN3_chair1
+Z {BN3_gate1
+Z {XENO_17C
+Y +0~FIFTIES_LGT2
+Y +0~FIFTS_LGHT4
+R bank_couch1
+Z black
+C BN_wall4
+C BN_wall4b
+Y BN_window4
+W BN_wood3
+W BN_wood4
+R bn1_armchair1
+R bn1_armchair2
+Z bn1_c64a
+Z bn1_c64b
+W bn1_cabinet1a
+W bn1_cabinet1b
+R bn1_carpet1
+R bn1_carpet1b
+W bn1_chalkboard1
+X bn1_crete1
+C bn1_crete2a
+C bn1_crete2b
+C bn1_crete2c
+C bn1_crete2d
+C bn1_crete3
+W bn1_desk1a
+W bn1_desk1b
+W bn1_desk1c
+M bn1_door1
+W bn1_door2
+R bn1_floor1
+Y bn1_lab1
+P bn1_light1
+M bn1_metal1
+M bn1_metal2
+M bn1_metal3
+M bn1_metal4
+M bn1_metal5
+Z bn1_metal5b
+V bn1_metal5c
+M bn1_metal6
+M bn1_metal7
+P bn1_metal8
+W bn1_poster1
+W bn1_poster2
+W bn1_poster3
+P bn1_poster4
+W bn1_poster5
+M bn1_poster6
+W bn1_poster7
+M bn1_poster8
+M bn1_sign1
+T bn1_tiles1
+T bn1_tiles2
+C bn1_wall1
+C bn1_wall2a
+X bn1_wall2b
+C bn1_wall3a
+C bn1_wall3b
+W bn1_wood1
+G BN2_brick1
+M BN2_door1
+M BN2_door13
+W BN2_door2
+V BN2_duct1
+V BN2_duct2
+L BN2_gravel1
+C BN2_trim2
+V BN2_vent1
+M bn2_wall10
+M BN2_wall10b
+C BN2_wall16
+V BN3_comp2
+P BN3_comp4
+C BN3_floor1
+T BN3_floor2
+V BN3_heat1
+V BN3_heat2
+M BN3_rust1
+M BN3_shelf1a
+M BN3_wall12a
+W BN3_wall16
+C BN3_wall3a
+C BN3_wall3b
+C BN3_wall3c
+R carpetheat
+M GENERIC012
+L OUT_DIRT1
+
+Z SKY
+M VMETALBORD

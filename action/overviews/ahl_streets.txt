@@ -1,0 +1,14 @@
+// overview description file for ahl_streets.bsp
+
+global 
+{
+	ZOOM		1.80
+	ORIGIN	403.50	 -914.75	-929
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/ahl_streets.tga"
+	HEIGHT	-929
+}

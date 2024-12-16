@@ -1,0 +1,14 @@
+// overview description file for ahl_endlrainhc.bsp
+
+global 
+{
+	ZOOM		1.72
+	ORIGIN	-918.50	 -1036.94	-1836.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/ahl_endlrainhc.tga"
+	HEIGHT	-296
+}

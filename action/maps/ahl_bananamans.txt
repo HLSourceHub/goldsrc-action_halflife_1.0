@@ -1,0 +1,101 @@
+===========================================================================
+==  banana Mansion  ==== (c)2002 ===
+===========================================================================
+
+Wikkedmans, redone and retextured.
+second edition, optimized for ahl beta5.
+
+=======================================================================================
+---------------------------------------------------------------------------------------
+* LEVEL INFORMATION *
+---------------------------------------------------------------------------------------
+TITLE                   : Bananamans
+FILENAME                : ahl_bananamans.bsp
+AUTHOR                  : Dirk Schraeer (aka banana)
+DATE                    : december.2001
+GAME                    : Action Half-Life
+EMAIL ADDRESS           : banana@gamigo.de
+HOMEPAGE URL            : http://www.planet-action.net
+ 
+---------------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+---------------------------------------------------------------------------------------
+A classic map, retextured and redesigned.
+Original Wikkedmans by Ted Lambert(RawHyde of the A-Team)
+
+---------------------------------------------------------------------------------------
+SINGLE PLAYER           : No.
+CO-OPERATIVE            : No.
+DEATHMATCH              : 12 DM Starts.
+SUGGESTED PLAYER LOAD   : 2 to 12.
+ 
+NEW TEXTURES            : Yes. Most by me, 1 by Mloclam, some based on his textures.
+			  Couch texture by hondo.
+			  The Skybox comes from "Gunmetal" by Mad Genius Software.
+			  copyright 1998, Justin Fisher. 
+NEW SOUNDS              : Yes,
+			  Piano sounds,clock bell,music	: [A$Z]Borg
+			  Outdoor sounds,tick,tock	: RaVeN of the A-Team
+NEW MODELS		: Venus		- model by [A$Z]Mel, skin banana
+			  Beethoven	- model by ace12ga,
+					  skinmeshed by [QuAd]Duncan and [A$Z]Mel,
+					  skinned by Springer
+CD TRACK #              : No cd track is played.
+ 
+---------------------------------------------------------------------------------------
+* CONSTRUCTION *
+---------------------------------------------------------------------------------------
+MAP BASE                : Original.
+PREFABS USED            : None.
+EDITOR(S) USED          : Quark (http://www.planetquake.com/quark)
+OTHER UTILITIES USED    : Picture Publisher6
+                          Wally
+                          ZhltGui (http://www.planethalflife.com/eddi)
+ 
+KNOWN BUGS              : None.
+
+TOTAL COMPILE TIME	: About 4 hours ?
+ 
+---------------------------------------------------------------------------------------
+* OTHER LEVELS BY BANANA *
+---------------------------------------------------------------------------------------
+ahl_astorage, ahl_bananamans, ahl_bankdoom, ahl_calypso, ahl_engholm, ahl_napoli, all for AHL.
+ 
+---------------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+---------------------------------------------------------------------------------------
+If you ever visit Cork/Ireland you may find the house 
+i made the mansion-outside from. :D
+
+If you manage to solve the chess puzzle you will trigger the secret, nothing big
+but hard to do nevertheless.
+ 
+---------------------------------------------------------------------------------------
+* CREDITS *
+---------------------------------------------------------------------------------------
+The A-Team              : For creating a mod that's fun mapping for.
+The QuArK Team		: For the best editor for Quake Engine Games there is.
+The #ahlgerman fr00ts	: For help,testing and the endless hours of compiling 
+			  maps i forced them to.
+[A$Z]Borg		: For his music,being cool and general willingness to help.
+Luebbi			: For the loc file and coolnes, and for not fondling my bottom
+			  at borgs lan (at least while i was awake)
+[BR]Colm		: For his bot waypoint files.
+
+=======================================================================================
+* COPYRIGHT / PERMISSIONS *
+---------------------------------------------------------------------------------------
+This level is (C) 2002 Dirk Schraeer.
+
+Authors MAY NOT use this level as a base to build additional levels.
+No decompiling, hacking, or modification of the .bsp or related files will be 
+tolerated.
+ 
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS! If you don't co-operate, then DON'T DISTRIBUTE
+IT IN ANY FORM!
+ 
+No money may be charged for this level AT ALL without first getting permission from me.
+
+Action Half-Life (C) The A-Team.
+Half-Life (C) Sierra On-line and Valve L.L.C. All rights reserved.

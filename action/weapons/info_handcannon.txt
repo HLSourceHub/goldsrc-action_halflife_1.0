@@ -1,0 +1,12 @@
+BASICS:
+Type        : Handcannon
+Firing modes: Double-barrel/single-barrel
+Ammo loadout: 2 shells, 12 spare
+Firing rate : Slow
+Damage      : High at close range, none at medium or long range
+
+TACTICAL/COMMENTS:
+The best choice for ultimate short-ranged combat. This weapon is a true beast, sending enemies flying at close ranges, but at medium or long ranges you are better off switching to your backup weapon. Always plan before you strike, many players like to sneak behind their enemies and blast them from behind therefore stealth slippers are a common choice.
+
+AS SEEN IN:
+Some great movies containing handcannons like the Remington 870 are Desperado and, of course, Mad Max.

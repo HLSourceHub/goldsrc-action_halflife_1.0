@@ -1,0 +1,180 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<meta name="generator" content="Adobe GoLive 5">
+		<title>AHLDC Manual Nav</title>
+		<link rel="stylesheet" href="styles/master.css">
+	</head>
+
+	<body bgcolor="#ffffff" background="images/background.jpg" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0">
+		<table border="0" cellpadding="0" cellspacing="0" width="64">
+			<tr>
+				<td><img src="images/spacer.gif" width="480" height="32" border="0"></td>
+			</tr>
+			<tr>
+				<td align="center"><img src="images/page_header.jpg" width="480" height="16" border="0"></td>
+			</tr>
+			<tr>
+				<td align="center"><img src="images/spacer.gif" width="480" height="8" border="0"></td>
+			</tr>
+			<tr>
+				<td align="center"><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="481" HEIGHT="201" id="general_03" ALIGN="">
+						<PARAM NAME=movie VALUE="general_03.swf">
+						<PARAM NAME=quality VALUE=high>
+						<PARAM NAME=bgcolor VALUE=#000000>
+						<EMBED src="general_02.swf" quality=high bgcolor=#000000  WIDTH="481" HEIGHT="201" NAME="general_03" ALIGN=""
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+
+					</OBJECT><br>
+					<br>
+					<br>
+					<span class="headline">BOTS</span></td>
+			</tr>
+			<tr>
+				<td class="blocksatz"><span class="subheadline">Using Bots:</span><br>
+					
+					To get bots in a multiplayer game, either internet or lan, dedicated or not, just type 'mp_bots x' at the console, where x is the number of bots you want. Bots behave very much like human players. They even respond to team radio messages.<br>
+						<br>
+					<br>
+					<span class="subheadline">
+					
+					Customizing Bots:</span><br>
+					
+					
+					Bots can be customized very easily. In the /action/botinfo/ directory, there is a biflist.txt which defines what order the bots will enter in. Put your favorite bots at the top of this list. Each bot has a .bif file. Open default.bif for information about how to customize the bots with all the variables. Note, the names listed in biflist.txt correspond to the name of the .bif file, NOT necessarily the name of the Bot, as defined within the .bif file. You can either modify the existing .bif files or create your own.<br>
+						<br>
+					<br>
+					<span class="subheadline">
+					
+					Making Waypoint Files:</span><br>
+					
+					
+					If you want to use bots on a map that doesn't have wayoints, you can, but they may have trouble navigating, and will tend to stay in one area of the map. However, you can make waypoints for any old or new maps that don't have them. If you like, you can even redo the waypoints that you already have.<br>
+						<br>
+					
+					To make waypoints for a map, you need to get into waypoint edit mode. You need to enable cheats (set sv_cheats to 1) before you load the level, and when it's loaded if there is no waypoint file you'll automatically be put into waypoint edit mode. However, if there is a file and you want to edit the existing set of waypoints, then you need to also set bot_wp_edit to 1 in addition to sv_cheats 1 before you load the level. A good way to do all this is to modify your listenserver.cfg to include the following lines:<br>
+						<br>
+					
+					sv_cheats 1<br>
+					
+					bot_wp_edit 1<br>
+					
+					developer 1<br>
+						<br>
+					
+					Then, start a lan game. It may be necessary to start a different map that already has waypoints, and then restart the map you are working on before you it will enter waypoint edit mode.<br>
+						<br>
+					
+					Once you're in waypoint edit mode, you can use the bot_wp_* commands to do a variety of things. bot_wp_teletolast will teleport you to the last waypoint in the main trail as well, which can be useful.<br>
+						<br>
+					
+					bot_wp_remove will remove the most recent waypoint in a trail. If you put a number after it (e.g. bot_wp_remove 20 ) it will remove the waypoint with the corresponding number.<br>
+						<br>
+					
+					As for adding waypoints, there are a number of commands due to the number of waypoint types. Here's a list of the waypoint type numbers, what they do, and the commands to add them. The type numbers are what you'll see in edit mode when the waypoint is highlighted and it gives the &quot;Type:&quot; to you. By default the commands to add these points will only add them at the end of the current trail. However, if you put a number behind one of them, it will be inserted at that point in the trail. For example, bot_wp_add 26 will insert a waypoint after waypoint number 26 as number 27, and if there was a number 27 already then 27 would become 28 (and 28 would become 29 and so on).<br>
+						<br>
+					
+					WP_TYPE_NORMAL (0) - Standard waypoints that the bot follows, nothing special.<br>
+					
+					Command: bot_wp_add<br>
+						<br>
+					
+					WP_TYPE_JUMP (1) - Jump points. The bot will jump when it hits these.<br>
+					
+					Command: bot_wp_add_jump<br>
+						<br>
+					
+					WP_TYPE_PLATFORM (2) - The bot will only advance to this waypoint if a platform or some kind of trail entity is under the point, otherwise it will wait. Useful for trains, lifts, etc. but should be used carefully.<br>
+					
+					Command: bot_wp_add_plat<br>
+						<br>
+					
+					WP_TYPE_NOVIS (3) - The bot will ignore visibility rules and continue trying to get to this point even if it cannot see it.<br>
+					
+					Command: bot_wp_add_novis<br>
+						<br>
+					
+					WP_TYPE_ONLYFORWARD (9) - The bot can only follow this point forward on the trail. If it's following the trail in reverse order and it hits this point, it will immediately reverse order again and go forward in the other direction. Useful for if a bot has trouble going back in the trail in an area (such as a long drop that it can't get back up).<br>
+					
+					Command: bot_wp_add_onlyfor<br>
+						<br>
+					
+					WP_TYPE_CROUCH (15) - The bot will crouch the entire time it is trying to get to this point.<br>
+					
+					Command: bot_wp_add_crouch<br>
+						<br>
+					
+					WP_TYPE_SNIPER (16) - Sniper points. If a bot has a sniper rifle and wants to snipe it will take these points into special consideration. The command for adding sniper points is different from the others, however, as it requires parameters. You must add the insert point (just like you would use the additional optional number with another one of the waypoint add commands), and after that you must add the snipe-to point number. The snipe-to point number is the number of the waypoint the bot will look at when sniping from this point. So, if you wanted the bot to snipe at point 30 and look at point 60 while sniping, the command would be bot_wp_add_snipe 30 60 .<br>
+					
+					Command: bot_wp_add_snipe # #<br>
+						<br>
+					
+					WP_TYPE_CLIMBWALL (17) - This indicates the bot should try to climb a wall in front of it to get to this point.<br>
+					
+					Command: bot_wp_add_climb<br>
+						<br>
+					
+					WP_TYPE_ENEMYREVERSE (18) - If the bot hits this point while it is fighting an enemy, it will reverse the trail. Useful for doors that the bot has to be facing to open (since it won't want to turn to open them when it's busy fighting).<br>
+					
+					Command: bot_wp_add_enemyrev<br>
+						<br>
+					
+					WP_TYPE_INSTAYAW (19) - The bot will turn toward this point with a yawspeed of 360 regardless if its regular yaw speed.<br>
+					
+					Command: bot_wp_add_instayaw<br>
+						<br>
+					
+					WP_TYPE_LONGJUMP (20) - The bot will do a longjump manuever when it hits this point.<br>
+					
+					Command: bot_wp_add_longjump<br>
+						<br>
+					
+					WP_TYPE_NODIVE (21) - If the bot is within 512 units of this point, it will not dive regardless of conditions.<br>
+					
+					Command: bot_wp_add_nodive<br>
+						<br>
+					
+					You should be able to get the bot working pretty well on your level if you use all these intelligently. Of course, I would be lying if I said it didn't take a painful tedious amount of time and work to get everything operating perfectly.<br>
+						<br>
+					
+					Once you're finally finished modifying the route file or making your new route file or whatever, use the command bot_wp_save to save the route file and/or the changes you've made.<br>
+						<br>
+					
+					To get a good set of routes, start where ever you spawn, and run all around the map laying down wayoits every step or two. Make sure this path goes near (preferably directly over) all the spawn points and ends up where it started. Then, run around the map again, but take a different route and dont worry about going over the spawn points. The more different paths you have in a given room, the less predictable the bots will be. Be sure to do the necessary climb, duck, foreward only, and snipe points where they are needed. You should end up with a very long path that winds around the level many times, and no two adjacent wayoints should be more then a meter apart. A large level could easily have over a thousand wayoints.<br>
+						<br>
+					
+					Note, bots will automatically open every use-door and press every button that they hit. A good way to see how waypoint files are made is to load them up with bot_wp_edit on and take a look at them to get an idea of how a level should be routed.<br>
+						<br>
+					
+					I would recommend making some binds to speed up the waypoint creation process, for example:<br>
+						<br>
+					
+					bind &quot;SPACE&quot; &quot;bot_wp_add_jump; echo added waypoint (jump)&quot;<br>
+					
+					bind &quot;c&quot; &quot;bot_wp_add_climb; echo added waypoint (climb)&quot;<br>
+					
+					bind &quot;r&quot; &quot;bot_wp_add_enemyrev; echo added waypoint (enemy reverse)&quot;<br>
+					
+					bind &quot;CTRL&quot; &quot;bot_wp_add_longjump; echo added waypoint (longjump)&quot;<br>
+					
+					bind &quot;SHIFT&quot; &quot;bot_wp_add_crouch; echo added waypoint (crouch)&quot;<br>
+					
+					bind &quot;MOUSE1&quot; &quot;bot_wp_add; echo added waypoint&quot;<br>
+					
+					bind &quot;MOUSE2&quot; &quot;bot_wp_remove; echo removed waypoint&quot;<br>
+					
+					bind &quot;MOUSE3&quot; &quot;bot_wp_add_onlyfor; echo added waypoint (only forward)&quot;<br>
+						<br>
+					
+					This way, you can just run around pressing Mouse1 rapidly to create basic paths, and pressing other buttons for special places. <br>
+					<br>
+				</td>
+			</tr>
+		</table>
+		
+	</body>
+
+</html>

@@ -1,0 +1,118 @@
+//THIS FILE CANNOT EXCEED 16384 BYTES IN LENGTH
+//(the caps indicate that this is an important thing)
+
+name=Kirt
+model=kat
+
+yawspeed=90
+//yawspeed is degrees turned per frame. In this case it's 90 degrees per frame
+
+accuracy=10
+//A low value is good, a high value is bad (so 1 will be basically perfect accuracy, disregarding
+//the standard weapon inaccuracy)
+
+intlevel=4
+//Can be 0-4. 4 is a high intelligence level, while 0 is low. The int level just decides whether
+//or not the bot can do certain more advanced things.
+
+fov=90
+//Field of view, 90 is the default (same as a player's)
+
+distance=0
+//the maximum distance a bot can see in game units. The default is 0, which means the distance is unlimited.
+
+reflex=0
+//Time it takes for the bot to react to a threat. A value of 0.1 would be 1/10 of a second, whereas 1 would be 1 second.
+
+candive=1
+//This means the bot can dive. If the value is 0 then the bot cannot dive.
+
+suicidal=1
+//Is the bot prone to suiciding in bad situations? (1 means yes)
+
+canchat=1
+//A value of 0 means the bot will never speak, a value of 2 means the chat section of default.bif is used.
+
+favweapon=0
+//Favorite weapon choices are:
+//0 - Random
+//3 - Beretta
+//4 - Magnum
+//5 - Colt
+//6 - DEagle
+//7 - SAA
+
+favuniqueweapon=0
+//Favorite unique weapon choices are:
+//0 - Random
+//3 - Throwing knives
+//10 - Akimbo berettas
+//11 - Akimbo colts
+//12 - Akimbo SAA's
+//13 - Handcannon
+//14 - Shotgun
+//15 - MP5
+//16 - M4
+//17 - Sniper rifle
+//18 - 50 cal sniper rifle
+
+favspecial=0
+//Favorite special item choices are:
+//0 - Random
+//2 - Bandolier
+//3 - Flashlight
+//4 - Laser sight
+//5 - Night vision
+//6 - Silencer
+//7 - Stealth
+//8 - Armor vest
+//9 - Holster
+//10 - Frag grenade
+
+//These are the chat sections. At the moment, chat is only used to communicate messages to team members.
+//Also note that the %x options in regular chat will work here as well (e.g. %l for location). Each chat
+//section can also have an unlimited number of lines (which one is used is decided at random), but remember
+//not to exceed the max file size mentioned above.
+//Here's what each section (by number) is for:
+//1 - Enemy spotted
+//2 - Taking fire
+//3 - Need backup
+//4 - Enemy down
+//5 - The bot says it's going to a sniping location
+//6 - The bot says it's going directly after the enemy
+//7 - Suicide lines (if applicable)
+
+[CHAT=1]
+I found some of the mofos at %l, get your asses down here...
+alright...i found enemies at %l, but i'm not dying alone...let's go!
+::whips out %w:: found me a target at %l...
+[CHATEND=1]
+
+[CHAT=2]
+getting shot sucks...i'm at %l, at %h
+my lucks running out and i'm actually getting shot now...come avenge me at %l
+[CHATEND=2]
+
+[CHAT=3]
+where the fuck is my backup!!  i'm at %l
+i'm pinned down at %l, how's about you stop camping and come give me a hand...
+[CHATEND=3]
+
+[CHAT=4]
+one dead POS enemy at %l
+add that dudes name to my list of %w kills... his dead ass is laying at %l
+::scratches name off hit-list:: my %w handiwork is on display at %l
+[CHATEND=4]
+
+[CHAT=5]
+even the best of us bitch out and use a %w to snipe sometimes...i'll provide covering fire.
+Currently at %l, going to go hide in a corner somehere with my %w and splatter a few people...
+[CHATEND=5]
+
+[CHAT=6]
+Proceeding from %l to go hand then enemy their asses with a %w and %h
+[CHATEND=6]
+
+[CHAT=7]
+lol...you think i'd disgrace myself by letting YOU kill me...h4h4h4h4....10101010....1 m r337, u r n07!!!  ::chews up cyanide tablet::
+[CHATEND=7]

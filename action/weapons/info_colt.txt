@@ -1,0 +1,13 @@
+BASICS:
+Type        : .45 semi-auto pistol
+Firing modes: Semi-auto/full-auto
+Ammo loadout: 7 rounds/clip, 1 extra clip
+Firing rate : Medium/fast
+Damage      : Medium
+
+TACTICAL/COMMENTS:
+The Colt 1911 is a strong and accurate handgun, which can take down most enemies with a few shots. However it doesn't have a large clip, so you have to carefully pick your targets. A bandolier is very useful here to get more ammo, but kevlar vests and even stealth slippers are common selections too.
+
+AS SEEN IN:
+The Colt 1911 can be seen in large numbers in Last Man Standing and, the source of inspiration for gold 1911s, Face/Off.
+

@@ -1,0 +1,12 @@
+// Action Half-life
+game "AHL: Directors Cut"
+gamedir "action"
+url_info "http://www.ministryofaction.net"
+date "August 2005"
+version "RC2"
+size "400MB"
+cldll "1"
+hlver "1110"
+startmap "c0a0e"
+gamedll "dlls\ahl.dll"
+gamedll_linux "dlls/ahl_i386.so"

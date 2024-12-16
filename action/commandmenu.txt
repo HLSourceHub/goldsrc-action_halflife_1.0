@@ -1,0 +1,206 @@
+// Command Menu definition//
+// 
+//Basic Format:
+//		"<Bound Key>" "<Button Text>" "<Command sent to server>"
+//
+// Or you can check for a specific class:
+//		<Class> "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// Where <Class> is one of: SCOUT, SNIPER, SOLDIER, DEMOMAN, MEDIC, HWGUY, PYRO, SPY, ENGINEER
+// 
+// Or you can check for a specific map:
+//		MAP <MapName> "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// Where <MapName> is the name of the map, without the ".bsp".
+//
+// Or you can check for a specific team:
+//		TEAM1 "<BoundKey>" "<Button Text>" "<Command sent to server>"
+//		TEAM2 "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// TEAM3, TEAM4 work as well
+// GRIM
+// Or you can specify TEAM in general using no number : TEAM
+// GRIM
+//
+// Buttons can also open up submenus, as follows:
+// {
+// 	"Some More Options",
+//	{
+//		...
+//	}
+// }
+//
+// Class can be any of the following:
+//		SCOUT, SNIPER, SOLDER, DEMOMAN, MEDIC, HWGUY, PYRO, SPY, ENGINEER
+//	Buttons prepended with a class name will only be seen if the player
+//	is that class. 
+//
+// Buttons preceded with "CUSTOM" are handled in special ways. They can only be moved
+// around or deleted.
+//
+//
+// Limitations:
+//		Maximum of 40 menus.
+//		Maximum of 100 buttons per menu.
+//--------------------------------------------------------
+// Everything below here is editable
+"1" "HELP"
+{	CUSTOM		"1" "MAP DESCRIPTION"	"!MAPBRIEFING"
+	CUSTOM		"2" "SERVER INFO"	"!SERVERINFO"
+}
+        CUSTOM		"2" "CHANGE TEAM"	"!CHANGETEAM"
+        CUSTOM		"3" "CHANGE EQUIPMENT"	"!CHANGEEQUIP"
+// Here are the rest of the buttons and submenus
+// You can change these safely if you want.
+TEAM "4" "REPORTS"
+{
+	"1" "Reporting in"		"say_team Reporting in. Location: %l ; radio reportin ; gesture salute"
+	"2" "Enemy Spotted"	"say_team I've spotted %V near %l ; radio enemys"
+	"3" "Enemy Down"		"say_team Enemy down (%v at %l) ; radio enemyd ; gesture flipoff"
+  	"4" "Im Hit!"		"say_team I'm hit! (%H); radio im_hit"
+	"5" "Team Mate Down"	"say_team Team mate down... (%l) ; radio teamdown ; gesture salute"
+	"6" "Area Clear"		"say_team %L is clear. No enemies here. ; radio area clear"
+	"7" "Need assistance!"	"say_team Need assistance near %L ; radio backup"
+	"8" "MAP SPECIFIC"
+	{
+		MAP ahlg_actionrail_dc "1" "Going to Train"	"say_team Going to TRAINYARD;radio code green"
+		MAP ahlg_actionrail_dc "2" "Going to Bridge"	"say_team Going to BRIDGE;radio code blue"
+		MAP ahlg_actionrail_dc "3" "Train Clear"	"say_team TRAINYARD is clear;radio area green clear"
+		MAP ahlg_actionrail_dc "4" "Bridge Clear"	"say_team BRIDGE is clear;radio area blue clear"
+		MAP ahlg_wikkedkorp_dc "1" "On Offense"	"say_team I'm on offense (%W and %I)"
+		MAP ahlg_wikkedkorp_dc "2" "On Defense"	"say_team I'm on defense (%W and %I)"
+		MAP ahlg_urban_riot_dc "1" "With Witness"	"say_team With the witness; radio room clear coverthis window coverthis door"
+		MAP ahlg_urban_riot_dc "2" "Street Clear"	"say_team Street is clear;radio street clear"
+		MAP ahlg_urban_riot_dc "3" "Alley Clear"	  "say_team Alley is clear;radio back clear"
+ 		MAP ahlg_urban_riot_dc "4" "Roof Clear"	"say_team Roof is clear;radio roof clear"
+		MAP ahlg_urban_riot_dc "5" "Stairway Clear"	"say_team Stairway is clear;radio stairway clear"
+		MAP ahlg_urban_riot_dc "6" "Building Clear"	"say_team Building is clear;radio building clear"
+		MAP ahlg_onslaught2_dc "1" "Uncovered"	"say_team Bomb is unprotected.;radio caution"
+		MAP ahlg_metro_dc "1" "On Start"	"say_team I'm covering around VIP start areas.;radio reportin"
+		MAP ahlg_metro_dc "2" "On Middle"	"say_team I'm covering the middle areas.;radio reportin"
+		MAP ahlg_metro_dc "3" "On Dark"	"say_team I'm covering the dark area near VIP escape.;radio reportin"
+		MAP ahlg_metro_dc "4" "Position"	"say_team I'm %T and near %L;radio reportin"
+		MAP ahlg_wikkedcity_dc "1" "On Streets"	"say_team I'm watching the streets.;radio reportin"
+		MAP ahlg_wikkedcity_dc "2" "In Overon"	"say_team I'm covering the Overon interior.;radio reportin"
+		MAP ahlg_wikkedcity_dc "3" "On Helipad"	"say_team I'm securing the helipad;radio reportin"
+		MAP ahlg_wikkedcity_dc "4" "Position"	"say_team I'm %T and near %L;radio reportin"
+		MAP crossfire "1" "Airstrike Rdy"	"say_team Airstrike is armed!;radio caution"
+	}
+}
+TEAM "5" "COMMANDS"
+{
+	"1" "Team, report in!"	"say_team Team, report in! (%L) ; radio treport"
+	"2" "Go!"			"say_team GO! ; radio go ; gesture wave_forward"
+	"3" "Stop"		"say_team Stop and wait here ; radio holdpos ; gesture wave_stop"
+	"4" "Cover Me"		"say_team %v, Cover me! ; radio cover"
+	"5" "Stop Covering"		"say_team %v, stop covering me; radio go; gesture salute"
+	"6" "Split Up"		"say_team Let's split up, %V ; radio splitup ; gesture wave_stop"
+	"7" "Regroup"		"say_team Let's regroup. I'm at %L ; radio regroup team ; gesture salute"
+	"8" "MAP SPECIFIC"
+	{
+		MAP ahlg_actionrail_dc "1" "Cover Train"	"say_team Cover TRAINYARD;radio coverthis building"
+		MAP ahlg_actionrail_dc "2" "Cover Bridge"	"say_team Cover BRIDGE;radio coverthis area"
+		MAP ahlg_actionrail_dc "3" "Cover Tunnels"	"say_team Cover the tunnels;radio coverthis flank"
+		MAP ahlg_actionrail_dc "4" "Attack Train"	"say_team Attack TRAINYARD;radio go green"
+		MAP ahlg_actionrail_dc "5" "Attack Bridge"	"say_team Attack BRIDGE;radio go blue"
+		MAP ahlg_wikkedkorp_dc "1" "Attack"		"say_team Attack!;radio go"
+		MAP ahlg_wikkedkorp_dc "2" "Defend Roof"	"say_team Defend the roof;radio coverthis roof"
+		MAP ahlg_wikkedkorp_dc "3" "Defend Lobby"	"say_team Defend lobby/atrium;radio coverthis room"
+		MAP ahlg_urban_riot_dc "1" "Defend Witness"	"say_team Defend the Witness;radio code red"
+		MAP ahlg_urban_riot_dc "2" "Attack from Alley"	"say_team Attack via the Alley;radio go back building"
+		MAP ahlg_urban_riot_dc "3" "Attack from Street"	"say_team Attack via the Street;radio go front street"
+		MAP ahlg_urban_riot_dc "4" "Attack back Windows"	"say_team Go through back windows;radio go back window"
+		MAP ahlg_urban_riot_dc "5" "Attack front Window"	"say_team Go through back windows;radio go front window"
+		MAP ahlg_urban_riot_dc "6" "Attack up stairway"	"say_team Go up stairway;radio go up stairway"
+		MAP ahlg_onslaught2_dc "1" "Gonna Blow!"	"say_team Get out of there, it's gonna blow!;radio run"
+		MAP ahlg_metro_dc "1" "Cover Start"		"say_team Cover the VIP start building.;radio coverthis building"
+		MAP ahlg_metro_dc "2" "Cover Middle"	"say_team Secure the middle area.;radio covethis street"
+		MAP ahlg_metro_dc "3" "Cover Dark"		"say_team Watch the dark area near VIP escape.;radio coverthis area"
+		MAP ahlg_wikkedcity_dc "1" "Cover Streets"	"say_team Watch the streets.;radio coverthis street"
+		MAP ahlg_wikkedcity_dc "2" "Cover Overon"	"say_team Cover the Overon interior.;radio coverthis building"
+		MAP ahlg_wikkedcity_dc "3" "Cover Helipad"	"say_team Secure the helipad;radio coverthis floor"
+		MAP crossfire "1" "Airstrike!"	"say_team About to trigger AIRSTRIKE! Get to the bunker!;radio takecover run"
+	}
+}
+"6" "GESTURES"
+{
+	"1" "POINT FORWARD" 	"gesture point_forward"
+	"2" "POINT UP"      	"gesture point_up"
+	"3" "WAVE FORWARD"  	"gesture wave_forward"
+	"4" "WAVE STOP"     	"gesture wave_stop"
+	"5" "FLIP OFF"      	"gesture flipoff"
+	"6" "TAUNT"         		"gesture taunt"
+	"7" "SALUTE"        	"gesture salute"
+}
+"7" "Quick Tuning"
+{
+	"1" "Low End"			"exec lowend.cfg"
+	"2" "High End"			"exec highend.cfg"
+	"3" "Enable FX"
+	{
+		"1" "Wall FX on"	"cl_wallfx 1"
+		"2" "Blood FX on"	"cl_bloodfx 1"
+		"3""Muzzle FX on"	"cl_muzzlefx 1"
+		"4" "External Muzzle on"	"cl_externalmuzzlefx 1"
+		"5" "High Res Tex on"	"gl_max_size 512, gl_round_down 0"
+	}
+	"4" "Disable FX"
+	{
+		"1" "Wall FX off"	"cl_wallfx 0"
+		"2" "Blood FX off"	"cl_bloodfx 0"
+		"3""Muzzle FX off"	"cl_muzzlefx0"
+		"4" "External Muzzle off"	"cl_externalmuzzlefx 0"
+		"5" "High Res Tex off"	"gl_max_size 256, gl_round_down 1"
+	}
+	"5" "Misc FX"
+	{
+		"1" "High Models on"	"cl_himodels 1"
+		"2" "High Models off"	"cl_himodels 0"
+		"3" "Decal Settings"
+		{
+		"1" "0 Decals"		"mp_decals 0"
+		"2" "100 Decals"	"mp_decals 100"
+		"3" "200 Decals"	"mp_decals 200"
+		"4" "300 Decals"	"mp_decals 300"
+		}
+	}
+	"6" "Bots"
+	{
+		"1" "End Round"	"sv_roundrestart 1"
+		"2" "Gib Bots"	"killallbots"
+		"3" "3 Bots"	"mp_bots 3"
+		"4" "5 Bots"	"mp_bots 5"
+		"5" "7 Bots"	"mp_bots 7"
+	}
+}
+"8" "Net Settings"
+{	"1" "Low End"			"exec netlow.cfg"
+	"2" "Medium"			"exec netmedium.cfg"
+	"3" "High End"			"exec nethigh.cfg"
+	"4" "Netgraph"
+	{
+		"1" "Netgraph 1"	"net_graph 1"
+		"2" "Netgraph 2" 	"net_graph 2"
+		"3" "Netgraph 3"	"net_graph 3"
+		"4" "Netgraph off"	"net_graph 0"
+	}
+	"5" "Netgraph Positions"
+	{
+		"1" "Netgraph Left" 	"net_graphpos 3"
+		"2" "Netgraph Center" 	"net_graphpos 2"
+		"3" "Netgraph Right" 	"net_graphpos 1"
+	}
+}
+"9" "Quick Setup"
+{
+	"1" "A Better Tomorrow"	"equip 3 9 7; developer 1; echo You have Magnum, akimbo berettas and kevlar vest; developer 0 "
+	"2" "The Professional"	"equip 4 17 5; developer 1; echo You have Colt1911, 50cal and silencer; developer 0"
+	"3" "Desperado Knifer"	"equip 4 1 1; developer 1; echo You have Colt1911, knifes and bandolier ; developer 0"
+	"4" "Ghostdog"		"equip 4 9 5; developer 1; echo You have Desert Eagle, akimbo berettas and silencer; developer 0"
+	"5" "Pale Rider"		"equip 3 11 8; developer 1; echo You have Magnum, akimbo saa and quick draw; developer 0"
+	"6" "Mad Max"		"equip 5 12 6; developer 1; echo You have Desert Eagle, handcannon and stealth slippers; developer 0"
+	"7" "Desperado"		"equip 4 12 7; developer 1; echo You have Colt1911, handcannon and kevlar vest; developer 0"
+	"8" "The Heat"		"equip 3 15 3; developer 1; echo You have Magnum, Assault Rifle  and laser; developer 0"
+	"9" "Face/off"		"equip 5 10 7; developer 1; echo You have Desert Eagle, akimbo colts and kevlar vest; developer 0"
+	"0" "Die Hard"		"equip 1 14 3; developer 1; echo You have Beretta, sub machinegun and laser; developer 0"
+	"q" "Last Man Standing"	"equip 6 10 1; developer 1; echo You have Saa, akimbo colts and bandolier; developer 0"
+	"w" "Hardboiled"		"equip 3 13 7; developer 1; echo You have Magnum, shotgun and kevlar vest; developer 0"
+	"e" "Th3 M47R1X"		"equip 3 14 7; developer 1; echo You have Magnum, sub machinegun and kevlar vest; developer 0"
+}

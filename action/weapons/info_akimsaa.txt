@@ -1,0 +1,12 @@
+BASICS:
+Type        : Akimbo single action revolver
+Firing modes: Single shot
+Ammo loadout: 12 rounds/2 drums, 12 spare
+Firing rate : Medium/fast
+Damage      : Medium
+
+TACTICAL/COMMENTS:
+The Single Action Army revolvers are a very old but reliable weapon. They offer good accuracy, damage and firerate. However the ammo capacity of these two guns is limited at 12 bullets. Additionally, reloading can take ages because only one bullet can be loaded in the drum at a time, thus make sure you have enough time when reloading the SAAs. A bonus to that is that you can stop mid-reload and fire off a few rounds if necessary, similar to the shotgun.
+
+AS SEEN IN:
+The SAAs can mostly be seen in westerns, however the occasional modern day action hero is still using it.

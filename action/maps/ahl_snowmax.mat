@@ -1,0 +1,110 @@
+// Half-Life Texture Types.  Modify this file only if texture names are changed!
+// 'M' metal
+// 'V' ventillation
+// 'S' slosh liquid 
+// 'T' tile
+// 'G' grate 
+// 'C' Concrete
+// 'W' wood
+// 'P' computer
+// 'Y' glass
+// 'B' Wooden Tiles
+// 'R' Carpet/Fabric
+// 'X' Generic (concrete sound, generic decal)
+// 'Z' None (no decals, only sound)
+// 'K' Rock
+// 'L' Gravel/Dirt
+// 'N' Snow
+ 
+// NOTE: only the first 12 characters of the texture name are used
+// NOTE: a maximum of 512 textures may be tagged in this file
+
+R aWall01_512x
+C beton46b
+C Beton90_256x
+W Bookshelf01_
+C Brick58_256x
+C Brick60a
+T C1A3FLOOR02
+T c_tarmarbtil
+R Carpet08a
+R CARPET12A
+C concretetrim
+M container050
+M container060
+M Container11
+C CRETE1_WALL0
+C CRETE4_WALL0
+W CUPBOARD02_1
+W CUPBOARD16_6
+W Door51_128x2
+W Door54ba
+W Door60ab
+W Door78a_128x
+M DUCT_BREAK
+Y +AEXIT
+C ExternalWal0
+C ExternalWal0
+C ExternalWal0
+C EXTERNALWALL
+C ExternalWall
+C EXTERNALWALL
+C EXTERNALWALL
+C EXTERNALWALL
+C ExternalWall
+C EXTERNALWALL
+T FIFTIES_WALL
+T FLOORTILE3_2
+W FREEZER_BX3
+M hcity_trashc
+M hcity_trashl
+W KITCHEN-MICR
+W KITCHENDOOR0
+T LabTileFloor
+Y Lamp01
+Y Lamp20-cente
+Y Lamppu8bd
+Y LAMPU9C
+Y MATTEGLASS01
+Y GLASS_BRIGHT
+M METALPOLE01_
+N MetalRoof010
+L OUT_PAVE2
+W RAGNAWOOD01B
+M ritb_sign4
+T ritb_Wall1_t
+N Roofsnow
+C ROOFWALL03_S
+N Snow01_128x1
+N SnowyAsphalt
+N SnowySidewa0
+N SnowyStreet0
+R SOFA03_256X2
+R SOFA25_64X12
+R Sofa28_128_1
+M SteelDoor02b
+Y TABLE
+W TABLE01_128X
+T Tile33_256x2
+T Tile44_256x2
+L TRASH01_256X
+M Van02_512x12
+M Van01_512x12
+W Vent01ba
+R wallpaper56_
+M warehousedoo
+C WareWall08_5
+C WATRTANK01CB
+Y WINDOW02BA
+Y WINDOW03ba
+W WOOD01_256X1
+W WOOD29D_128X
+W WOOD30_64X64
+W WOODFLOOR01_
+Z {FENCE3
+Z {GRATE3A
+Z {GRATE4A
+Z {LADDER2
+M CONTAINER04B
+V airduct01_12
+M GUNCASE01_64

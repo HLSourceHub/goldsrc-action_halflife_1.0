@@ -1,0 +1,46 @@
+Innercity3. by Octave Doctor, started July 01, finished 18/10/03  lol
+The Crooked City
+
+This map is the 3rd and final innercity map, the culmination of everything I've tried to achieve in the previous maps, it's about as close as I can get in the HL engine. There's lots of influences to this map, apart from my time spent in Newport,South Wales, games such as the silent hill series and the underated Project Eden.
+
+
+Credits:
+
+Some sound Design:
+
+Octave Doctor
+
+Texturing:
+
+Bread n Butter Textures- Octave Doctor  
+Super Graf Style by CHPX
+Misc Grime and graf implementation by Biscuits
+Extra industrial stuff by  MEL
+Max Payne Textures Copyright Remedy Entertainment 1998-2001
+dt_nyc  Textures by By Dethtex   schwenz@evilfucker.com
+Relic25 Textures by Kevin[Relic25] http://www.deltatraining.com/relic25/
+Other Textures also by Banana  and Mloclam (banana.wad kintex.wad)
+There's some valve/TFC stuff too
+
+Bot Waypoint File: Kissamies 
+
+Quality Assurance: 
+
+Agent Orange, Biscuits, Drayven , Nifta , Kragvar , Mak , Rocketdog
+
+Extra thanks go to: Borg and the AHL community for their support and continuing patience! 
+
+Ideas suggestions to:
+
+droctave@lycos.co.uk
+
+Most recent changes:
+
+...............................................................
+
+Map Design and Innercity concept copyright 2003 Stafford Bawler (aka Octave Doctor)
+Ic3 tune (played on the garage hi-fi waiting room) copyright Stafford Bawler 2003, written and produced by Stafford Bawler.
+
+You may freely distribute this map, as long as this textfile and the associated map files remain intact.
+You may not sell, rent or charge money in anyway for the distribution of this map (via cover cd or online media)
+

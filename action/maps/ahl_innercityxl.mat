@@ -1,0 +1,99 @@
+// Half-Life Texture Types.  Modify this file only if texture names are changed!
+// 'M' metal
+// 'V' ventillation
+// 'S' slosh liquid 
+// 'T' tile
+// 'G' grate 
+// 'C' Concrete
+// 'W' wood
+// 'P' computer
+// 'Y' glass
+// 'B' Wooden Tiles
+// 'R' Carpet/Fabric
+// 'X' Generic (concrete sound, generic decal)
+// 'Z' None (no decals, only sound)
+// 'K' Rock
+// 'L' Gravel/Dirt
+// 'N' Snow
+ 
+// NOTE: only the first 12 characters of the texture name are used
+// NOTE: a maximum of 512 textures may be tagged in this file
+
+M fiftsfile1
+M c2a3turbine2
+M silo2_p2
+M club
+M firestorm
+M lab1_door01
+M rust_steel
+M od_1337stores
+M c2a5w_sign
+M od_robbed_tfc1
+M out_dmplid
+M out_dmp4a
+M out_dmp4b
+M generic034
+
+V duct_vnt
+
+T lab1_gdpnl15
+T ceramicfloor
+T smokers
+T c1a2_flr1
+
+G grate3a
+G rail1b
+
+W fifties_dr1
+W trrm_wood2
+W woodfloor2
+W out_w6b
+W bcrate26
+W freezer_bx1
+W freezer_bx4
+W mlortile1
+W girl1
+W girl2
+W girl3
+W girl4
+W squelch
+W poster14
+W od_milk
+W sighted
+W poster_music09
+W chpx_tsu
+W chpx_od3d_128
+W wing_logo
+W takeaway2
+W poster_wang01
+W od_hk1
+W od_hk2
+W wk_dragon
+W sign17
+
+P spotyellow
+P fifties_lgt2
+P c3a2_light2
+P light5a
+P lab1_w7
+P subway_lights
+P elev2_ciel
+P generic105
+P generic105a
+P od_ixclmenu
+P exit1
+
+B fifties_wall14u
+
+R fifties_ceil01b
+R mlocarpet7
+R od_carpet4
+R fifties_cch4b
+
+X lab1_skr1
+X lab1_stair1b
+X od_headline
+
+K tnnl_rck1
+
+L tarmack

@@ -1,0 +1,9 @@
+BASICS:
+Type        : Quick-draw holster
+Usage       : Fast switching between guns
+
+TACTICAL/COMMENTS: 
+The quick-draw holster is a very useful item when you are out of ammo and need your secondary weapon as soon as possible. Many snipers choose a quick holster because once the enemy is near every second counts. Some players feel somehow safer when they are able to switch their weapons faster than their enemies can.  
+
+AS SEEN IN:
+Holstered pistols are often carried below the shoulder by cops to easily draw them. Therefore they are starring in lots of action movies like Lethal Weapon.

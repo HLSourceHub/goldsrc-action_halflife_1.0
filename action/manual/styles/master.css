@@ -1,0 +1,9 @@
+
+td    { font-size: 8pt; font-family: "Courier New", Courier, Monaco }
+a { color: #f26522; font-weight: bold; text-decoration: none }
+a:hover { color: #f26522; font-weight: bold; text-decoration: underline }
+.navlink { color: #000 }
+.blocksatz   { font-size: 8pt; line-height: 16pt; text-align: justify }
+.headline  { font-weight: bold; font-size: 18pt }
+body  { background-attachment: fixed; scrollbar-3dlight-color: #808080; scrollbar-arrow-color: #808080; scrollbar-darkshadow-color: #808080; scrollbar-face-color: #000000; scrollbar-highlight-color: #808080; scrollbar-shadow-color: #808080; scrollbar-track-color: #808080  }
+.subheadline { font-weight: bold }

@@ -1,0 +1,1 @@
+For extensive documentation on AHL use the manual located in the /manual directory.

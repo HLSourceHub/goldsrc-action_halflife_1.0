@@ -1,0 +1,66 @@
+                                       Inner City XL   for Beta4 and beyond! (1/03/01) 
+                                                                       By Octave Doctor
+                                                                octavedoc@fuckyou.co.uk
+
+                                                             Bsp/sounds/textures/music:Octave Doctor
+
+                                                            Additional Textures:CHPX,Mloclam, Rogue
+                                                         
+                                                                         
+                                                                         
+
+                                                              Kind Thanks for testing/Encouragement:: 
+My lan guys:Agent Orange,Biscuits,Kragvar,Grimlock,Penguin_Lad,SpoonRaider,Narcmoll
+AHL-lunatics:Borg,Payback, Oddjob, Moore+,Hondo,Cairath,Mloclam,Luebbi,PainGypsy,Digital-Nomad,Crustashio,Damen Death,Genocide,Bubbles,Nova, and all the rest of the beta testarz - you am m@d win! if yer names not above, I forgot ya and I'm a bad..... 
+
+Xtra Special Thanx to CHPX for his wicked phat Grafiti artwork which adds to the level so much.
+
+              
+
+Ok- here's the proper map text document:
+
+OctaveDoc@fuckyou.co.uk (it's a real address!
+www.geocities.com/shiningwitz
+                
+Other Levels By Me      : Inner-city,Inner-city2,Windmill,Powerstation,The Wing Kong Exchange,Seventies Super Sky Lounge
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+* Play Information *
+
+ Single Player           : um, not really-
+ Deathmatch 2-4          :Pretty good.
+ Deathmatch 5-16         : Perfect.
+ Deathmatch 17-100       : Only if your 1337/l4m3
+ Teamplay                :yes, but no goals sorry
+ New Sound              :some wind
+ New Graphics          :Yes.
+ New music               :YES! Original tunes by myself-eveeel Drum n Bass all written and Produced by myself.
+ Prefabs                    :Yes: my own decks+booth that I made for inner_city2 ages ago....
+
+* Construction *
+
+ Base                    : Inner_City v.1
+ Build Time              : Evenings and weekends here and there over 2 months 
+ Compile Time            : 10-12-odd minutes full compile p3 550,256 mb ram,37 gig HD
+ Editor(s) used          : WorldCraft v.3.1, Wally.
+ Known Bugs              :If you press the deck buttons too fast you'll break the multi-managers and the records will spin round with no music.
+ Features info           : Loc files etc
+. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+* Other Info *
+* Distribution /Legal *
+
+ Copyright 2001 Shining Wits Productions
+ 
+ This level has been made out of the sheer enjoyment of AHl for fun, It is Public Domain, It is not to be sold on or involved in any  such profit making enterprises.  (eg renting hiring etc)
+ This map is not to be re-destributed on CD's,DVD-ROms, or any other digital storage format without the Author's permission
+ Niether is this map to be included in any map pack without the author's prior consent. However you may freely upload/store this map  where you like provided that the zip file it is contained in remains intact and all files including this text document are included.    Apart from any wps/loc files that you may come up with you may not add anyfiles to any uploaded versions of this zip. 
+ 
+ Don't modify this map in any way. If a new version of AHL comes out with new stuff I need to add, 
+ I'll probably know, and release a new version myself.
+
+ The Octave Doctor
+ 
+
+

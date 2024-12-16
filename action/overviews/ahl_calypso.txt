@@ -1,0 +1,14 @@
+// overview description file for ahl_calypso.bsp
+
+global 
+{
+	ZOOM		1.60
+	ORIGIN	-88.19	 -162.25	-232.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/ahl_calypso.tga"
+	HEIGHT	-1685
+}

@@ -1,0 +1,10 @@
+BASICS:
+Type        : Bandolier
+Usage       : Doubles ammunition
+
+TACTICAL/COMMENTS:
+Due to its high capacity, the bandolier will double your available spare ammo for every weapon you start with. This makes it a very useful item for weapons that run out of ammo fast like the SMG. As a bonus it allows you to carry an extra weapon.
+
+AS SEEN IN:
+Bandoliers represent a huge base of combat vests with pockets for clips and additional weapons.  Often seen warn by the good old generic SWAT guys in movies like Leon(The Professional) or Die Hard.
+

@@ -1,0 +1,32 @@
+Tomb Raider for AHL
+-------------------
+
+Mesh : pornstar (p0rnstar@usa.com)
+Skin : pornstar (p0rnstar@usa.com)
+Anim : AHL team and diesel (diesel@load.com)
+Port : diesel (diesel@load.com)
+Mesh , skin and skinmesh touch-ups : diesel (diesel@load.com)
+
+------------------
+
+Not nuch to say , thanks go to quamosity and the AHL team ...
+
+Conversion was permitted by pornstar .
+
+------------------
+
+Tech info :
+
+Textures - 1 x 128 x 64 - 2 x 256 x 256 - 1 x 128 x 128
+Polycount - 969 faces
+
+Custom anims are :
+
+	-jump
+	-jumpkick
+	-spinkick
+	-taunt
+	-d_head_back
+
+
+

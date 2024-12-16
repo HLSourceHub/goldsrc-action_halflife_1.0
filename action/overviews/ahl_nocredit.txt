@@ -1,0 +1,14 @@
+// overview description file for ahl_nocredit.bsp
+
+global 
+{
+	ZOOM		2.08
+	ORIGIN	-238	 -299	3152
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/ahl_nocredit.tga"
+	HEIGHT	3152
+}

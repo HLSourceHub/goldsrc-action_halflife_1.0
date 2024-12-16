@@ -1,0 +1,1 @@
+// overview description file for ahl_engholm.bspglobal {	ZOOM		2.37	ORIGIN	-458	 205.25	58.00	ROTATED	1}layer {	IMAGE	"overviews/ahlg_engholm.tga"	HEIGHT	-100.00}

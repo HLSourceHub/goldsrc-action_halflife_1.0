@@ -1,0 +1,53 @@
+ Title                   : Cliff 2 snowy version for AHL
+ Date                    : February, 2001
+ Filename                : ahl_cliff2_snow
+ Author                  : Ace12ga - original 
+                           DOOManiac - first conversion 
+                           Hondo - second conversion, textures, sound, etc            
+ E-mail Address          : Ace12ga@telefragged.com
+	                   DOOManiac@mindless.com
+                           Hondo@telefragged.com
+
+ Description             : Ace's Cliff 2 for AQ2, converted for AHL and then
+			   converted to a snow version. A rocky area with usable 
+			   cliff around it and a rock bridge overhead, and a 
+			   waterfall. And a cable car. I altered the geometry for
+			   gameflow and to lower polycount a little (100-150)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+* Play Information *
+
+ Deathmatch 2-4          : Yes, good.
+ Deathmatch 5-16         : Fine.
+ Deathmatch 17-100       : Gets crowded.
+ Teamplay                : Yes.
+ New Sound               : Yes.
+ New Graphics            : Everything in cliff2snow.wad
+ New music               : No.
+
+* Construction *
+
+ Base                    : Cliff2 by Ace12ga
+ Build Time              : I don't know.
+ Compile Time            : P3 550 / 128mb: A few minutes.
+ Editor(s) used          : Worldcraft
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+* Other Info, special thanks *
+
+Thanks to Katto for the snow textures. Thanks to Borg for the sounds.
+
+* Distribution *
+
+ Upload this wherever you want, just keep the ZIP intact. 
+
+ Contact me if you're going to do anything else with this map.
+ 
+ If you're going to include this level in any kind of (free) collection, e-mail 
+ someone just so they know.
+ 
+ Don't modify this in any way. Don't sell it. Don't include it free with something
+ that is going to be sold. Have a nice time.
+

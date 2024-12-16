@@ -1,0 +1,14 @@
+// overview description file for ahl_bananamans.bsp
+
+global 
+{
+	ZOOM		1.59
+	ORIGIN	-133.47	 456.63	128.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/ahl_bananamans.tga"
+	HEIGHT	-353
+}

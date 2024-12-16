@@ -1,0 +1,81 @@
+================================================================================
+* LEVEL DESCRIPTION *     ahl_casagrande by Plexor
+================================================================================
+A old spanish looking farm/mansion with lot's of balconies to dive from. 
+
+================================================================================
+* LEVEL INFORMATION *
+================================================================================
+TITLE                   : ahl_casagrande
+FILENAME                : ahl_casagrande.bsp
+AUTHOR                  : Mark Bennink (Plexor)
+DATE                    : 14-12-2001
+GAME                    : Action Half-Life
+EMAIL ADDRESS           : m.bennink@quicknet.nl
+HOMEPAGE URL            : http://home.quicknet.nl/qn/prive/m.bennink/
+
+================================================================================
+SINGLE PLAYER           : 1 Player Start and some grunts.
+CO-OPERATIVE            : No.
+DEATHMATCH              : 19 DM Starts.
+SUGGESTED PLAYER LOAD   : 8 
+NEW TEXTURES            : Yes excellent spanish textures by Madness, other 
+			  textures by Mloclam, BananA, Doenerking, Section31,
+			  ik2, Evile Dick and Remedy Entertainment.
+NEW SKY			: Yes by Muad'Dib.
+NEW SOUNDS              : Yes by Borg, the song Portuguese Girl.
+CD TRACK #              : None.
+ 
+================================================================================
+* CONSTRUCTION *
+================================================================================
+MAP BASE                : None
+PREFABS USED            : Banana's lamp
+EDITOR(S) USED          : Worldcraft 3.3. 
+OTHER UTILITIES USED    : Wally, Zoners Tools, Paintshop pro & flamer bots. 
+ 
+KNOWN BUGS              : None	   
+COMPILE MACHINE         : Athlon 650, 512MB RAM
+
+================================================================================
+* OTHER LEVELS BY Plexor *
+================================================================================
+ACTION HALF-LIFE       : ahl_autoshop, ahl_streetwars, ahl_streetfight,
+			 ahl_plexharbour, ahl_plextrains 
+================================================================================
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+================================================================================
+None
+ 
+================================================================================
+* CREDITS *
+================================================================================
+The A-Team                : For making AHL.
+Prefab and texture makers : For making the textures & prefabs.
+The testers	  	  : For all those suggestions and bugs found. 
+Mr Nyles		  : For having as much suggestions as all the other 
+			    testers combined.
+T2			  : For trying to find as much bugs as Nyles :P
+Section31		  : For making me a new website.
+And anybody I forgot....  : For whatever they did to help.
+ 
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+================================================================================
+This level is (C) 2001 Mark Bennink.
+
+Authors MAY NOT use this level as a base to build additional levels.
+No decompiling, hacking, or modification of the .bsp or related files will be 
+tolerated.
+ 
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS! If you don't co-operate, then DON'T DISTRIBUTE
+IT IN ANY FORM!
+ 
+This LEVEL may be distributed ONLY over the Internet. No money may be charged for 
+this level AT ALL without first getting WRITTEN permission from the authors.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way other than through a FREE ACCESS website or FTP site without my permission.
+
+Action Half-Life (C) 1998-2001 The A-Team.
+Half-Life (C) 1998-2001 Sierra On-line and Valve L.L.C. All rights reserved.

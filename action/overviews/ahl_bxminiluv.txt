@@ -1,0 +1,14 @@
+// overview description file for ahl_bxminiluv.bsp
+
+global 
+{
+	ZOOM		3.38
+	ORIGIN	407.25	 -259.13	-16
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/ahl_bxminiluv.tga"
+	HEIGHT	-1
+}

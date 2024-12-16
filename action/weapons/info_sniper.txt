@@ -1,0 +1,12 @@
+BASICS:
+Type        : Semi-auto sniper rifle
+Firing modes: Semi-auto/zoom
+Ammo loadout: 5 rounds/clip, 2 extra clips
+Firing rate : Medium
+Damage      : High
+
+TACTICAL/COMMENTS:
+The semi-auto sniper rifle offers both precision and a good firerate. From a secure position you can pin down an enemy team easily, giving your team a good chance to rush them. Unfortunately you can run out of ammo very quickly, and a kevlar vest significantly reduces the damage done. Shoot for the head and make your shots count.
+
+AS SEEN IN:
+Semi-auto sniper rifles like the MSG90 or the Barret M82A1 are a common sight in many action movies like The Killer, Lethal Weapon, The Replacement Killers and Face/Off.

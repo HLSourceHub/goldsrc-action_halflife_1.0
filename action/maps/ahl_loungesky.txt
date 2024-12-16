@@ -1,0 +1,66 @@
+Seventies Super Sky Lounge Update v2 (11/11/00)  (updated 9/10/03)-
+    woah I made this map 3 years ago
+            By Octave Doctor
+         droctave@lycos.co.uk
+
+ Bsp/sounds/textures/music:Octave Doctor
+
+Additional Textures:Rougue, Biscuits,BananA 
+Additional Sound and elevator music:Mloclam
+        Super Funk Guitar:Borg
+        Bottle Prefabs:BananA
+
+        Kind Thanks for testing/Encouragement:
+My lan guys:Agent Orange,Biscuits,Kragvar,Grimlock,Penguin_Lad,SpoonRaider,Narcmoll
+AHL-lunatics:Chpx,Payback,Borg,Oddjob, Moore+,Hondo,Cairath,Mloclam,Luebbi,PainGypsy,Digital-Nomad,Crustashio,Damen Death,Genocide,Bubbles,Nova, and all the rest of the beta testarz - you am m@d win! if yer names not above, I forgot ya and I'm a bad..... 
+
+
+              
+
+Ok- here's the proper map text document:
+
+droctave@lycos.co.uk
+                
+Other Levels By Me      : Inner-city,Inner-city2,Windmill,Powerstation,The Wing Kong Exchange,ahl_innercityXL,ahl_hydro,ahl_innercity3
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+* Play Information *
+
+ Single Player           : um, not really- the bots suck.....
+ Deathmatch 2-4          : Perfect for this
+ Deathmatch 5-16         : Cool, but would be a bit too much
+ Deathmatch 17-100       : Only if your 1337/l4m3
+ Teamplay                :yes, but no goals sorry-their fuxord at the moment anyway
+ New Sound              :Lots, some by me (city,sirensetc,) Mloclam:light's hum in corridor
+ New Graphics          :Yes.
+ New music               :YES! Original tune by myself, featuring Borg on Guitar, nasty elevator muzak thnx to Mloclam
+ Prefabs                    :Yes, some bottles in the bar,texturing/modeling BananA
+
+* Construction *
+
+ Base                    : None
+ Build Time              : Evenings and weekends here and there over 2 months 
+ Compile Time            : 8-odd minutes full compile p3 550,256 mb ram,37 gig HD
+ Editor(s) used          : WorldCraft v.3.1, Wally.
+ Known Bugs              :Ok, Goddamit if you dive out windows before round start-your not gonna die-I've added trigger-hurts etc
+but because you can't take damage pre-round they won't work- so for the sake of suspending your disbelief-don't jump out the windows before the round starts!!!
+ Features info           : Loc files etc
+. 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+* Other Info *
+* Distribution /Legal *
+
+ Copyright 2000 Shining Wits Productions
+ 
+ This level has been made out of the sheer enjoyment of AHl for fun, It is Public Domain, It is not to be sold on or involved in any  such profit making enterprises.  (eg renting hiring etc)
+ This map is not to be re-destributed on CD's,DVD-ROms, or any other digital storage format without the Author's permission
+ Niether is this map to be included in any map pack without the author's consent. However you may freely upload/store this map  where you like provided that the zip file it is contained in remains intact and all files including this text document are included.    Apart from any wps/loc files that you may come up with you may not add anyfiles to any uploaded versions of this zip. 
+ 
+ Don't modify this map in any way. If a new version of AHL comes out with new stuff I need to add, 
+ I'll probably know, and release a new version myself.
+
+ The Octave Doctor
+ 
+
+

@@ -1,0 +1,84 @@
+                  DM CLINIC (Ver 1.6) 
+                    (clinic16.bsp) 
+        (info follows lower down in clinic16.txt)
+
+Its after midnight in the eerie Kavorkian Medical Center
+time to keep up the fine tradition of this place by 
+blasting each other to bits!
+
+This map is meant for Beta3 or better of Action-HalfLife
+and was designed with both deathmatch AND teamplay in mind.  
+
+     Done by ProMagnon (VektuzCat) promagnon@home.com
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------
+Title			:The Evil Hell Clinic DEATHMATCH REMIX v1.6
+Author			:Nicholas 'ProMagnoN' Lawson
+Date Released           :May 22, 2000
+Filename		:clinic16.bsp
+Email Address		:promagnon@home.com
+Quick Description       :The kavorkian medical center - Smaller version, rerelease 1.2
+Other                   :This map is meant for ACTION HALF-LIFE, but will probably work ok
+                         elsewhere.  I think.  Just not very well.
+-------------------------------------------------------------------
+Single Player		:No.
+Deathmatch		:Yes.
+Teamply 		:Yes.
+Difficulty Settings	:No.
+New textures		:Yes.
+New sounds		:No.
+Running the level	:Just unzip the ZIP file, pointing to your half life directory.
+                         Remember to unzip retaining folder names, and the appropriate
+                         files should be put into the appropriate directories.  Otherwise
+                         just copy the bsp file into your 
+                         Half-Life\action\maps directory.  Start the game normally and the map
+                         should appear in the multiplayer game start setup... or join a server
+                         already running it.
+			 Its 2.5 megs, but will autodownload correctly.  The new textures
+                         Are inside the BSP file, so there's no need to download WAD files
+                         also.
+*Construction*
+
+Base			:My own DMCLINIC.bsp, modified according to specs by HolyGoat.
+Editor used		:Worldcraft 2.1
+Build time		:Couple hours to compile, months 
+                         and months to create.
+Known bugs		:None. But yell if you find some!
+Textures		:Done by Rat-X (ratx@home.com) and myself!
+Compile machine		:P2 300 w/64mb RAM,  32mb TNT2!  I love my TNT2.  If youre
+                         serious about mapping get an NVIDIA card, screw 3dfx.  It can 
+                         hardware accelerated render in worldcraft :)
+			 Thank goodness I kept the R_Speeds reasonable.  (Check em out!)
+                         Despite its size it runs quite smoothly on this lowly machine,
+                         due to a lot of careful func_wall-ing and vis blocking.
+============================================================================================
+I think I may have repeatedly misspelled kavorkian.  It has nothing to do with clans of similar
+names.  Heh.  Any resemblance to people or places living or dead is purely a figment of your
+imagination. (lol)
+
+*credits*
+Credits go  to Valve, for the good engine, Axel and HolyGoat (from the action half-life 
+development team) for the toilet flushing sounds, and Lord Dakushna (Dakushna@aol.com) 
+for the toilet models!  Some of Valve's prefabs are used, but the unrecognisable 
+furniture and beds and chairs and cash registers, etc are mine, except for the monitors.  
+Those were done by Revolver (Revolver@gpm98.freeserve.co.uk).  Thanks!
+
+*Permissions*
+
+You may not distribute this level (clinic16.bsp) unless you include this file, unmodified and
+whole, along with it, and have the permission of the author.  You may not modify this level.
+You may not use this level as a base for your own levels.  You may not charge for this level
+in any form, without the author's permission.  
+
+============================================================================================

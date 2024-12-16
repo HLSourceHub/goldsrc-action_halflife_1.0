@@ -1,0 +1,9 @@
+BASICS:
+Type        : Silencer
+Usage       : Decreases firing noise
+
+TACTICAL/COMMENTS: 
+With a silencer you can surprise an enemy easily. The firing sound is greatly reduced when in use and your muzzle flash will also be hidden. You can usually get quite a few shots off without the target realising they are even being shot at, let alone where it's coming from.  Especially in a nice dark corner.
+
+AS SEEN IN:
+Silencers can be found in many action movies. Boondock Saints, Ghost Dog and most James Bond movies to name a few.

@@ -1,0 +1,12 @@
+BASICS:
+Type        : Submachine gun
+Firing modes: Semi-auto/3-burst/full-auto
+Ammo loadout: 30 rounds/clip, 1 extra clip
+Firing rate : Medium/fast/very fast
+Damage      : Low
+
+TACTICAL/COMMENTS:
+The submachine gun is a very flexible weapon, useable for both close-combat and medium-ranged firefights. Even though it does relatively low damage, this can be a very effective all-round weapon if you use the different firemodes to your advantage. You will find that the submachine gun works well with all items.
+
+AS SEEN IN:
+Most HK Blood Operas and almost every Holywood Action Film. In fact, I would like to see an action movie with NO submachine guns... Die Hard 3 features loads of MP5K, The original Die Hard features the MP5 as well. Check out Hard Boiled and the Killer for some more submachine gun action.

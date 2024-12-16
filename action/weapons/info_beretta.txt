@@ -1,0 +1,13 @@
+BASICS:
+Type        : 9mm semi-auto pistol
+Firing modes: Semi-Auto/full-Auto
+Ammo loadout: 15 rounds/clip, 1 extra clip
+Firing rate : Medium/fast
+Damage	    : Low
+
+TACTICAL/COMMENTS:
+Due to its high ammo count and moderate damage, the Beretta is a good selection for many players. Additionally, the pistol can be equipped with a silencer or a laser sight turning it into an even deadlier sidearm.
+
+AS SEEN IN:
+The Beretta 92FS is the single most popular movie handgun of all time. It can be seen in such movies as: Die Hard Trilogy, Replacement Killers, Boondock Saints, The Killer and the list goes on and on...
+

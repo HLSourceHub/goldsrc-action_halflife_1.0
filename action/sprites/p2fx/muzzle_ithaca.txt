@@ -1,0 +1,14 @@
+// INFO ON CUSTOM MUZZLE FLASHES ->
+
+// Dont go overboard with the sprite scale. Big anti-aliased sprites = slow-down.
+// Sprite name lets you create a custom muzzle flash for your weapon if you wish.  Make sure that the sprite is placed into the sprites/p2fx directory with exactly the same name you specify here.  If you fail to do this, AHL will crash when you or someone else shoots.
+
+// Removing or renaming this .txt file will make AHL crash, or the muzzle be screwed up..
+// The position data in this file will only affect the player view.  The sprite will be replaced for both the player and the opponents.
+// If you need more help, ask on the HOF forums.
+
+// REAL DATA FOLLOWS -> 
+
+sprite_name=muzzle_ithaca.spr
+// multiply sprite size by... (use 0.33 to divide by 3, etc)
+scale=15

@@ -1,0 +1,108 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<meta name="generator" content="Adobe GoLive 5">
+		<title>AHLDC Manual Nav</title>
+		<link rel="stylesheet" href="styles/master.css">
+	</head>
+
+	<body bgcolor="#ffffff" background="images/background.jpg" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0">
+		<table border="0" cellpadding="0" cellspacing="0" width="64">
+			<tr>
+				<td><img src="images/spacer.gif" width="480" height="32" border="0"></td>
+			</tr>
+			<tr>
+				<td align="center"><img src="images/page_header.jpg" width="480" height="16" border="0"></td>
+			</tr>
+			<tr>
+				<td align="center"><img src="images/spacer.gif" width="480" height="8" border="0"></td>
+			</tr>
+			<tr>
+				<td align="center"><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="481" HEIGHT="201" id="general_03" ALIGN="">
+						<PARAM NAME=movie VALUE="general_03.swf">
+						<PARAM NAME=quality VALUE=high>
+						<PARAM NAME=bgcolor VALUE=#000000>
+						<EMBED src="general_03.swf" quality=high bgcolor=#000000  WIDTH="481" HEIGHT="201" NAME="general_01" ALIGN=""
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+
+					</OBJECT><br>
+					<br>
+					<br>
+					<span class="headline">SERVER SETUP</span></td>
+			</tr>
+			<tr>
+				<td class="blocksatz"><span class="subheadline">Windows Server</span><br>
+					The five steps below will show you how to setup a AHL:DC windows server:<br>
+					<br>
+					1. Download the needed files:<br>
+					http://www.ministryofaction.net/files/hlds_v1120.exe<br>
+					http://www.ministryofaction.net/files/AHL_DC_RC2.exe<br>
+					<br>
+					2. Install the HLDS windows server by running the HLDS V1120 full installer<br>
+					<br>
+					3. Go to Start, select Run and run the HLDS update tool<br>
+					For example: C:\HLServer\HldsUpdateTool.exe -command update -game valve -dir C:\HLServer<br>
+					<br>
+					4. Now run the AHL:DC RC2 full installer and point it to the root dir of your server install<br>
+					For example: C:\HLServer<br>
+					<br>
+					5. Run hlds.exe and select AHL - Directors Cut and start the server!<br>
+					<br>
+					<br>
+					<span class="subheadline">Linux Server</span><br>
+					In this section we assume that you are fairly familiar with the world of Unix. If you're not, we suggest that you change this as it is wonderful. We also assume that you have installed the Half-Life dedicated Linux server at a certain location.<br>
+					For example: /servers/halflife/hlds_l/<br>
+					<br>
+					If you have downloaded the AHL:DC RC2 Linux server package, you should have a file called AHL_DC_RC2_linux.tar.gz. Once you have this file on your Linux server, you will need to unzip it. The file has a .gz extension. This means it was archieved using GZIP. To decompress the file use the following command:<br>
+					<br>
+					<i>gunzip AHL_DC_RC2_linux.tar.gz</i><br>
+					<br>
+					This should leave you with a tar file called AHL_DC_RC2_linux.tar. The easiest way to extract this tar file into the existing half-life directory tree is to move it there first:<br>
+					<br>
+					<i>mv AHL_DC_RC2_linux.tar /servers/halflife/hlds_l/</i><br>
+					<br>
+					Once the file has been moved, it's time to untar it with:<br>
+					<br>
+					<i>tar xvf AHL_DC_RC2_linux.tar</i><br>
+					<br>
+					You should now see the tar file unpack into a new directory called action. When this is done, your AHL:DC RC2 server installation is ready. To start your server you will need to run the following command (substituting the values in arrowed brackets with your own):<br>
+					<br>
+					<i>./hlds_run -steamuser=&lt;steamuser&gt; -steampass=&lt;steampassword&gt; -game action +maxplayers &lt;num&gt; +map ahl_bananamans +ip &lt;your server ip&gt; -port &lt;port number&gt;</i><br>
+					<br>
+					Your server should now be running and visible to the world!<br>
+					<br>
+					<b>METAMOD (AdminMOD/AMX) support : important!</b><br>
+					Metamod at present DOES NOT support goal entites. This means that goal maps will not work properly.<br>
+					Please use <a href="http://metamod-p.sourceforge.net/">metamod-p</a> as an alternative, this modified version of metamod dynamically supports the new goal entities.<br>
+					<br>					
+					<span class="subheadline">Fast Downloads</span><br>
+					Allowing players to download custom maps is a two edge sword. On the one hand it is good to allow the easy distribution of custom maps. On the other hand it can impact your bandwidth on your server. You can throttle this, but if you do players will get bored waiting 20 minutes for a map to download to their machines. However there is another alternative. Fast Downloads. 
+					<p>To use fastdowloads you must first create an action directory somewhere on your webserver. You should then copy all the wads and directories in your action game folders to it.  </p>
+					<p>Next, you must stop players downloading maps from the server itself. To do this configure the sv_allowdownload flag in your server config to stop them. </p>
+					<p><i>sv_allowdownload 0</i></p>
+					<p>Next you must add the following flag to your server config :</p>
+					<p><i>sv_downloadurl &quot;http://YourWebServer/YourSite/ActionDir&quot; </i></p>
+					<p>The ActionDir is simply the action directory you created on your webserver. </p>
+					<p>Players will now download custom maps directly from the webserver rather than the game server. This is faster for the players and can avoid congestion to your game server (unless your webserver is on the same machine!).</p>
+					<p><br>
+						<span class="subheadline">Dos2Unix</span><br>
+						
+					Dos based systems and Unix based systems have a different way of dealing with a 'next line' in text files. On DOS based systems this is a Carriage Retrun followed by a Line Feed. On Unix they simply use Line Feed. This can cause problems. If you edit some config files on a DOS machine and then transfer them over to a Unix machine for actual use, you sometime gets some odd effects or even crashes. The solution is to 'dos2unix' all your config files that have been edited under DOS before use. To do this, simply run the following command:<br>
+						<br>
+						<i>dos2unix &lt;inputfiles&gt;</i><br>
+						<br>
+						
+					After this is run your text files should be Carriage Return free.<br>
+						<br>
+						<br>
+					</p>
+				</td>
+			</tr>
+		</table>
+		
+	</body>
+
+</html>

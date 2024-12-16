@@ -1,0 +1,84 @@
+//THIS FILE CANNOT EXCEED 16384 BYTES IN LENGTH
+//(the caps indicate that this is an important thing)
+
+name=Kissamies
+model=dieter
+
+yawspeed=80
+
+accuracy=8
+
+intlevel=4
+
+fov=80
+
+distance=0
+
+reflex=0.3
+
+candive=1
+
+suicidal=1
+
+canchat=1
+
+favweapon=0
+
+favuniqueweapon=11
+
+favspecial=6
+
+[CHAT=1]
+Contact at %L!
+I see 'em near %O
+They are mine (%O)
+Our guests are here (%L)
+[CHATEND=1]
+
+[CHAT=2]
+Someone is shooting at me near %L
+It's starting to get a bit uncomfortable neat %L
+If they keep shooting, they might eventually hit me.
+Oh dear, this looks dangerous!
+[CHATEND=2]
+
+[CHAT=3]
+I could use some help near %L
+Don't miss the fun, come to %L
+Damn it! Anyone alive near %L? Heeeelp!
+[CHATEND=3]
+
+[CHAT=4]
+Target dispatched.
+Got one of them vermin.
+You'll find the remains of %V at %O
+Real Kissamies would have done it faster.
+Next!
+*purr purr*
+Was there ever any doubt of the outcome?
+I don't like to brag, but... %K
+Purrrrfection.
+[CHATEND=4]
+
+[CHAT=5]
+Planning to snipe with this %W here.
+%W shouldn't be used to rail so I will snipe.
+You go ahead. I know a purrrfect sniping spot to cover you from.
+[CHATEND=5]
+
+[CHAT=6]
+The enemy draws near %L
+Going to kick some with my %W at %L
+Think there's someone near %L
+Violent action ensues at %L
+Party's starting at %L still have %A
+[CHATEND=6]
+
+[CHAT=7]
+Headshots should kill, damnit!
+What's the point? I'm gonna die anyways.
+What did you expect? I'm just a bot.
+Meow.
+...
+Damn it, %V! I'm a bot, not an aimbot!
+[CHATEND=7]

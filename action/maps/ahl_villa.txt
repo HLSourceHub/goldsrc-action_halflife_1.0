@@ -1,0 +1,56 @@
+=======================================================================================
+==  ahl_villa ==== (c)2005 ===
+=======================================================================================
+
+A fancy villa located in a remote rural area of New Zealand.
+
+=======================================================================================
+---------------------------------------------------------------------------------------
+* LEVEL INFORMATION *
+---------------------------------------------------------------------------------------
+TITLE                   : Villa
+FILENAME                : ahl_villa.bsp
+AUTHOR                  : Brandon Day (aka Father Brandon)
+DATE                    : july 4th, 2005
+GAME                    : Action Half-Life
+EMAIL ADDRESS           : grogmillceo@dragonshorde.net
+HOMEPAGE URL            : http://dragonshorde.net
+ 
+---------------------------------------------------------------------------------------
+* OTHER LEVELS BY FATHER BRANDON *
+---------------------------------------------------------------------------------------
+pvk_oceancalm, vs_blizzard.
+ 
+---------------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+---------------------------------------------------------------------------------------
+
+When the clock chimes, watch out for the end.
+ 
+---------------------------------------------------------------------------------------
+* CREDITS *
+---------------------------------------------------------------------------------------
+The A-Team               : For making a mod so great to inspire me to map for it.
+Valve Hammer          : One  of the best map editors.
+Corpsinhere                : For the pirate jigs, grog and laughs.  helped out with great suggestions.
+Borg	                   : Volunteered some of his busy life to make some great music for this map.
+Varinger	                   : For a great loc and res file, yar me matey, blow me down.
+[DoD] Team               : For being one of the greatest ahl families out there.
+
+=======================================================================================
+* COPYRIGHT / PERMISSIONS *
+---------------------------------------------------------------------------------------
+This level is (C) 2005 Brandon Day.
+
+Authors MAY NOT use this level as a base to build additional levels.
+No decompiling, hacking, or modification of the .bsp or related files will be 
+tolerated.
+ 
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS! If you don't co-operate, then DON'T DISTRIBUTE
+IT IN ANY FORM!
+ 
+No money may be charged for this level AT ALL without first getting permission from me.
+
+Action Half-Life (C) The A-Team.
+Half-Life (C) Sierra On-line and Valve L.L.C. All rights reserved.

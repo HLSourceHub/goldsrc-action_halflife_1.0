@@ -1,0 +1,149 @@
+=================================================================================
+* LEVEL INFORMATION *
+---------------------------------------------------------------------------------
+TITLE                   : Nightshift
+FILENAME                : ahl_nightshift.bsp
+AUTHOR                  : Bulletbait (Dave Regis)
+DATE                    : July, 2002
+GAME                    : Action Half-Life
+TYPE                    : All modes
+EMAIL ADDRESS           : bulletbait@yahoo.com
+HOMEPAGE URL            : http://ahl.telefragged.com
+ 
+---------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+---------------------------------------------------------------------------------
+
+ahl_nightshift is a remake of ahl_Dayshift which is a remake of 
+Nightshift (nshift11).  
+
+Structurally, it's mostly the same, but a few changes were made:
+  + The garage area has been restructured to provide more play options,
+    upper-deck, and stuff.
+  + A second route to the roof of the Admin building was added making
+    it more difficult to camp up there.
+  + Exploding AC units have been added to the roof to make things more
+    interesting.  Why do they explode?  I have no idea.  They just do.
+  + Several doors have been removed
+  + The door to the subway train has been removed
+  + The subway train has been restructured a bit to improve r_Speeds
+  + The sewers have been removed, but new, easier to access routes
+    have been added... plays much faster now.
+
+In single-player mode, the level is populated by grunts and
+ninjas... the admin manager can help you if you get injured
+badly :)  Note that these NPCs can also appear in multiplayer
+games if you have MP_ALLOWMONSTERS set to 1.  Just beware,
+the grunts and ninjas leave their weapons behind.
+
+---------------------------------------------------------------------------------
+SINGLE PLAYER           : Yes
+CO-OPERATIVE            : No
+DEATHMATCH              : Yes
+TEAMPLAY                : Yes
+SUGGESTED PLAYER LOAD   : 2-10
+DIFFICULTY SETTINGS     : None
+NEW TEXTURES            : Yes (see credits)
+NEW SOUNDS              : No
+ 
+---------------------------------------------------------------------------------
+* CONSTRUCTION *
+---------------------------------------------------------------------------------
+MAP BASE                : nshift11 / ahl_Dayshift
+PREFABS USED            : Sofas, chairs, tables, vending machines, subway train
+EDITOR(S) USED          : Hammer
+OTHER UTILITIES USED    : Wally, Paintshop Pro 6, Zoner's, HLCC, ResGen
+KNOWN BUGS              : Nope
+COMPILE MACHINE         : Pentium 4 1500, 768mb RAM
+
+---------------------------------------------------------------------------------
+* OTHER RELEASED LEVELS BY THE AUTHOR *
+---------------------------------------------------------------------------------
+ACTION HALF-LIFE	: Nshift11, 
+                          bbCity, bbCity2, 
+                          ahl_bbDistrict,
+                          ahl_Dayshift,
+                          ahl_monorail,
+                          Subway2, ahl_hood (these two are AQ2 ports)
+
+---------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+---------------------------------------------------------------------------------
+Unzip this (with path recursing on) to your \Action directory. If somehow
+you can't, the .bsp/.ini/.txt go in \maps, the .tga files go in \gfx\env.
+
+ 
+---------------------------------------------------------------------------------
+* CREDITS / SPECIAL THANKS *
+---------------------------------------------------------------------------------
+Id Software, Valve Software, and The Akimbo-Team.
+
+The textures come from a variety of sources...  Mucho thanks to:
+
+     ME!  Some of the textures are of my creation... in particular,
+     the textures used to texture the large panel van.
+
+     Mloclam (psyduck@planetaction.net)... textures from his WAD(s) 
+     were used extensively.
+
+     Banana... textures used on the cargo containers and some
+     of the crates.
+
+     Rogue (rogue@planetaction.net) ... Soda machine textures
+
+     Spooger (http://www.planetunreal.com/spooger/) for his
+     crate textures (amongst others)
+
+     Undule (Timothy Andrew Wilson, undule@tampabay.rr.com) for 
+     maggot1-2.wad textures ... only used one or two, but there's 
+     lots of great stuff in there.
+ 
+     Yves Allaire aka evil lair (hfx@planetquake.com) for some
+     crate textures in the q3evil2.wad.
+ 
+     Locknut (Locknut@netscape.net) for some great architectural
+     textures in the StLouisWAD.wad and VeniceWAD.wad files.
+ 
+     Coma (coma_w@hotmail.com) SUV textures from his NYPD SWAT prefab pack
+
+The LOC file:
+    MrPaladin!
+
+
+Prefabs:
+  Subway Train   -- excellent work(!), but I modified it quite a bit,
+                    simplified some brushwork to get r_speeds down.
+      Author        : Dave Waters
+      E-mail        : baseman@msn.com
+
+  Benches        -- nice, needed minor modification to scale, changed
+                    individual slats to single, larger boards.
+      Autor         : Freddy Kruger
+      E-Mail        : DCNewson@yahoo.com
+
+  Snack Machine  -- breakable glass, nice touch
+  Dumpsters      -- simplified a bit
+      Author        : Yak_Fighter
+      Email         : YakFighter@aol.com
+
+  Hanging Lamps  -- awesome atmosphere
+      Author        : QuakeGuru
+      E-mail        : quakeguru@aol.com
+ 
+  Explorers (SUV)-- very minor tweaking
+      Author        : Carlos Salgado
+      E-mail        : carlos@picklepc.com
+     
+  Remaining fixtures
+      Author        : Anon, included with Worldcraft 3.3
+
+=================================================================================
+* COPYRIGHT / PERMISSIONS *
+---------------------------------------------------------------------------------
+If you want to include this map in anything, please get my permission.
+Since I can't stop anyone decompiling my work, if it's not just to have a look 
+or to do some random personal editing, please just tell me. (As in, converting 
+to another mod) I will decide if I want to support it or not.
+
+This archive must remain intact.
+

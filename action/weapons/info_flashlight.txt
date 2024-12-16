@@ -1,0 +1,9 @@
+BASICS:
+Type        : Flashlight
+Usage       : Lightens up dark areas.
+
+TACTICAL/COMMENTS: 
+Flashlights may be your best friend in dark areas. They can be very useful to support your team with some "insight". Have you ever tried to point a flashlight on a player using nigh vision goggles? But beware, friends and foes are both affected the same way.
+
+AS SEEN IN:
+Um... The X-Files?  

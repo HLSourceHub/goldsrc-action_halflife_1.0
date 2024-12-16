@@ -1,0 +1,126 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<meta name="generator" content="Adobe GoLive 5">
+		<title>AHLDC Manual Nav</title>
+		<link rel="stylesheet" href="styles/master.css">
+	</head>
+
+	<body bgcolor="#ffffff" background="images/background.jpg" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0">
+		<table border="0" cellpadding="0" cellspacing="0" width="64">
+			<tr>
+				<td><img src="images/spacer.gif" width="480" height="32" border="0"></td>
+			</tr>
+			<tr>
+				<td align="center"><img src="images/page_header.jpg" width="480" height="16" border="0"></td>
+			</tr>
+			<tr>
+				<td align="center"><img src="images/spacer.gif" width="480" height="8" border="0"></td>
+			</tr>
+			<tr>
+				<td align="center"><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="481" HEIGHT="201" id="general_03" ALIGN="">
+						<PARAM NAME=movie VALUE="general_03.swf">
+						<PARAM NAME=quality VALUE=high>
+						<PARAM NAME=bgcolor VALUE=#000000>
+						<EMBED src="general_03.swf" quality=high bgcolor=#000000  WIDTH="481" HEIGHT="201" NAME="general_03" ALIGN=""
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+
+					</OBJECT><br>
+					<br>
+					<br>
+					<span class="headline">TECHNICAL FAQ</span></td>
+			</tr>
+			<tr>
+				<td class="blocksatz">Q:  You keep saying download this and download that, where the *hell* do I download from?<br>
+					A: Head over to <a href="http://www.ministryofaction.net" target="_blank">http://www.ministryofaction.net</a> to download AHL Directors Cut Update and AHL V.1. For AHL V.1 there is a list of mirrors in the download section at <a href="http://ahl.action-web.net" target="_blank">http://ahl.action-web.net</a><br>
+					<br>
+					
+					Q: Do I have to install 'Directors Cut' over AHL V.1?<br>
+					
+					A: Yes you do. 'Directors Cut' is currently an addition and not a full release. You need to install AHL V.1 and THEN install 'Directors Cut'. A full release will come out eventually when the team is happy with it.<br>
+						<br>
+					
+					Q: I have an earlier version of 'Directors Cut', do I remove the old one?<br>
+					
+					A: No you do not need to. 'Directors Cut' is an addition an will simply overwrite the older version (but leaves your original configs alone).<br>
+						<br>
+					
+					Q: Should I uninstall older AHL versions before I install AHL V.1?<br>
+					
+					A: Yes, it is very important that you do that to avoid bugs noone will know where they came from. Just erase your old action dir completely (no uninstaller necessary, erasing is fine) before you install AHL V.1.<br>
+						<br>
+					
+					Q: I can't use the mouse to select VGUI menu options!!<br>
+					
+					A: Make sure you set 'hud_capturemouse' to '1'. If that doesn't work, try vgui_emulatemouse &quot;1&quot;. Unfortunately, sometimes WikkedGL causes the mouse to not be usable even with these two settings on.<br>
+						<br>
+					
+					Q: I want to run a LAN game and it keeps trying to connect to the internet and auth with won, how do I stop that?!<br>
+					
+					A: Either from your console commandline do &quot;+sv_lan 1&quot; (without the quotes) or edit listenserver.cfg in your \action\ folder and change the entry &quot;sv_lan 0&quot; to &quot;sv_lan 1&quot;. This is a bug that will be adressed in the next patch so you don't have to manually do that change (it doesn't happen when you host a dedicated server).<br>
+						<br>
+					
+					Q: Why do I get this CL_ParseServerMessage error?<br>
+					
+					A: This a bug in Half-Life that occurs when you first try to join a server. It is caused by you having you model set to a non-Action Half-Life model. Try selecting a model from the Multiplayer-&gt;Customise menu and then reconnecting. Alternately, run HL with the command line &quot;hl.exe -game action&quot;, then select a model, quit, then run it again and try connecting (By quitting out you ensure your player model has been set to an AHL player model).<br>
+						<br>
+					
+					Q: I can't get into the console, wtf?<br>
+					
+					A: open up the config.cfg you'll find in your \action\ folder and make sure you have the following 3 entries there (add them if necessary):<br>
+						<br>
+					
+					bind &quot;~&quot; &quot;toggleconsole&quot;<br>
+					
+					bind &quot;`&quot; &quot;toggleconsole&quot;<br>
+					
+					console &quot;1.0&quot;<br>
+						<br>
+					
+					Q: Console commands, what are they?<br>A: Head for the <a href="http://www.ministryofaction.net" target="_blank">http://www.ministryofaction.net</a> forums and ask for information about console commands. The people there don't bite!<br>
+						<br>
+					
+					Q: Where does &quot;Could not load ...\Half-Life\action\cl_dlls/client.dll.&quot; come from and how do I fix it?<br>
+					A: You have to update your Half-Life to the latest version to fix this. Either use Half-Life's inbuilt auto updater or download an update from the <a href="http://www.sierrastudios.com/games/half-life/support.html" target="_blank">Sierra</a> website<br>
+					<br>
+					
+					Q: I'm trying to play single play in AHL but right after the first map it exits to windows, what am I doing wrong?<br>
+					
+					A: You probably are trying to run AHL on Counterstrike retail. Unfortunately Counterstrike retail does not come with a single player version, so only when running AHL B5 together with Half-Life retail lets you play the Half-Life missions AHL style.<br>
+						<br>
+					
+					Q: Can I play in 3rd person mode?<br>
+					
+					A: You have to do &quot;+sv_cheats 1&quot; in your console, then load up a map, in that map you can do &quot;+sv_chasecam 1&quot; in console then to get chasecam.<br>
+						<br>
+					
+					Q: Help! I can't see my crosshair on some levels, how do I get that to appear?<br>
+					
+					A: You can change your crosshair with the simple command &quot;crosshair x&quot;, x being a number between 0 and 25. There's plenty to choose from!<br>
+						<br>
+					
+					Q: I've heard you can play HL single player in AHL cooperative style? How do I do that?<br>
+					
+					A: Unfortunately this is more of hack, and therefore pretty unstable, but if you'd still like to give it a go, in your game console do the following:<br>
+						<br>
+					
+					set coop 1<br>
+					
+					set maxplayer 4<br>
+					
+					sv_cheats 1<br>
+					
+					map c2a5e<br>
+						<br>
+					
+					Of course you can use any other map here, just open up half-life\valve\pak0.pak with e.g. qped ( www.planetquake.com/qped ), look into the maps directory in pak0.pak and write down a few of the maps' filenames. 
+				</td>
+			</tr>
+		</table>
+		
+	</body>
+
+</html>

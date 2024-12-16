@@ -1,0 +1,91 @@
+=======================================================================================
+==  Manic Mansion  === (c)2003 ===
+=======================================================================================
+
+Manic Mansion by -imperial-     (feat. Wiggles)
+
+=======================================================================================
+---------------------------------------------------------------------------------------
+* LEVEL INFORMATION *
+---------------------------------------------------------------------------------------
+TITLE                   : Manic Mansion
+FILENAME                : ahl_manic.bsp
+AUTHOR                  : -imperial-	(Chris Edenhofer)  feat. Wiggles (Lukas Reissig)
+DATE                    : loong time ago...
+GAME                    : Action Half-Life
+EMAIL ADDRESS           : melkhuhn@god-clan.at
+HOMEPAGE URL            : http://www.god-clan.at/mapcorner
+ 
+---------------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+---------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------
+SINGLE PLAYER           : No.
+CO-OPERATIVE            : No.
+DEATHMATCH              : yes
+SUGGESTED PLAYER LOAD   : 4 to 12.
+ 
+NEW TEXTURES            : Yes. Some great Textures by X-Tender with some
+			  standart textures from H-L (like water ;)
+NEW SOUNDS              : Yap ! Ambience sounds like wind or crows.
+CD TRACK #              : No cd track is played.
+ 
+---------------------------------------------------------------------------------------
+* CONSTRUCTION *
+---------------------------------------------------------------------------------------
+MAP BASE                : -
+PREFABS USED            : None.
+EDITOR(S) USED          : WorldCraft 3.3
+OTHER UTILITIES USED    : Photoshop 6.0
+                          Paintshop Pro
+                          ZhltGui (http://www.planethalflife.com/eddi)
+ 	                  Wally		
+ 
+KNOWN BUGS              : None.
+
+TOTAL COMPILE TIME	: about half an hour
+ 
+---------------------------------------------------------------------------------------
+* OTHER MAPS BY -IMPERIAL- *
+---------------------------------------------------------------------------------------
+ahl_bisland, ahl_hinoon (both not released) and of course cs_madsquare
+(my first map, the worst crap ever =D)
+---------------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+---------------------------------------------------------------------------------------
+
+------ -imperials- Notes -------------------------------
+I wanted to make a kinda scary map... so i thought of an old mansion
+and a storm outside. Some complex corridors and some free rooms...
+me likes this map ;D
+ 
+---------------------------------------------------------------------------------------
+* CREDITS *
+---------------------------------------------------------------------------------------
+The A-Team              : For creating a mod that's fun mapping for.
+@nty		        : My Mentor. Helped me with the most wikked bug ever !
+[GOD]Renegade     	: For everything he helped me with :)
+[GOD]Wiggles            : For everything and of course for the great attic
+[A$Z]Borg		: For letting me test the map on WoH.
+and of course
+banana                  : For writing such a great ahl_bankdoom.txt i could use ;D
+
+=======================================================================================
+* COPYRIGHT / PERMISSIONS *
+----------------------------------------------------\-----------------------------------
+This level is (C) 2002 Chris Edenhofer.
+
+Authors MAY NOT use this level as a base to build additional levels.
+No decompiling, hacking, or modification of the .bsp or related files will be 
+tolerated.
+ 
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS! If you don't co-operate, then DON'T DISTRIBUTE
+IT IN ANY FORM!
+ 
+No money may be charged for this level AT ALL without first getting permission from me.
+
+Action Half-Life (C) The A-Team.
+Half-Life (C) Sierra On-line and Valve L.L.C. All rights reserved.

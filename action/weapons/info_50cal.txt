@@ -1,0 +1,12 @@
+BASICS:
+Type        : bolt-action sniper rifle
+Firing modes: Single shot/zoom
+Ammo loadout: 6 rounds/clip, 2 extra clips
+Firing rate : Slow
+Damage      : Extremely high
+
+TACTICAL/COMMENTS:
+With most hits being fatal, the bolt-action sniper rifle is a very powerful weapon. But this power has its price, in most cases you have to take an enemy down with a single shot or you may be in big trouble. This makes the quick-holster and the kevlar vest the sniper's best friends.
+
+AS SEEN IN:
+In many an action movie or war movie you will find some sort of bolt-action sniper rifle like the McMillian Bros .50cal or the AWM. Films like Saving Private Ryan or Enemy at the Gates are great examples.

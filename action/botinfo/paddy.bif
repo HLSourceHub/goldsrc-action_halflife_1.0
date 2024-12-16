@@ -1,0 +1,73 @@
+//THIS FILE CANNOT EXCEED 16384 BYTES IN LENGTH
+//(the caps indicate that this is an important thing)
+
+name=Paddy
+model=arnie
+
+yawspeed=40
+//yawspeed is degrees turned per frame. In this case it's 90 degrees per frame
+
+accuracy=30
+//A low value is good, a high value is bad (so 1 will be basically perfect accuracy, disregarding
+//the standard weapon inaccuracy)
+
+intlevel=2
+//Can be 0-4. 4 is a high intelligence level, while 0 is low. The int level just decides whether
+//or not the bot can do certain more advanced things.
+
+fov=90
+//Field of view, 90 is the default (same as a player's)
+
+distance=0
+//the maximum distance a bot can see in game units. The default is 0, which means the distance is unlimited.
+
+reflex=0.2
+//Time it takes for the bot to react to a threat. A value of 0.1 would be 1/10 of a second, whereas 1 would be 1 second.
+
+candive=1
+//This means the bot can dive. If the value is 0 then the bot cannot dive.
+
+suicidal=1
+//Is the bot prone to suiciding in bad situations? (1 means yes)
+
+canchat=1
+//A value of 0 means the bot will never speak, a value of 2 means the chat section of default.bif is used.
+
+favweapon=0
+favuniqueweapon=0
+favspecial=0
+
+[CHAT=1]
+i see teh fagot at teh %l!!!
+omg its teh fag enemy at teh %l
+[CHATEND=1]
+
+[CHAT=2]
+someone is teh shootings at meh!!
+i needs teh help at %l
+[CHATEND=2]
+
+[CHAT=3]
+oh no plz help meh! !!
+i am at teh %l i needz teh help!!
+[CHATEND=3]
+
+[CHAT=4]
+roofle
+0wn3d
+[CHATEND=4]
+
+[CHAT=5]
+I AM GOINZ TO SNIPE
+im at teh %l im going to go snipe with mie %w!@!!@
+[CHATEND=5]
+
+[CHAT=6]
+i am on teh offense with my %w at %h
+[CHATEND=6]
+
+[CHAT=7]
+=(((
+i haet yuo!! =((
+KIWI LOVE
+[CHATEND=7]

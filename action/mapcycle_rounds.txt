@@ -1,0 +1,27 @@
+// Suggested mapcycle.txt for TP with rounds and other rounded modes
+
+ahl_nocredit
+ahlg_plexharbour_dc "\minplayers\6"
+ahlg_onslaught2_dc "\minplayers\4"
+ahlg_engholm_dc
+ahlg_wikkedcity_dc
+ahlg_urban_riot_dc "\minplayers\4"
+ahlg_actionrail_dc "\minplayers\6"
+ahlg_wikkedkorp_dc "\minplayers\4"
+ahlg_metro_dc
+ahl_calypso "\minplayers\4"
+ahl_hkheat
+ahl_tgx2 "\maxplayers\8"
+ahl_bananamans "\minplayers\4"
+ahl_monorail
+ahl_bankdoom "\maxplayers\10"
+ahl_casagrande "\minplayers\4"
+ahl_plexcity
+ahl_cliff2_snow "\maxplayers\8"
+ahl_city "\minplayers\4"
+stalkyard
+ahl_plexhbraid "\maxplayers\10"
+ahl_tovarich "\minplayers\6"
+ahl_tratoria
+ahl_killington "\maxplayers\10"
+ahl_astorage

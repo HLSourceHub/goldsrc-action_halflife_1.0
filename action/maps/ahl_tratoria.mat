@@ -1,0 +1,155 @@
+// Half-Life Texture Types.  Modify this file only if texture names are changed!
+// 'M' metal
+// 'V' ventillation,
+// 'D' dirt,
+// 'S' slosh liquid 
+// 'T' tile
+// 'G' grate 
+// 'C' Concrete
+// 'W' wood
+// 'P' computer
+// 'Y' glass
+// 'B' Wooden Tiles
+// 'R' Carpet/Fabric
+// 'X' Generic (concrete sound, generic decal)
+// 'Z' None (no decals, only sound)
+// 'K' Rock
+// 'L' Gravel
+// 'N' Snow
+
+
+S !bluwter
+S !Bn2_water1
+Y ~light3c
+W {2dad_bed01
+W {2dad_bed02
+Y {bn_lamp2
+M {bn_lamp1b
+D {deko_efeu02
+M {enseigne
+M {k_rail01_hires
+W {ladder3awood
+R {pi_tapestry1
+R {pi_tapestry2
+R {sp_faixa1
+R {sp_varal1
+R {sp_varal2 
+R {sp_varal3
+R {sp_varal4
+D {sub_vine02
+R vorhang_a
+C abv_cob1
+c abv_grass10b
+D abv_grass10
+R 2dad_pattern01
+R Bild1_g
+R bild1_i
+T blablacktle
+T Blarooftop
+T Blarooftop01
+T Blarooftop02
+C blaswall7a
+C blaswall7b
+K blatilerox01
+K blatilerox03
+C blawall01
+C blawall01wc2
+C blawall01wl
+C blawall01wl2
+C blawall03
+C blawall032wl
+C blawall03wl
+C blawall03wldoor
+Y blawindow
+Y Blawindow1c
+M bmetal01
+W Bn2_wood3
+C bn3_misc6
+C bn3_wall5a
+W Buhne_top
+C btiles_wall02
+C btiles_wall03
+C btiles_wall03a
+C btiles_wall05
+C bwall01
+C bwall01b
+C bwall02
+C bwall03
+C bwall04
+C bwall04b
+C bwallcon1
+R camaro
+R cxwllbooksa
+R cxwllf
+T eastallflr01d
+D eastbush1
+R eastcarpet3b
+R eastcarpet3c
+W eastcratesm
+W eastdoor1
+W eastwndwn0b
+W eastwood01
+W fifties_cch1
+D flowers
+K grey_rock
+R guinness2
+C hcity_road
+W holz_starpel_a
+W holz_starpel_b
+W i_door_wood1
+T i_floor1
+C i_rough1
+C i_trim2
+C i_wall1
+W in_floor3
+K ital_wall5a
+C keep01
+W m_wood1
+W m_wood2
+W market_1
+Y moj_light
+W out_fence2
+K out_stones1
+W Pi_bcase	
+K Pi_outwall4
+R Pi_rug
+R Pi_rug2
+W pi_window
+K pi_corbel
+W Piano_side
+W Piano_front
+T Piano_keys
+R pl_wall05
+K rock_11ab
+K rock_4ab
+T roof1
+w schrank8_9
+w schrank4_b
+w schrank1_a
+W sp_banca_placa2
+W sp_boteco9a
+W sp_cartaz03
+W sp_metro_porta1
+M sp_metro_porta2
+R tavernbrew
+W theke1_a
+W theke1_b
+R veg_1bx
+W wood_planks1
+W wood4a
+W wall_poster
+W wood_tiled
+W wood_tiled2
+W wood1
+W wood21
+W wood34_1
+W xt_schrank1_a
+W xt_schrank1_b
+R freezer_bx4
+M c2a3rustdoor1
+R babtech_bordl52
+R rope
+M steel
+G glass_bright
+G +0~white
+

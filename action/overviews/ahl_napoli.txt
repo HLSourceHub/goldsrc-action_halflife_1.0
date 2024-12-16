@@ -1,0 +1,14 @@
+// overview description file for ahl_napoli.bsp
+
+global 
+{
+	ZOOM		1.64
+	ORIGIN	-339.75	 -684.50	323.57
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/ahl_napoli.tga"
+	HEIGHT	17
+}

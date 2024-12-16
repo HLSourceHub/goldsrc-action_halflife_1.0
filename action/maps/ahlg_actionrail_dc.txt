@@ -1,0 +1,21 @@
+Action Railroad - Assasination/Bomb
+===================================
+Terrorists--
+  The Terrorists must blow up either the bridge or the train.  
+  They get 2 points for blowing up the bridge and 4 points for
+  destroying the train and 1 point for wiping out the counter-
+  terrorists.
+  IMPORTANT: Only the Terrorist Leader can activate the bombs, 
+  so she must be escorted safely to the train or the bridge. 
+  It takes 5 seconds to set the bomb and she must stay on the 
+  bomb spot mark until it is set.
+  If she is killed, then the round is over.
+Counter Terrorists--SWAT and Tactical Ops--
+  The Counter-Terrorists are made up of the SWAT team and Tactical 
+  Ops and they must kill the Terrorists and their leader.  
+  They get 2 points per kill.
+Other Stuff--
+  The Terrorist Followers and the Counter-Terrorist members can 
+  respawn 4 times.The Terrorist leader will not respawn.  
+
+  Author: KaRRiLLioN =AR=

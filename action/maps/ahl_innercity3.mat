@@ -1,0 +1,157 @@
+// Half-Life Texture Types.  Modify this file only if texture names are changed!
+// 'M' metal
+// 'V' ventillation
+// 'S' slosh liquid 
+// 'T' tile
+// 'G' grate 
+// 'C' Concrete
+// 'W' wood
+// 'P' computer
+// 'Y' glass
+// 'B' Wooden Tiles
+// 'R' Carpet/Fabric
+// 'X' Generic (concrete sound, generic decal)
+// 'Z' None (no decals, only sound)
+// 'K' Rock
+// 'L' Gravel/Dirt
+// 'N' Snow
+ 
+// NOTE: only the first 12 characters of the texture name are used
+// NOTE: a maximum of 512 textures may be tagged in this file
+
+// AHL_INNERCITY3 by Octave Doctor
+
+
+S WATERGREEN
+X black
+C BN2_wall8
+V BN3_fusebox
+X bn_rail1
+C brownstone
+M bulletbklft
+M bulletft
+M bulletsd
+M bullettpbk
+M bulletpft
+M bulletwhl
+M BUTTON4
+Y C3A2_LIGHT2
+C chpx_bigtile1
+C chpx_bigtile2
+C chpx_bigtile3
+C chpx_bigtile4
+C chpx_payback
+C chpx_skillz
+C chpx_stmary
+C chpxtil1
+C chpxtil2
+C chpxtil3
+Y CLOCK2B
+C CRETE3_FLR04
+Y ELEV2_CIEL
+M GENERIC104
+M GENERIC104A
+M GENERIC104B
+Y GLASS_DARK
+X ic3_boarddoor
+Y ic3_boardwin1
+Y ic3_boardwin2
+R ic3_carp
+W ic3_charm
+W ic3_chpxboard
+C ic3_chpxnew
+Y ic3_council
+W ic3_garage
+W ic3_hof2
+C ic3_mp_crete2
+M ic3_mp_door2
+W ic3_mp_door3
+Y ic3_mp_exit
+C ic3_mp_ext2
+C ic3_mp_ext6
+P ic3_mp_file
+C ic3_mp_sew
+C ic3_mp_sewer
+R ic3_mp_sofa
+R ic3_mp_sofa2
+T ic3_mp_tile1
+T ic3_mp_tile2
+T ic3_mp_tile4
+Y ic3_mp_vend
+C ic3_mp_wall1
+C ic3_mp_wall2
+C ic3_mp_wall3
+C ic3_mp_wall4
+C ic3_mp_wall5
+V ic3_shutter
+Y ic3_submap
+Y ic3flourlite
+C ic3trimflr
+C ic3wallscratch
+G ic3yellowtile
+M ice_melsign3
+M ice_melsign4
+M LAB1_STAIR1B
+V METAL_BORD01
+T mloftile4
+M mlorustpipe
+W mlospeaker
+W mlospeakera
+W mlowood11
+W mlowood14
+Y od_1337stores
+C od_bigbricks
+C od_ceilingsmall
+C od_ceilpeelrob
+R od_cloud1
+R od_cloud4
+C od_cretewall2
+C od_cretewlrobbe
+L od_dirt_cs
+C od_dockstuccoo
+W od_door_robbed4
+C od_flagsrobbed
+R od_hk1
+Y od_icxlmenu
+R od_milk
+C od_mlobrick14
+T od_newcretetile
+L od_pockcrete2
+R od_post_chev
+R od_poster_vette
+V od_shutter_rob
+T od_tile6
+C od_tnnlcrete
+V od_vent1
+C od_wallrobbed6
+W od_woodrobbed
+W red_dragon
+C road
+M rust1
+Mrust_steel
+Y sighted
+Y sighted2
+V SILO2_COR
+C staffdam_crete2
+P staffdam_trans3
+Y staffdam_windo7
+C stmary_strt
+M STRIPES3
+Y SUBWAY_LIGHTS
+C tarmack
+C tfc_brick2
+Y tfc_window
+P ATNNL_GAD2
+S WATER1A
+C wk_black
+V BN3_gas1
+V BN3_gas2
+M FENCE2
+G GRATE3B
+G LADDER3A
+P BN_stereo1
+Y GENERIC65
+Y LIGHT3E
+Y LIGHT6A
+
+

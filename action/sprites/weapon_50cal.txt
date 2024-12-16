@@ -1,0 +1,15 @@
+10
+
+// 320
+weapon			320 320_w50calu		0	0	84	36
+weapon_s		320 320_w50cals		0	0	84	36
+ammo			320 320_hud_ammo	20	0	20	20
+crosshair		320 crosshairs		72	0	24	24
+zoom			320 scope_50cal		0	0	256	256
+
+// 640
+weapon			640 640_w50calu		0	0	168	72
+weapon_s		640 640_w50cals		0	0	168	72
+ammo			640 640_hud_ammo	40	0	40	40
+crosshair		640 crosshairs		72	0	24	24
+zoom			640 scope_50cal		0	0	256	256

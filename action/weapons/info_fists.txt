@@ -1,0 +1,12 @@
+BASICS:
+Type        : hand-to-hand combat
+Firing modes: punching/spin kick
+Ammo        : unlimited
+Firing rate : Medium/slow
+Damage      : Low
+
+TACTICAL/COMMENTS:
+Used as a last resort by many, but for a select few, dealing out the punishment Jackie Chan style is the only way to go.  Try the slippers and sneak up behind people to kick them off a roof to their death. People hate that.
+
+AS SEEN IN:
+Any Jackie Chan movie ever made, the Lethal Weapon movies, Parapa the Rapper, Die Hard. Basically, you name it...

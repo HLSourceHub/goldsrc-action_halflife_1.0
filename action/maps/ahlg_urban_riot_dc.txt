@@ -1,0 +1,18 @@
+Urban Riot  - Assasination
+===========================
+
+
+
+The Cops have to protect the witness from the mob. 
+
+The Witness is hiding in his flat above the Circle-H shop.
+ 
+The Cops get infinite lives but have a delay in re-spawning.
+
+The Mob get 3 lives each.
+
+The Mob must kill the witness to win. 
+
+The Cops must eliminate the entire Mob hit team to win. 
+
+Author : [ladnet]brad

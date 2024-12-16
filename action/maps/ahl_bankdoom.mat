@@ -1,0 +1,139 @@
+// Half-Life Texture Types.  Modify this file only if texture names are changed!
+// 'M' metal
+// 'V' ventillation
+// 'D' dirt
+// 'S' slosh liquid 
+// 'T' tile
+// 'G' grate 
+// 'C' Concrete
+// 'W' wood
+// 'P' computer
+// 'Y' glass
+// 'B' Wooden Tiles
+// 'R' Carpet/Fabric
+// 'X' Generic (concrete sound, generic decal)
+// 'Z' None (no decals, only sound)
+// 'K' Rock
+// 'L' Gravel
+
+// NOTE: only the first 12 characters of the texture name are used
+// NOTE: a maximum of 512 textures may be tagged in this file
+
+Z 1337
+Y +fifts_lght5
+Y +0~fifts_lght5
+Z +0~white
+Y +a~fifts_lght5
+Y fifts_lght5
+Y fifts_lght5
+Z white
+Y fifts_lght5
+Z black
+V exit1
+V exitrt
+Y glassblue2
+Y glass_bright
+W poster13
+W poster14
+Z sky
+G fence
+G rail2
+R bank_couch1
+M hcity_trashcan
+M hcity_trashlid
+C BN2_brick1
+R BN2_carpet2a
+R BN2_carpet2b
+W BN2_crate3a
+W BN2_crate3b
+W BN2_crate3c
+C BN2_crete1d
+C BN2_crete1d-2
+W BN2_door5
+W BN2_door7
+M BN2_pcfrontback
+X BN2_pckeyboard
+M BN2_pcside
+D BN2_trash1
+C BN2_trim1
+M BN2_wall10
+Z BN3_aw1
+Z BN3_aw2
+Z BN3_aw3
+T BN3_ceil1a
+X BN3_ceil1d
+M BN3_comp1
+M BN3_comp2
+Y BN3_comp3
+M BN3_comp4
+M BN3_comp5
+Y BN3_comp6
+Y BN3_comp7
+V BN3_copy1
+V BN3_copy2
+R BN3_cubicle1a
+R BN3_desk1
+M BN3_desk2
+M BN3_door2
+M BN3_door3
+M BN3_door4
+C BN3_floor1
+T BN3_floor2
+Y BN3_fridge1
+V BN3_fusebox
+X BN3_monitor1a
+Y BN3_screen1
+Y BN3_screen2
+M BN3_shelf1a
+X BN3_tiles1
+C BN3_wall12a
+W BN3_wall13a
+W BN3_wall13b
+T BN3_wall14
+C BN3_wall15
+W BN3_wall16
+M BN3_wall17
+Z BN3_wall17b
+C BN3_wall1a
+C BN3_wall1b
+C BN3_wall1c
+C BN3_wall3a
+V BN3_wcooler1
+V BN3_wcooler2
+V BN3_wcooler3
+W BN_wood6
+M VMETALBORD
+G BN2_maidcart
+W BN3_2dtree1
+M BN3_chair1
+Y BN3_clock1
+M BN3_gas1
+M BN3_gas2
+G BN3_gate1
+Y BN3_linedglass
+M BN3_shelf1b
+V doom_chicks_rr
+V doom_dudes_rr
+T doom_prooffloor
+M doom_radio
+M doom_radioside
+M doom_radiotop
+X doom_st00pidscr
+Y doom_vend
+Y rogue_drA
+Y rogue_drB
+Y rogue_drF
+W rogue_pic1
+W rogue_pic2
+R generic001
+M generic012
+T generic027
+Y generic028
+M generic105c
+M generic46
+M generic47
+M lab1_door7
+M lab1_stair2b
+M lab5_c2b
+W sign45
+W sign46

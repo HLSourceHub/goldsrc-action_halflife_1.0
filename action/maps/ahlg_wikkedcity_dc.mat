@@ -1,0 +1,121 @@
+// Half-Life Texture Types.  Modify this file only if texture names are changed!
+// 'M' metal
+// 'V' ventillation
+// 'S' slosh liquid 
+// 'T' tile
+// 'G' grate 
+// 'C' Concrete
+// 'W' wood
+// 'P' computer
+// 'Y' glass
+// 'B' Wooden Tiles
+// 'R' Carpet/Fabric
+// 'X' Generic (concrete sound, generic decal)
+// 'Z' None (no decals, only sound)
+// 'K' Rock
+// 'L' Gravel/Dirt
+// 'N' Snow
+ 
+// NOTE: only the first 12 characters of the texture name are used
+// NOTE: a maximum of 512 textures may be tagged in this file
+
+M c1a0b_dr2a
+M c1a1_w1
+M lab1_comp9e2
+M lab1_b4
+M elev2_dr
+M fiftsfile1
+M fiftsfile2b
+M ca1x_con
+M out_wall3c
+M generic015n
+M raw_noent
+M elev1_trim
+M black
+M fifties_cau
+M drkmtlt_bord13
+M nopark
+M pole
+M sign3
+M overon
+M babtech_flr10
+M c2a4_w1h
+M fifties_cmp1c
+M fifties_cmp2c
+M fifties_cmp3b
+M c3a2a_brd1
+M elev1
+M elev2
+M elev2_ciel
+M elev2_flr
+M drkmtl_wall010
+M tnnl_swrc2
+
+V elev1_ciel
+V duct_wall03
+V duct_vnt
+V duct_flr02a
+V fifties_cmp1b
+
+T drkmtlt_flr01
+T heatmiser
+T rawhyde
+T babtech_dr1c
+T babtech_dr4c
+T fifties_wall14
+
+G grate1
+G grate2a
+
+W fifties_dr1
+W fifties_dr5d
+W heatsign1
+W crate03
+W crate08
+W crate09
+W crate09b
+W crate09c
+W crate25
+W sign2a
+W sign2b
+
+P gymlight
+P light3a
+P light3c
+P light3e
+P light4a
+P light5a
+P light6a
+P tnnl_lgt1
+P lab1_cmp1
+P lab1_cmp2
+P lab1_comp3
+P lab1_comp3d
+P lab1_comp3e
+P lab1_comp7
+P lab_crt7
+P lab_crt11a
+P lab1_gad2
+P fifties_cmp1a
+P fifties_cmp2b2
+P fifties_cmp3a2
+P fifties_cmp4a
+P needle
+
+Y raw_bluh
+Y out_1
+Y glassgreen
+
+R carpetheat
+R fifties_cch1
+R fifties_cch4
+
+X elev1_dr
+X raw_bw1
+X lab1_comp3f
+X generic039
+
+Z fence3
+
+L out_pave2
+L out_grvl2b

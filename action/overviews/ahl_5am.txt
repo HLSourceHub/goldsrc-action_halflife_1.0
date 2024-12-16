@@ -1,0 +1,14 @@
+// overview description file for ahl_5am.bsp
+
+global 
+{
+	ZOOM		1.45
+	ORIGIN	587.00	 631.06	1500.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/ahl_5am.tga"
+	HEIGHT	2800
+}

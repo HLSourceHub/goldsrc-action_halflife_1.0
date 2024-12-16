@@ -1,0 +1,8 @@
+There are two packaged VGUI images with the_fist in this pack; the names are 640_the_fist.tga and 640_the_fist_2.tga.
+
+640_the_fist.tga is a high kick pose.
+640_the_fist_2.tga is a still shot of the_Fist in mid-spinkick.
+
+You can view both in Internet Explorer (or Adobe Photoshop, but IE's faster).  When you decide which VGUI shot one you want, name the one you like to 640_the_fist.tga.  The other one, just rename it to something so you know what it is, should you want to use it later.  If anybody runs a server with the_fist as a selectable model, the VGUI loaded in your menu will be the one you specified of the two.  This way, everybody's happy!
+
+-Kameh

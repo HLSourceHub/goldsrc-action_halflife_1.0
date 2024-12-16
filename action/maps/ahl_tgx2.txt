@@ -1,0 +1,61 @@
+Level Information
+_________________
+Title:      : Training Grounds(TG) x2
+Filename    : ahl_TGx2
+Author      : spite
+Date        : 11/30/01
+Game        : Action Half-Life
+Email       : spite@cfw.com
+
+
+Description
+___________
+
+Area used in military tactics and weaponry training, mellee, sniping, and extremely stylish battle tactics. 
+Great attention has been made to allow stunts to be used at the greatest ability. Try diving anywhere you want to go, quickly and stylishly. 
+
+This map has been revamped to improve r_speeds, thus improving YOUR fps. You'll notice some textures scaled up and unneeded brushes removed. Hope you like it
+
+____________________________________
+Single Play            : No
+Co-op                  : No
+Deathmatch             : Yes
+Suggested Player Load  : 2-8
+New Textures           : Yes
+New Sounds             : Yes
+
+Construction
+_____________________________________________
+
+Editor Used     : WC3.3
+Other Utitlies  : Wallys, Photoshop, PSP
+Known Bugs      : Some clipping problems, r_speeds
+Compile Machine : Athlon 700mhz, 256mb ram, Win2ksp2
+Compile Time    : Approximately 13 Minutes
+No other released levels
+
+Instructions
+_____________________________________________________
+Unzip to your Action/mod directory EX: C:\SIERRA\Half-Life\Action\
+
+
+
+Credits-Thanks
+_________________________________________________________________
+
+All map textures are from standard Half-Life wads. Thanks to Bait for some texture work.
+Thanks to Hondo for some ..unconventional help
+Thanks to the following for playtesting and feedback, in no particular order;
+Goky, DN, Kamikaze, Bulletbait, IronChefMonkeyButt, Jinx, Hayt, Nova, many people in both #ahl_mapping, #actionhalflife, and the AHL Map Depot board.
+
+
+
+Copyright
+_______________________________________________________________________________
+
+This map is mine, if you wish to decompile and edit this map email me and we can work something out. By no means can you take anything from this map and label it as your own, lack of custom textures does not mean you can rip me off. 
+
+
+
+
+

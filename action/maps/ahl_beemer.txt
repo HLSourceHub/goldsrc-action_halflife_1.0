@@ -1,0 +1,82 @@
+
+HalfLife ActionHL
+
+-------------------------------------------------------------------------------
+
+Title       :  Beemer
+File name   :  ahl_beemer.zip
+Game type   :  Deathmatch
+Mapping     :  beer hunter
+Released    :  March 2004
+Players     :  8-12
+
+-------------------------------------------------------------------------------
+
+
+Info
+----
+A small-ish map based on a city street theme, there's a mix of external and
+internal areas to suit different weapon types.
+
+R_speeds average about 400-700 for outdoor areas, much lower for internal stuff.
+The silver roofed H building has prolly got the highest r's, avoid this bit if
+you've got a low spec system.
+
+
+Credits
+-------
+Giggles and the crew for play testing.
+
+Jinx for feedback, fountain, AHL specific stuff and pointing me in the direction
+of AHL and other helpful tutorials - http://ahlmd.telefragged.com/
+http://www.cryotank.net/    http://www.planet-action.net/
+
+AHL forum peeps for helpful suggestions http://www.aq2zone.com/
+
+Sounds - Shockwave Sound http://www.shockwave-sound.com
+
+Textures - HalfLife, Counter Strike and customs, Jose @ http://land.heim.at/
+Xtender www.fuchtelworld.de
+
+And anyone else i may have missed.
+
+
+Installing
+----------
+Unzip into the \action folder with Create Folders on.
+  .BSP files go into \maps
+  .TGA's go in \gfx\env
+  .MDL's go in \models\beemer
+  .WAV's go in \sound\beemer
+
+
+History
+-------
+Map originally started out as a HLDM/The Specialists level and was inspired
+by some .RMF map files that i saw in a mapping competition in the TS forums. 
+Two map sections are loosely based on .RMF's by Schmung and Insulaner, had
+to completely rework them so there's prolly little left of the originals.
+
+
+Trouble Shooting
+----------------
+Trees have blue "leaves" - the trees use new rendering technology used in DOD
+v1 and CS 1.6, installing either of these mods will update HalfLife with the
+code needed to render the trees correctly. As of writing its not enough to
+patch HalfLife (non Steam) as AFAIK Valve haven't included this technology
+in the latest patch. 
+
+
+
+-------------------------------------------------------------------------------
+
+Distribution, Copyright and Legal Garbage
+-----------------------------------------
+The software may be distributed for non-commercial purposes only, the authors
+reserve all rights. All custom media and textures are copyright their
+respective owners.
+
+
+
+
+Thx for reading this far :)

@@ -1,0 +1,40 @@
+-======== Action Halflife Directors Cut Credits ========-
+
+                 ...(roll credits!).....
+
+-= Ladnet / >N Coding strike force
+
+[>N]Ves      	- Coder, Website support, Installer build
+[ladnet]sykes   - Coder, linux build
+[ladnet]brad    - Coder, Map hacks 
+[>N]Rustymonkey - Site design, general support
+Kissamies	- Build master (content archives/control)
+Rogue		- 2d graphics, intro/pimp movies 
+
+-= Additional Help
+
+[QuAd]dunc      - website updates/file mirroring, general ahl advice, CAKE!
+Frost           - Support and advice (modeling info)
+[TSU]Payback    - Support, advice and for getting us started off (Big Thankyou)
+
+-= special thanks
+[DAMN]raven, [DANN]hawky For hosting a spectacular LAN/Release party. 
+
+also.
+
+All the countless players that have contributed both their time and thoughts on 
+our servers and forums. without the players there wouldnt be ahl!!
+
+====================================================
+
+.= Akimbo Team Productions (The God Fathers)
+  
+ AHL concept, creation and management
+
+Dwayne 'Oddjob' Douglass     - Game Designer, Lead Modeler, Animator
+Evan 'Ace12GA' Prentice      - Modeler
+Markus 'RaVeN' Hastreiter    - Audio Director, Press Liason
+Martin 'rogue' Oberhaus      - Art Director, Press Liason
+Christopher 'Moore+' Moore   - Player Skins
+Thorsten 'Borg' Schwalb      - The Myth , Jack of all Trades
+Stuart 'Payback' Crouch      - B3-v1 Coder

@@ -1,0 +1,12 @@
+BASICS:
+Type        : High caliber semi-auto pistol
+Firing modes: Semi-auto/full-auto
+Ammo loadout: 7 rounds/clip, 1 extra clip
+Firing rate : Medium
+Damage      : High
+
+TACTICAL/COMMENTS:
+The Desert Eagle is one of the most powerful handguns in the world. Many people prefer its higher firing rate to the better stopping power most .44 revolvers offer. However ammunition is wasted easily, so choosing a bandolier as item may be a wise decision.
+
+AS SEEN IN:
+The Desert Eagle has been featured in many action movies like Desperado, La Femme Nikita, and The Replacement Killers.  

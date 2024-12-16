@@ -1,0 +1,88 @@
+===========================================================================
+==  tovarich  ==== (c)2003 ===
+===========================================================================
+
+Wikked3 retextured and completely rebuilt.
+
+=======================================================================================
+---------------------------------------------------------------------------------------
+* LEVEL INFORMATION *
+---------------------------------------------------------------------------------------
+TITLE                   : Bananamans
+FILENAME                : ahl_bananamans.bsp
+AUTHOR                  : Dirk Schraeer (aka banana)
+DATE                    : december.2001
+GAME                    : Action Half-Life
+EMAIL ADDRESS           : banana@gamigo.de
+HOMEPAGE URL            : http://www.planet-action.net
+ 
+---------------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+---------------------------------------------------------------------------------------
+A classic map, retextured and redesigned.
+Original Wikkedmans by Ted Lambert(RawHyde)
+
+---------------------------------------------------------------------------------------
+SINGLE PLAYER           : No.
+CO-OPERATIVE            : No.
+DEATHMATCH              : 12 DM Starts.
+SUGGESTED PLAYER LOAD   : 2 to 12.
+ 
+NEW TEXTURES            : Yes. Most by me.
+			  Couch texture by hondo.
+			  one original carpet texture by heatmiser from wikked3.
+NEW SOUNDS              : Yes, 2 covers of the russian anthem,
+			  the guitar one is by borg,
+			  the c64 one is an excerpt of russian.sid by tomas danko,
+			  taken from the high voltage sid collection (www.hvsc.c64.org)
+CD TRACK #              : No cd track is played.
+ 
+---------------------------------------------------------------------------------------
+* CONSTRUCTION *
+---------------------------------------------------------------------------------------
+MAP BASE                : Original.
+PREFABS USED            : None.
+EDITOR(S) USED          : Quark (http://www.planetquake.com/quark)
+OTHER UTILITIES USED    : Picture Publisher6
+                          Wally
+                          ZhltGui (http://www.planethalflife.com/eddi)
+ 
+KNOWN BUGS              : None.
+
+TOTAL COMPILE TIME	: About 4 hours ?
+ 
+---------------------------------------------------------------------------------------
+* OTHER LEVELS BY BANANA *
+---------------------------------------------------------------------------------------
+ahl_astorage, ahl_bananamans, ahl_bankdoom, ahl_calypso, ahl_engholm, ahl_napoli, 
+ahl_tovarich all for AHL.
+  
+---------------------------------------------------------------------------------------
+* CREDITS *
+---------------------------------------------------------------------------------------
+The A-Team              : For creating a mod that's fun mapping for.
+The QuArK Team		: For the best editor for Quake Engine Games there is.
+The #ahlgerman fr00ts	: For help,testing and the endless hours of compiling 
+			  maps i forced them to.
+[A$Z]Borg		: For his music,being cool and general willingness to help.
+Luebbi			: For the loc file and coolnes, and for being nice although
+			  i'm an ass most of the time.
+[BR]Colm		: For his bot waypoint files.
+
+=======================================================================================
+* COPYRIGHT / PERMISSIONS *
+---------------------------------------------------------------------------------------
+This level is (C) 2003 Dirk Schraeer.
+
+Authors MAY NOT use this level as a base to build additional levels.
+No decompiling, hacking, or modification of the .bsp or related files will be 
+tolerated.
+ 
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS! If you don't co-operate, then DON'T DISTRIBUTE
+IT IN ANY FORM!
+ 
+No money may be charged for this level AT ALL without first getting permission from me.
+
+Action Half-Life (C) The A-Team.
+Half-Life (C) Sierra On-line and Valve L.L.C. All rights reserved.

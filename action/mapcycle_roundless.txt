@@ -1,0 +1,26 @@
+// Suggested mapcycle.txt for DM and other roundless modes
+
+ahl_nocredit
+ahl_plexharbour "\minplayers\6"
+crossfire
+ahl_villa "\maxplayers\8"
+ahl_clinic "\minplayers\6"
+ahl_innercity3
+ahl_manic "\maxplayers\10"
+ahl_hydro "\minplayers\6"
+ahlg_engholm
+ahl_bankdoom "\maxplayers\8"
+ahl_monorail "\minplayers\4"
+ahl_nightshift
+ahl_tgx2 "\maxplayers\6"
+ahl_calypso "\minplayers\4"
+ahl_napoli
+ahl_plexhbraid "\maxplayers\8"
+ahl_beemer "\minplayers\4"
+ahl_snowmax
+ahl_loungesky "\maxplayers\4"
+ahl_casagrande "\minplayers\4"
+ahl_plexcity
+ahl_killington "\maxplayers\8"
+ahl_city
+ahl_tratoria

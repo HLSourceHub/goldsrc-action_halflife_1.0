@@ -1,0 +1,12 @@
+gfx/env/fullmoonup.tga
+gfx/env/fullmoondn.tga
+gfx/env/fullmoonlf.tga
+gfx/env/fullmoonrt.tga
+gfx/env/fullmoonft.tga
+gfx/env/fullmoonbk.tga
+maps/ahl_nightshift.awf
+maps/ahl_nightshift.loc
+maps/ahl_nightshift.mat
+maps/ahl_nightshift.txt
+maps/ahl_nightshift.ini
+maps/ahl_nightshift.res

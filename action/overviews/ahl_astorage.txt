@@ -1,0 +1,14 @@
+// overview description file for ahl_astorage.bsp
+
+global 
+{
+	ZOOM		1.32
+	ORIGIN	3.13	 -356.44	-430.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/ahl_astorage.tga"
+	HEIGHT	-812
+}

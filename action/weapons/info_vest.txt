@@ -1,0 +1,9 @@
+BASICS:
+Type        : Kevlar vest
+Usage       : Protects chest against hits from light weapons.
+ 
+TACTICAL/COMMENTS:
+The kevlar vest is a very reliable item. Whenever shot at, it absorbs most damage from low calibre weapons dealt to your upper body like SMGs or handguns. However you legs and especially your head are still exposed, a well-placed hit can still kill you instantly.
+
+AS SEEN IN:
+Watch Heat, Way of the Gun or Leon a view for some kevlar vest shots.

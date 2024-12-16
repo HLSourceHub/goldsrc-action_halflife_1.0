@@ -1,0 +1,118 @@
+
+=====================================================================
+   Action Half-Life Map Spec Sheet
+=====================================================================
+
+------General Information--------------------------------------------
+
+Title		: Temple
+Filename		: ahl_temple.bsp
+Authors		: Jinx
+Authors Email	: jinx@cryotank.net
+Home pages	: http://www.cryotank.net/maps/
+Description	: a large temple a-la Tomb Raider, Raiders of the Lost Ark, etc.
+
+
+------About This Map-------------------------------------------------
+
+This map started as a quick conversion of the Goldeneye map Temple, from the N64 game by Rare. However, it quickly became its own map and only some minor similarities remain, mostly in parts of the layout.
+
+
+------Credits and Thanks---------------------------------------------
+
+BORG for taking interest in this map and for his suggestions. Also for the beautiful music track you heard in the lower room with the large tree. And the lava glubbing sound.
+
+Octave Doctor for the wind sound on the balcony.
+
+Phostoxin (Jako Malan) (dfm@msi.imt.za) - for the new sky used in this map. I got the sky on Wadfather (http://www.planethalflife.com/wadfather).
+
+TheDoenerKing - for the nice tree model you see in the lower room (http://www.thedoenerking.de).
+
+Crinity - I the flaming pots you see around the map are heavily modified from the prefabs on his site. (http://www.planethalflife.com/crinity)
+
+Half-Life Exodus Open-Source - a couple sounds from this cancelled mod. (http://www.code4me.de/exodus/)
+
+MeanRabbit.com - (http://www.meanrabbit.com) for some of the nice ambient sounds you hear in this map (mr_ prefix). I emailed them about using their sounds in my maps, and they were very cool about it. 
+
+The Snarkpit crew, whose feedback was very beneficial.
+
+Playtesters, and everyone else who gave feedback.
+
+My fellow mappers, and the rest of the AHL community for being great people to work with and game with. (Except for Jinky and Crimson_Fox. Go to hell you two!)
+
+The A-Team for this great mod.
+
+
+------Texture Credits------------------------------------------------
+
+Blazeeer: This guy has a ton of great original textures available, and they are the primary textures I used when I went back to revamp this map. They are mostly from blaz_sandwad. Thank you SO MUCH for making and sharing these textures!!! (http://www.blaz.cscentral.com/textures.htm)
+
+3DPunk and FreakyZoid: I used a plant texture they made from op_dm_foyer.wad
+
+Manah: some textures from his public wads. (http://www.planethalf-life.com/manah/)
+
+3DMike: some textures from his de_predator wad. (http://www.3d-mike.com/) (http://www.lanmaniax.com/)
+
+Banana: a few textures here and there from his wad. (included with AHL). banana always has nice stuff :)
+
+Cayle George: a few from his "megawad", very nice. (http://www.planethalflife.com/cayle/)
+
+Deathmatch Classic: some textures are from this mod's wad. (it's valve, so I think it's free to use)
+
+Muad'dib: I used a texture of Muad'dib's to make the glow sprite on the fires. (http://www.planetunreal.com/muad/) (http://www.planethalflife.com/wadfather)
+
+MasterPlan: I used an animated fire texture in his Chronic texture set to make the fire sprite used in this map. (http://www.planethalf-life.com/wadfather)
+
+X-Tender: I used few from his wads. (http://www.fuchtelworld.de)
+
+
+------Additional Info, Tips, and Notes-------------------------------
+
+In Rounded modes, doors will begin closing after 80 seconds to seal off the main room (the big one with two levels and the pool to dive into below). Anyone left outside after they close will be killed. This is a way to keep rounds from getting too long since the map is fairly large.
+
+
+------Play Information-----------------------------------------------
+
+Single Player   	: No grunts or assassins, but you can play bots of course.
+Deathmatch	: Yes.
+Teamplay        	: Yes.
+LMS		: Yes.
+Modification    	: Action Half-Life
+Map Description	: a beautiful temple
+Players: 		: 4+
+
+
+------Map Information------------------------------------------------
+
+New Textures	: Yes. (see credits)
+New Sounds	: Yes. (see credits)
+New Models	: Yes. (see credits)
+New Sprites	: Yes. (see credits)
+New Skymap	: Yes. (see credits)
+
+
+------Construction---------------------------------------------------
+
+Base		: not a 'base' exactly, but the initial design was inspired by the map Temple from Goldeneye (by Rare for N64)
+Editor(s) used	: Worldcraft 3.3, Zoner's Tools
+Texture editors 	: Wally, Photoshop
+Compile Machine	: Athlon 2700+ 1GB ram
+Compile time	: About 20 minutes
+Playtest time	: A few sessions, some quite large (10+). Mostly teamplay.
+
+
+------Copyright-Permissions------------------------------------------
+
+This map is for ACTION HALF-LIFE ONLY.
+You MAY NOT REDISTRIBUTE IT separate from the Action HL install.
+You MAY NOT ALTER IT without my express permission.
+If you like my work, please respect my wishes.
+
+Authors may NOT use this level as a base to build additional levels without my direct permission.
+
+You MAY NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS!!!.
+
+This BSP may be distributed ONLY over the Internet.
+You are NOT authorized to put this BSP on any CD or distribute it in
+any way without my permission.

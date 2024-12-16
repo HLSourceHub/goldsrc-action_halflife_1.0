@@ -1,0 +1,13 @@
+banana's wad
+
+textures beginning with mlo are texture based or containing stuff from clamtex.
+the texture beginning with bx is based on a texture by bunnyx.
+the rest is mine.
+
+you can use the textures from this wad as long as you obey following rules:
+1.USE THIS WAD FOR AHL MAPS ONLY!
+2.DO NOT MANIPULATE OR EXTRACT DATA FROM THIS WAD, THIS MEANS ALSO INCLUDING TEXTURES INTO BSPS.
+
+
+
+of course you can ask me (banana@gamigo.de) if you want to violate these rules, i may give my permission.

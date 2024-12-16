@@ -1,0 +1,189 @@
+===================== AHL: Directors Cut RC2 changes (08-08-05) ======================
+
+Features
+--------------------------------------------------------------------------------------
+Gameplay with goals is now fully functional
+- lives system
+- NPC entity
+- fixup of Game Triggers
+- improved entity mastering
+- goal scoring system improved with round system
+- goalmaps added 
+New Media/Content
+- new manual
+- new splashscreen
+- movie intro added
+AHL Fastdownloads server added for downloading custom content at lightning speed
+Dynamic lighting added (shooting lights up the surrounding area)
+New bots configurations added
+Command: killallbots added - This will gib any bots left alive
+Command: sv_botgrudge added - When set to 1 bots will punish teamkills
+env_model: Mappers can now add animated entities to their maps
+Example mapcycles for different gamemodes added
+Example Configurations reworked
+Super Volcanos mode added
+
+
+Tweaks / Bugfixes
+--------------------------------------------------------------------------------------
+Fixed player model selection pics in UI
+All maps now have proper .res, .loc, and .mat files
+Akimbo colts are now compatible with V1 weapon models
+Optimized headshot detection code
+Reduced size of head hitbox
+Dive bumping is back
+Greater chance of disarming with kungfu
+You can now use a turret or machinegun while holding a knife
+Bots are now chosen at random
+When a team has only 1 subteam you automatically join this team
+Changed some of the file structure 
+- bot waypoints now with maps
+- model VGUI images now with models
+Multiplayer scoreboard behaviour when joining fixed
+All bot info files are now lowercase so they work on linux
+Updated FGD file
+Incorporated features from the latest metamod SDK release
+Akimbo Colts animation issues fixed
+Linux server code - now compatible with metamod again!
+
+
+Weapon Changes
+--------------------------------------------------------------------------------------
+None
+
+
+Known bugs (major)
+--------------------------------------------------------------------------------------
+Creating your own game (listenserver) and playing on it will fuxor the prediction: 
+You will shoot multiple bullets for each shot and accuracy isn't right. This bug
+was already present in previous versions of AHL.
+
+
+
+===================== AHL: Directors Cut RC1 changes (23-12-04) ======================
+
+Features
+--------------------------------------------------------------------------------------
+New map added: ahl_beemer
+Some maps readded and revised mapcycle + teams
+Dynamic crosshair added (multiple!)
+CVAR's: crosshair_dynamic, crosshair_dynamic_color, crosshair_dynamic_alpha
+Akimbo silenced colts
+Dive sounds
+Net settings in commandmenu
+Two new variables for chat messages: %k = number of kills, %a = ammo count
+CVAR: select_empty_weapons added
+When set to 0 empty weapons will be skipped when scrolling through the weapon buckets.
+Headshot pitch is now varied
+Code base migrated to gcc 3.2.3 (linux)
+
+
+Tweaks / Bugfixes
+--------------------------------------------------------------------------------------
+Tweaked bullet wizz sounds and made them occur less often
+Smokepuffs code optimized and more transparancy added
+Disabled the screentilt by default
+Prone roll speed reduced
+
+Clientside weapon events sync'ed with serverside
+Big overall accuracy increase
+Lots of weapon accuracy prediction fixes
+New recoil system with more natural accuracy modifiers
+
+Lasersight and silencer accuracy increase is now predicted
+Made silencer accuracy increase work
+Fixed no accuracy difference between run/walk/stand
+
+Cvar: sv_maxspeed set back to 280 by default
+Deathmatch spawn code put back to HLDM code
+
+Tolerable menu screen sounds
+New menu splash screen (credits go to Rogue as it's an old wallpaper of his)
+A few new weapon sounds
+
+Server net rates are much higher by default to ensure smooth and consistent gameplay.
+
+M4: Fixed lasersight not having any effect on accuracy
+M4: Fixed no muzzleflash showing when you had a silencer
+Akimbo SAA: Fixed not being able to reload to 6 bullets
+
+
+Weapon Changes
+--------------------------------------------------------------------------------------
+
+Beretta:
+Accuracy is now the same as the akimbo berettas
+Added a bit more recoil
+
+Colt 1911:
+Accuracy is now the same as the akimbo 1911s
+Fixed first shot being inaccurate
+Added a bit more recoil
+
+Colt SAA:
+Accuracy is now the same as the akimbo SAAs
+Removed huge recoil
+Changed recoil system to match other guns
+Faster firing with primary attack
+Secondary fire now sustains a pretty good accuracy
+
+Desert Eagle:
+Added a bit more recoil
+Allowed a little faster firing
+
+Magnum:
+Changed recoil system to match other guns
+Increased recoil
+Secondary fire is less accurate
+
+Akimbo guns:
+Slower secondary attack
+Secondary attack sustains good accuracy
+
+Mp5k:
+Single shot firerate is less limited
+Firemode alters accuracy now
+Single shot and 3 round burst are much more accurate
+Full-auto is more accurate
+Increased recoil
+You now get 3 spare clips with a bandolier
+
+M4:
+24 bullets per magazine
+Less movement slowdown when firing
+Events sent reliably now
+Single shot firerate is less limited
+Firemode alters accuracy now
+Single shot and 3 round burst are much more accurate
+Full-auto is more accurate
+Increased recoil
+You now get 3 spare clips with a bandolier
+
+Hand Cannon:
+Now 12 shells spare instead of 16
+Decal spread now true to real spread
+
+Shotgun:
+Now holds 6 shells instead of 8
+Now 12 shells spare instead of 16
+Less pellets, more damage
+Shotgun pellets are now predicted
+Increased accuracy
+Increased range
+Different range damage falloff calculation
+New effects for shotgun pellets
+Removed short range damage multiplier
+
+50Cal: 
+The following tweaks were done but temporarily removed.
+There is no suitable weapon model and animations (yet).
+Increased reload time
+6 bullets, 6 spare
+No more clip but manual reloading for each bullet
+
+
+Known bugs (major)
+--------------------------------------------------------------------------------------
+Creating your own game (listenserver) and playing on it will fuxor the prediction: 
+You will shoot multiple bullets for each shot and accuracy isn't right. This bug
+was already present in previous versions of AHL.

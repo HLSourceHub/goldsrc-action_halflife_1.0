@@ -1,0 +1,196 @@
+// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED, 
+//DO NOT EDIT THIS HEADER, YOUR COMMENTS WILL BE LOST IF YOU DO
+// User options script
+//
+// Format:
+//  Version [float]
+//  Options description followed by 
+//  Options defaults
+//
+// Option description syntax:
+//
+//  "cvar" { "Prompt" { type [ type info ] } { default } }
+//
+//  type = 
+//   BOOL   (a yes/no toggle)
+//   STRING
+//   NUMBER
+//   LIST
+//
+// type info:
+// BOOL                 no type info
+// NUMBER       min max range, use -1 -1 for no limits
+// STRING       no type info
+// LIST          delimited list of options value pairs
+//
+//
+// default depends on type
+// BOOL is "0" or "1"
+// NUMBER is "value"
+// STRING is "value"
+// LIST is "index", where index "0" is the first element of the list
+
+
+// Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
+// File generated:  Sat Dec 22 11:19:38 PM
+//
+//
+// Cvar	-	Setting
+
+VERSION 1.0
+
+DESCRIPTION INFO_OPTIONS
+{
+	"mp_decals"
+	{
+		"Multiplayer decal limit"
+		{ NUMBER 0.000000 4096.000000 }
+		{ "600.000000" }
+	}
+
+	"select_empty_weapons"
+	{
+		"Allow select empty weapons slots"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"crosshair"
+	{
+		"Crosshair"
+		{ NUMBER 0.000000 32.000000 }
+		{ "0.000000" }
+	}
+
+	"crosshair_dynamic"
+	{
+		"Dynamic crosshair"
+		{ BOOL } 
+		{ "1" }
+	}
+
+	"hud_centerid"
+	{
+		"Center Ident"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"ignore"
+	{
+		"IGNORE setting"
+		{
+			LIST
+			"Receive everything" "0"
+			"Ignore broadcast messages" "1"
+			"Ignore  broadcast & radio messages" "2"
+			"Ignore all messages" "3"
+		}
+		{ "0.000000" }
+	}
+
+	"eyecandy"
+	{
+		"Eye candy (Disable for performance boost)"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"gore_level"
+	{
+		"Gore Level"
+		{
+			LIST
+			"Disabled" "0"
+			"Low" "1"
+			"Normal" "2"
+			"High" "3"
+			"Very High" "4"
+			"Excessive" "5"
+			"Getting rediculous" "6"
+		}
+		{ "3.000000" }
+	}
+
+	"pickup_sounds"
+	{
+		"Client Side Pickup Sounds"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_screentilt"
+	{
+		"Screen tilt"
+		{
+			LIST
+			"Disabled" "0"
+			"Very Low" "1"
+			"Low" "2"
+			"Medium" "3"
+			"High" "4"
+			"Very high" "5"
+			"Quake like" "6"
+			"Full-on lean" "7"
+		}
+		{ "0.000000" }
+	}
+
+	"cl_wallfx"
+	{
+		"Particle based wall effects"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_wallfxscale"
+	{
+		"Size of the wall debris"
+		{
+			LIST
+			"Tiny" "1"
+			"Small" "2"
+			"Medium" "3"
+			"Average" "4"
+			"Big" "5"
+			"Large" "6"
+			"Huge" "7"
+		}
+		{ "5.000000" }
+	}
+
+	"cl_bloodfx"
+	{
+		"Particle based blood effects"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_muzzlefx"
+	{
+		"Particle based muzzle flash effects"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_externalmuzzlefx"
+	{
+		"3rd Person 3D muzzle flash effects"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_extmuzflash"
+	{
+		"External Muzzle flares"
+		{ BOOL }
+		{ "1" }
+	}
+	"super_volcanos"
+	{	
+		"Super Volcanos"
+		{ BOOL }
+		{ "0" }
+	}
+
+}

@@ -1,0 +1,147 @@
+Akimbo Team Productions (The God Fathers)
+
+Dwayne 'Oddjob' Douglass     - Game Designer, Lead Modeler, Animator
+Evan 'Ace12GA' Prentice      - Modeler
+Markus 'RaVeN' Hastreiter    - Audio Director, Press Liason
+Martin 'rogue' Oberhaus      - Art Director, Press Liason
+Christopher 'Moore+' Moore   - Player Skins
+Thorsten 'Borg' Schwalb	     - The Myth , Jack of all Trades
+
+Action Half Life Staff (The Cleaners)
+
+Stuart 'Payback' Crouch      - Current Coder (of three)
+Nathan 'LPlasma' Purkeypile  - Modeler, Animator
+Ildegardis 'Deimos' Briceño  - Modeler, Animator
+Elliot "Skammy" Pembrook     - Modeler
+Jason 'JT+ 'Thomas           - Player Skins
+Brian 'Hondo' McClelland     - Mapper (ahl_5am, ahl_endlrainhc, ahl_nocredit)
+Nicholas 'Vektuz' Lawson     - Code support (and loads of it)
+Nick 'Drumdude' Cramer       - Mapper (ahl_hkheat)
+Dirk 'banana' Schraeer       - Mapper (ahl_astorage, ahl_bananamans, ahl_bankdoom, ahl_napoli, ahl_calypso)
+Thorsten 'Borg' Schwalb       - Lead Beta tester and a whole lot more
+Colm McSky		     - Manual Author
+Michael "Mel" Groezinger     - models, skins, animations
+
+Additional Kudos (The Cannon Fodder)
+
+_sleepi_                     - Hand models
+Adam "Katto" Smith           - Modeler
+Mark "quamosity" Lang 	     - "Ghostdog" skin
+Nicholas D. Wolfwood         - "Pain" Player model
+Scott "Crustashio"
+ Montgomerie                 - Viewport Mojo, Last Minute Model Fixes
+Luke "Malcolm" Paul          - Our resident Grammar Ranger, also some weapon model fixes
+Chris 'aUsLanDeR' Wallace    - NT and Linux server
+Zaphod                       - Linux development server, linux support
+Nikolaj 'Musicmad' 
+ Christensen                 - Linux server
+Adrain 'Pink' Finol          - Code support
+Jason 'Ikkyo' Gripp          - code support
+Paul 'Pablo' Flaherty        - stalkyard.loc and Quality Control
+Marcus 'Gen' Howell          - Team Mascot, Command Menu Author and helping me out with betatesting
+BarrysWorld                  - For holding on even when they were dying (BW 4EVA!)
+-sLs- Clan Seals             - for server hosting
+Michael "MrWhite" Jusenius   - Innocent Bystander
+Max 'No Style' Fritzsche     - Various p&w models
+Dennis 'Nyles' Schwarz       - Weapons Info, Quality Assurance (x2)
+Rich Whitehouse              - Custom AHL Bot code
+Springer 		     - Skinner (kat,natalie,killer,suave,alan,susumu,o2,mccauley2,knifer2k3,kawada,drjones,chicken,angel,tok,ken,tacteq,tequila hopefully thats all ;)  )
+Ian Waugh	             - Model/Skins (Babewire, Misswong)
+Decimal	                     - Models (mamimi,chingamy)
+Sonique128                   - Models/Skins (mamimi,chingamy,jackB) <- guy who makes laugh with his great MB posts
+Svugg                        - Skin God (Eclipse, Malysa)
+Eric                         - Model Junkie
+Bulletbait                   - Mapper (ahl_nightshfit, ahl_monorail) Thx Man I always loved your maps.It was a pleasure making music for you
+xxx999xxx                    - Model Noel
+Deimos                       - Models taqtec,tequila
+A.u.s.t.i.n.		     - Trinityrage
+malkmus                      - Models (Ken,suave,alan,susumu,o2,mccauley2,kawada,chicken oh god the list goes on and on)
+Kim JaeYoon                  - Model/Skin (LadyDeath) (mineralwater_@hotmail.com)
+Tim 'CHPX' Lang		     - Installer logo AHL v1 art, manual, splash screen, wallpapers
+Kissamies                    - Waypoint File Master
+Jinx                         - Mapper (ahl_temple, ahl_monorail (revamped)
+Imperial                     - Mapper (ahl_manic)
+Frost                        - Modeller
+Plexor                       - Mapper (ahl_plexhbraid, ahl_plexcity, ahl_plexharbour.ahl_casagrande)
+Father Brandon		     - Mapper (ahl_tratoria,ahl_killington)
+beerdog                      - Mapper (ahl_tratoria,ahl_killington)
+corpsinhere 		     - Mapper (ahl_tratoria,ahl_killington)	
+K@0$                         - Mapper (ahl_tratoria,ahl_killington)
+daddycool                    - Help for ahl_tratoria 
+Vek                          - Mapper (ahl_clinic)
+Hondo                        - Mapper (ahl_5am,ahl_nocredit) the man with the weirdest secrets every
+Duion                        - Mapper (ahl_snowmax)
+Stinger                      - Mapper (ahl_city)
+Drumdude                     - Mapper (ahl_hkheat)
+Ves                          - Feeding me with good ideas and keeping a good eye on the balance
+
+Other Action Half-Life contributors (Dead Men Walking)
+
+Bartender 		- Not A Whole Lot
+Cail 			- original coder/grenade code
+Andrew "Zelig" Babb	- voice actor
+Jordan Weber-Flink 	- voice actor
+Caryn "Hellchick" Law   - voice actor
+Kris "Mr.Grim" Rigby    - Second coder & super-genius
+
+Extras
+
+Stafford 
+ 'The Octave Doctor!' Bawler - Mapper (ahl_innercityxl, ahl_loungesky, ahl_hydro,ahl_inncercity3,ahl_hydro)
+Russell 'DOOManiac' Weed     - Mapper (ahl_doombank -> evolved into ahl_bankdoom)
+
+Special thanks to our player model contest entires:   
+
+	Brian 'Evil Bastard' Collins (Michigan, Drake/Shaft[model only])
+	Rikki Knight (Wasabi, The_Fist)
+	Eric Spitler (Ivan)
+	GI Joe (arnie)
+	Admiral Duck Sauce (dieter)
+	~Austin (hunter)
+	endorphin (jawb)
+	eric (junkie)
+	xxx999xxx (noel)
+	IanW (misswong)
+	endorphin (Tsi)
+
+
+Extra Special Thanks (those people at the end of the credits who you never see)
+
+* All the beta 5 testers that tested, these guys were brilliant at adding the polish to yet another beta
+
+* Rich Whitehouse for writing bots and generally being cool.
+
+* Menacing UFO Gangs for their music on the original DOOMBank (not bankdoom, but we still love the music)
+
+* [A$Z]Borg for all of the music in the current beta.
+
+* The Original A-Team (Cail, Pietro, Vain, Bartender) 
+  without whom none of this ever would have happened!!
+
+* Valve for generating a LURVE/HAET relationship (MOSTLY LURVE!!!)
+
+* Telefragged.com for Hosting & Remote Dev Support 
+
+* Creative Labs for support
+
+* Maxon Computer for support
+
+* You, for waiting patiently whilst we got things sorted.
+
+* Merlin and Framer for hosting our message board and generally putting up with our shit.
+
+* Anybody we forgot! (if we did we are sorry... drop us a line and we will remedy it ASAP!)
+
+* Mind Vision software for Installer VISE
+
+	The installer for this product was created using Installer VISE	from 
+	MindVision Software. For more information on Installer VISE, contact: 
+
+                MindVision Software 
+                7201 North 7th Street 
+                Lincoln, NE 68521-8913 
+
+                Voice: (402) 477-3269 
+                Fax: (402) 477-1395 
+                E-mail: mindvision@mindvision.com 
+                http://www.mindvision.com 

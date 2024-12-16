@@ -1,0 +1,7 @@
+BASICS:
+Type        : Stealth slippers
+Usage       : You walk completely noiseless
+
+TACTICAL/COMMENTS: 
+Stealth slippers are a very uncommon but none the less effective item. While you make no sound when moving you can concentrate on the sound of the enemies footsteps to locate them more easily and attack them from the rear. However be aware that your enemy can also select them as item, so do not rely totally on your ears to locate enemies.
+

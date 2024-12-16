@@ -1,0 +1,56 @@
+*********************************
+CVARS 
+
+clientside
+----------
+
+hud_fastswitch 1/0 - fast weapon switching
+crosshair n - choose your crosshair
+eyecandy n - how many effects happen on screen at once. Can cause "too many particles" if set too high
+r_decals n - number of decal effects. Set it to 4096 if your system can handle it. AHL loves decals.
+gore_level n - how much blood/gibs appear
+
+cl_wallfx 1/0 - wall debris on/off
+cl_wallfxscale n - size of the debris
+cl_muzzlefx - First person muzzle flashes on/off
+cl_externalmuzzlefx - 3rd person muzzle flashes on/off
+cl_bloodfx - blood particles on/off
+
+cl_forcefps 1/0 - force rush mode to stay in first person
+cl_autotime 1/0 - automatic rush mode on/off
+cl_slowsound 1/0 - slow sounds down when in rush mode
+cl_norushmode 1/0 - never uses rush mode.  Use this if you have wierd things happening in multiplayer, or just dont like rush.
+
+cl_bodystay  n - how long bodies stay on screen in seconds 0 = forever
+cl_screentilt n - screentilt 0-8 0 = off 8 = max
+cl_menubars 1/0 - removes the help bars from the top + bottom of the screen in spectator mode
+hud_takeshots 1/0 - takes a screenshot of the scoreboard at the end of each level
+
+serverside
+----------
+
+mp_tkdeal n - how to deal with TKers 2 = kick 1 or 0 = punish
+mp_chasecam n - chase cam 0 = off 1 = on 2 = teammates only
+mp_allowspectators 1/0 - allows free floating spectators
+mp_allowpractice 1/0 - allows gun fights whilst waiting for the round to start
+mp_tkbantime n - how long a TKer will be banned for
+mp_balanceteams 1/0 - allows you to play with unbalanced teams
+mp_forcebalance 1/0 - forces the player to join the team with fewest players
+mp_fraglimit n - max kills before level change (DM + LMS Only)
+mp_timelimit n - max time before a level change
+mp_roundtimelimit n - max time a round can last
+mp_forcerespawn 1/0 - whether a player is forced to respawn in DM/roundless TP
+mp_gametype 1-5 - different game modes
+mp_friendlyfire 1/0 - whether team mates can cause damage
+
+sv_logdamage 1/0 - writes the damage caused to each player to the logs
+sv_logchat 1/0 - writes conversations to the logs
+
+sv_floodcount n - flood prevention, you can say x things in y seconds.  This is the x.
+sv_floodtime n - flood prevention, you can say x things in y seconds.  This is the y.
+
+bot_snipe 1/0 - when running bots
+bot_wp_edit 1/0 - turns on bot editing mode
+sv_wpedit 1/0 - allows the server/computer to edit bot waypoints
+mp_bots n - adds bots.  Enter a number.
+kickbot "name" - kicks the bot you name.  Using kick rather than kickbot will make ahl crash (dont know why :( )

@@ -1,0 +1,13 @@
+BASICS:
+Type        : Akimbo .45 semi-auto pistols
+Firing modes: Semi-auto/full-auto
+Ammo loadout: 14 rounds/2 clips, 2 extra clips
+Firing rate : Medium/fast
+Damage      : Medium
+
+TACTICAL/COMMENTS:
+The 1911s are a pair of strong and accurate handguns, which can take down most enemies with a few shots. However the guns don't have large clips, so you have to carefully pick your targets. A bandolier is very useful here to get more ammo, but kevlar vests and even stealth slippers are common selections too.
+
+AS SEEN IN:
+.45 semi-auto pistols like the Colt 1911 can be seen in Face/Off and Last Man Standing.
+

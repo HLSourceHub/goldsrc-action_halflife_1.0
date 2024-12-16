@@ -1,0 +1,96 @@
+=================================================================================
+* LEVEL INFORMATION *
+---------------------------------------------------------------------------------
+TITLE                   : No Credit
+FILENAME                : ahl_nocredit.bsp
+AUTHOR                  : Hondo (Brian McClelland)
+DATE                    : February, 2001
+GAME                    : Action Half-Life
+TYPE                    : All modes
+EMAIL ADDRESS           : Hondo@Telefragged.com
+HOMEPAGE URL            : http://ahl.telefragged.com
+ 
+---------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+---------------------------------------------------------------------------------
+
+A city area, containing the Hondo-Co Federal Credit Union and Circle-H Gas and
+Convenience. And a tunnel. These two businesses have been at quiet war ever since
+some financial deals went bad, neither believes a word the other says. Finally, 
+something snaps. Tonight at sundown, while the area is closed off for road 
+repair, they take the chance and go at it. 
+
+Oh, and there is no secret. No. If there was one, it would only work in DM and
+roundless teamplay.
+
+Also, sorry for using so many barricades. It's.. all I know how to do. I thought
+it was better in the realism tradeoff than making roads that mysteriously go
+nowhere and come from nowhere.
+
+---------------------------------------------------------------------------------
+SINGLE PLAYER           : No
+CO-OPERATIVE            : No
+DEATHMATCH              : Yes
+SUGGESTED PLAYER LOAD   : 3-12
+DIFFICULTY SETTINGS     : None
+NEW TEXTURES            : Yes (see credits)
+NEW SOUNDS              : Yes (see credits)
+ 
+---------------------------------------------------------------------------------
+* CONSTRUCTION *
+---------------------------------------------------------------------------------
+MAP BASE                : None
+PREFABS USED            : Police car by Dave Spurr (dave@daspurr.softnet.co.uk)
+                          Truck by ShadowCrawler (chaosworx@online.de)
+EDITOR(S) USED          : Worldcraft 3.3
+OTHER UTILITIES USED    : Wally, Photoshop, GoldWave and SoundForge sound editors
+KNOWN BUGS              : I know of none
+COMPILE MACHINE         : P-3 550, 128mb RAM
+
+---------------------------------------------------------------------------------
+* OTHER RELEASED LEVELS BY THE AUTHOR *
+---------------------------------------------------------------------------------
+ACTION QUAKE II         : Block War
+ACTION HALF-LIFE	: 5AM, 5AM_2, 5AM_B4, EndlRain, EndlRainHC, HDHouse,
+                          BlockWarB4, Cliff2_Snow
+
+---------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+---------------------------------------------------------------------------------
+Unzip this (with path recursing on) to your \Action directory. If somehow
+you can't, the .bsp/.ini/.txt/.loc go in \maps, the .tga files go in \gfx\env, 
+and the sounds go into \sound\hondo\nocredit. The .wads stay in \Action.
+
+ 
+---------------------------------------------------------------------------------
+* CREDITS / SPECIAL THANKS *
+---------------------------------------------------------------------------------
+Id Software, Valve Software, and The Akimbo-Team.
+
+Textures are all by me, except:
+The "mlo" ones. These are by that Mloclam person. (psyduck@planetaction.net)
+One or two are based off textures that Adam Smith made for me. (katarn@home.com)
+The police car ones in police.wad are by Dave Spurr (dave@daspurr.softnet.co.uk)
+The truck ones in chswrx01.wad are by ShadowCrawler (chaosworx@online.de)
+Env map (sky3) is by P@ranoid (disco_stu@libero.it)
+
+Sounds:
+Thanks to Borg, Drumdude, and Octave Doctor whom I got map sounds from. I have
+no idea where any came from originally (except hgthon.wav, I made that). The 
+song is Myaku by Dir en grey.
+
+Thanks to Zoner, who made those nice compiler tools.
+
+
+=================================================================================
+* COPYRIGHT / PERMISSIONS *
+---------------------------------------------------------------------------------
+If you want to include this map in anything, please get my permission.
+Since I can't stop anyone decompiling my work, if it's not just to have a look 
+or to do some random personal editing, please just tell me. (As in, converting 
+to another mod) I will decide if I want to support it or not.
+
+This archive must remain intact.
+
+If you want to steal any textures or sounds for whatever use you want, just 
+mention me or the appropriate people in the credits.

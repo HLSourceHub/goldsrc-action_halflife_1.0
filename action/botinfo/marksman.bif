@@ -1,0 +1,72 @@
+//THIS FILE CANNOT EXCEED 16384 BYTES IN LENGTH
+//(the caps indicate that this is an important thing)
+
+name=Marksman
+model=hunter
+
+yawspeed=70
+//yawspeed is degrees turned per frame. In this case it's 90 degrees per frame
+
+accuracy=4
+//A low value is good, a high value is bad (so 1 will be basically perfect accuracy, disregarding
+//the standard weapon inaccuracy)
+
+intlevel=4
+//Can be 0-4. 4 is a high intelligence level, while 0 is low. The int level just decides whether
+//or not the bot can do certain more advanced things.
+
+fov=75
+//Field of view, 90 is the default (same as a player's)
+
+distance=0
+//the maximum distance a bot can see in game units. The default is 0, which means the distance is unlimited.
+
+reflex=0.5
+//Time it takes for the bot to react to a threat. A value of 0.1 would be 1/10 of a second, whereas 1 would be 1 second.
+
+candive=0
+//This means the bot can dive. If the value is 0 then the bot cannot dive.
+
+suicidal=0
+//Is the bot prone to suiciding in bad situations? (1 means yes)
+
+canchat=1
+//A value of 0 means the bot will never speak, a value of 2 means the chat section of default.bif is used.
+
+favweapon=0
+favuniqueweapon=18
+favspecial=2
+
+[CHAT=1]
+Spotted one, he's at %O
+%V at %O is about to get sniped.
+[CHATEND=1]
+
+[CHAT=2]
+Uh oh, I've been spotted at %L
+Taking fire at %L
+[CHATEND=2]
+
+[CHAT=3]
+Cover me! (%L)
+Need reinforcement near %L
+[CHATEND=3]
+
+[CHAT=4]
+Enemy down at %O
+%V sniped at %O
+[CHATEND=4]
+
+[CHAT=5]
+I'm a sniper, so I snipe.
+Will cover you from good position with %W
+[CHATEND=5]
+
+[CHAT=6]
+Engaging enemy from %L with %W
+Contact! Am at %L
+[CHATEND=6]
+
+[CHAT=7]
+Time to die.
+[CHATEND=7]

@@ -1,0 +1,455 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<meta name="generator" content="Adobe GoLive 5">
+		<title>AHLDC Manual Nav</title>
+		<link rel="stylesheet" href="styles/master.css">
+	</head>
+
+	<body bgcolor="#ffffff" background="images/background.jpg" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0">
+		<table border="0" cellpadding="0" cellspacing="0" width="64">
+			<tr>
+				<td><img src="images/spacer.gif" width="480" height="32" border="0"></td>
+			</tr>
+			<tr>
+				<td align="center"><img src="images/page_header.jpg" width="480" height="16" border="0"></td>
+			</tr>
+			<tr>
+				<td align="center"><img src="images/spacer.gif" width="480" height="8" border="0"></td>
+			</tr>
+			<tr>
+				<td align="center"><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="481" HEIGHT="201" id="general_02" ALIGN="">
+						<PARAM NAME=movie VALUE="general_02.swf">
+						<PARAM NAME=quality VALUE=high>
+						<PARAM NAME=bgcolor VALUE=#000000>
+						<EMBED src="general_02.swf" quality=high bgcolor=#000000  WIDTH="481" HEIGHT="201" NAME="general_01" ALIGN=""
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+					</OBJECT><br>
+					<br>
+					<br>
+					<span class="headline">DEVELOPMENT</span></td>
+			</tr>
+			<tr>
+				<td class="blocksatz">
+					<p><span class="subheadline">AHL Map Entities</span><br>
+						Here is a brief write up of the entities available in AHL. Some entites may be marked as *broken*. These will hopefully be fixed in future releases.</p>
+					<p><span class="subheadline">Items Ammo and Weapons</span><br>
+						Here is a list of the currently available item, ammon and wepaon entites available for maps. They are pretty much self explanatory.<br>
+					</p>
+					<p>weapon_anaconda<br>
+					</p>
+					<p>weapon_beretta<br>
+					</p>
+					<p>weapon_akimbob     - Akimbo Berettas<br>
+					</p>
+					<p>weapon_colt<br>
+					</p>
+					<p>weapon_akimcolt    - Akimbo Colt 1911<br>
+					</p>
+					<p>weapon_de50<br>
+					</p>
+					<p>weapon_saa<br>
+					</p>
+					<p>weapon_akimsaa     - Akimbo SAAs<br>
+					</p>
+					<p>ammo_pistol        - Generic ammo, includes ammo for all pistols<br>
+					</p>
+					<p>weapon_hkmp5<br>
+					</p>
+					<p>ammo_mp5clip<br>
+					</p>
+					<p>weapon_50cal<br>
+					</p>
+					<p>ammo_50cal<br>
+					</p>
+					<p>ammo_sniper<br>
+					</p>
+					<p>weapon_m4<br>
+					</p>
+					<p>ammo_m4<br>
+					</p>
+					<p>weapon_msg90<br>
+					</p>
+					<p>ammo_msg90<br>
+					</p>
+					<p>ammo_766mm<br>
+					</p>
+					<p>weapon_handcannon<br>
+					</p>
+					<p>weapon_ithaca<br>
+					</p>
+					<p>ammo_shells<br>
+					</p>
+					<p>ammo_buckshot<br>
+					</p>
+					<p>weapon_knife<br>
+					</p>
+					<p>weapon_frag<br>
+					</p>
+					<p>item_vest<br>
+					</p>
+					<p>item_laser<br>
+					</p>
+					<p>item_stealth<br>
+					</p>
+					<p>item_silencer<br>
+					</p>
+					<p>item_bandolier<br>
+					</p>
+					<p>item_flashlight<br>
+					</p>
+					<p>item_nightvision</p>
+					<p></p>
+					<p><span class="subheadline">On Targetnames</span><br>
+						HL automatically checks for certain targets when a client dies, connects etc.<br>
+					</p>
+					<p>game_playerleave   - fired by a player when they disconnectfrom the server<br>
+					</p>
+					<p>game_playerjoin    - fired when a player when they first JOINS a server<br>
+					</p>
+					<p>game_playerspawn   - fired each time the player spawns<br>
+					</p>
+					<p>game_playerdie     - fired by the player that died<br>
+					</p>
+					<p>game_playerkill    - fired by the player that killed another player (fire for just killing... even if you killed a team mate)<br>
+					</p>
+					<p>game_playerscore   - fired when you GET a frag (In teamplay, this means killing a non-team member)<br>
+					</p>
+					<p>game_roundtimeover - fire when the time runs out (saves usings some multimanager)</p>
+					<p><span class="subheadline">All Map Entities</span><br>
+						If you wish your map to work well for both Teamplay, goals AND deathmatch, make sure you add the flag 'noreset' with the bitflag '2' to every entity that should be removed when the game is not suppose to use the goals (Like in deathmatch). This goes for any added special spawn points, trigger_hurt's, items etc.</p>
+					<p>noreset - bit flag<br>
+					</p>
+					<p>1 - entity does not reset when the round does <br>
+					</p>
+					<p>2 - entity should be removed in DM or when 'mp_goalsoff' is set<br>
+					</p>
+					<p>4 - entity should be removed in TEAMPLAY<br>
+					</p>
+					<p>8 - entity should be removed if Rounds of off (DM or old style teamplay)</p>
+					<p><span class="subheadline">Game Team Master</span><br>
+						<i>teamname &lt;string&gt;</i><br>
+						Use this instead of teamindex, because its easier to keep track of.(define the teams first using info_team ent's)<br>
+					</p>
+					<p><i>targetname &lt;target_source&gt; </i></p>
+					<p><span class="subheadline">Game Team Set</span><br>
+						<i>teamname &lt;string&gt;<br>
+						</i>Same as teamindex, but by name (Only use if you define the teams first using info_team ent's)<br>
+					</p>
+					<p><i>targetname &lt;target_source&gt;</i> <br>
+						Set master to this team instead</p>
+					<p><span class="subheadline">Game Score</span><br>
+						As soon as you add one of these, normal teamplay takes a back seat to what ever you have planned. Normally, the round will end if only one team remains alive. Once this entity is added, that is no longer the case. If you add one of these, you must also add some game_text to say who won etc. The DLL will no longer do that for you. The game score entity will only awards points if the game is actually in progress. If you intend to end the round with a 'game_roundend', award points at the same time.<br>
+					</p>
+					<p><i>teamname &lt;string&gt;</i><br>
+					</p>
+					<p><i>points &lt;integer&gt;</i><br>
+						If the integer value is a negative, then points will be deducted.</p>
+					<p><span class="subheadline">Game Roundend</span><br>
+						Ends the round in a gametype that supports round (Action Teamplay only really). You can set a delay before firing, allowing you to award points etc first. This entity won't fire if the game isn't actually in progress.<br>
+					</p>
+					<p><i>wait &lt;0.1+&gt;<br>
+						</i>Delay before the round will try to restart. Must be greater then 0 obviously</p>
+					<p><span class="subheadline">Game Player Die</span><br>
+						About the only real use of this is to check for the death of a team.<br>
+						REMEMBER : set the <i>targetname</i> to <i>'game_playerdie'</i><br>
+						Spawnflags :<br>
+					</p>
+					<p><i>SF_WHOLE_TEAM 0</i> - Fires when a team member is killed.</p>
+					<p><i>SF_WHOLE_TEAM 1</i> - Fires when whole team (including subteams) is dead.</p>
+					<p><i>SF_WHOLE_TEAM 2</i> - Fires when whole subteam team is dead.</p>
+					<p>Variables :<br>
+					</p>
+					<p><i>master &lt;targetname&gt;</i> - Master of team. (See Game Team&nbsp;Master).</p>
+					<p><i>targetname &quot;game_playerdie&quot;</i> <br>
+					</p>
+					<p><i>target &lt;targetname&gt;</i> - The entity to trigger. </p>
+					<p><span class="subheadline">Info Team</span><br>
+						These allow you to set the number of teams, a teams name, model. Weapon choices are currently non functional.<br>
+						It is important to remember one thing : the order you put them in.<br>
+					</p>
+					<p>eg. </p>
+					<p>The first info_team you add will become the team at index 1<br>
+						The second info_team you add will become the team at index 2<br>
+						The third to team index3 etc<br>
+					</p>
+					<p>Action Half-Life only supports 4 teams at the moment.<br>
+						So remember to only add four, eh?</p>
+					<p>Variables :<br>
+					</p>
+					<p><i>name &lt;max 16 chars&gt;  </i>- Name of team<br>
+					</p>
+					<p><i>model &lt;max 16 chars&gt;</i> - Model for that team.<br>
+					</p>
+					<p><i>max_members &lt;0-?&gt;</i> - Maximum members allowed in team.</p>
+					<p><i>min_members &lt;0-?&gt;</i> - Minimum members allowed in team.</p>
+					<p><i>respawn &lt;0-?&gt;</i> - Wait this many seconds before being able to respawn.<br>
+					</p>
+					<p><i>lives &lt;-1+&gt;</i> - Number of times someone on this team can die.<br>
+					</p>
+					<p>-1 : Unlimited lives. Team members can respawn as much as they want<br>
+					</p>
+					<p>1+ : Each team member can respawn this many times before remaining dead<br>
+					</p>
+					<p>The weaponlist and itemlist is unfortunately not functioning for this release.</p>
+					<p><i>weaponlist &lt;bitvalue&gt;</i> - The weapon choices this team has<br>
+					</p>
+					<p>-1 : Anyone joining this team is considered a civie. <br>
+					</p>
+					<p>They start with no weapons and can't pick em' up either.<br>
+					</p>
+					<p>-2 : Anyone joining this team will simply have no weapons at the start.<br>
+					</p>
+					<p>Might be useful for maps with added items or assigning items with<br>
+					</p>
+					<p>game_player_equip's<br>
+					</p>
+					<p></p>
+					<p>Weapon Choice BitValues :<br>
+					</p>
+					<p>Beretta     1<br>
+						Anaconda    2<br>
+						MP5k      4<br>
+						50cal Sniper    8<br>
+						HandCannon    16<br>
+						Shotgun     32<br>
+						Knives      64<br>
+						2nd Pistol    128<br>
+						M4 Assault Rifle  256<br>
+						Semi-Auto Sniper  512<br>
+					</p>
+					<p><i>itemlist &lt;bitvalue&gt;</i> - The item choices this team has<br>
+					</p>
+					<p>Item Choice BitValues :<br>
+					</p>
+					<p>Vest      1<br>
+						Laser Sight   2<br>
+						StealthSlippers   4<br>
+						Silencer    8<br>
+						Bandolier   16<br>
+						FlashLight    32<br>
+						Night Vision    64<br>
+						No Grenade    128 </p>
+					<p><span class="subheadline">Func Breakable</span><br>
+						If it doesn't have a target or targetname, it will respawn in DM.<br>
+						In teamplay, it will respawn no matter what when the round resets.</p>
+					<p><span class="subheadline">Trigger Once</span><br>
+						Will reset when the round does.</p>
+					<p>F<span class="subheadline">unc doors, trains, buttons etc</span><br>
+						Will reset when the round does.</p>
+					<p><span class="subheadline">Trigger Camera</span><br>
+						The existing halflife Trigger Camera entity has one addition.</p>
+					<p>SF_CAMERA_ALL_PLAYERS - spawnflag 8<br>
+					</p>
+					<p>Makes every single player suddenly view through this camera.</p>
+					<p><span class="subheadline">All Items (Weapons/Ammo/Special Items)</span><br>
+						Items in AHL share these following attributes: </p>
+					<p><i>wait &lt;-0.0+&gt;</i> - respawn after this many seconds<br>
+					</p>
+					<p>      eg. wait 0.1 : near instant respawn<br>
+					</p>
+					<p>      eg. wait -30 : item still exists in the game and will respawn after 30 seconds<br>
+						repsawn after -1 * this many seconds, and remain in Action Teamplay<br>
+					</p>
+					<p><i>master &lt;target_source&gt;</i> - just like triggers etc. Player must match the neccessary master fields to be able to pick it up. Allows team only items etc</p>
+					<p><span class="subheadline">Game Player Message</span><br>
+						If a player fires this ent, it will make them send a say_team and/or radio message to everyone on their team. It's mainly here to help out newbies/streamline games a bit more. Used by the Terrorist Leader in&nbsp;Action Rail.  </p>
+					<p><i>message &lt;string&gt; </i>- say_team message to send<br>
+					</p>
+					<p>radio &lt;<i>soundfiles</i>&gt; - radio message to send<br>
+					</p>
+					<p>NOTE : if no (message) is given, no one will know who sent the message<br>
+					</p>
+					<p><span class="subheadline">Target Key</span><br>
+						target_key is similar to the Quake2 ent 'trigger_key'. When triggered, it searches the activator for a specified game_item. If they have at least one of the items, it will fire<br>
+					</p>
+					<p>Variables :</p>
+					<p><i>itemname &lt;string&gt;</i> - name of the item to search for. Must be the same as what ever game_item you want it to refer too.<br>
+					</p>
+					<p>Spawnflags :<br>
+					</p>
+					<p>SF_KEEP_ITEM - 1</p>
+					<p>Normally, firing a target_key removes the item. If KEEP_ITEM is set, it won't. This is useful for making security doors and such, where you may want players to be able to re-use the item. </p>
+					<p><span class="subheadline">Game Item *Not Working this release*</span><br>
+						game_item Used for adding retrievable goals into a map. When a player touches a game_item, it checks to see if that player is already carrying an item by the same name. If not, it gives them one.<br>
+					</p>
+					<p>Variables :<br>
+						<i>model &lt;path/model&gt;</i> - set the items model (defaults to &quot;models/flag.mdl&quot;)<br>
+					</p>
+					<p><i>pmodel &lt;path/model&gt;</i> - set to the model that will attach to the player for (use with SF_WEAPON)<br>
+					</p>
+					<p><i>target &lt;target_source&gt;</i> - fired when normal and touched (as apposed to dropped and touched)<br>
+					</p>
+					<p><i>skin &lt;path/skin&gt; </i>- set the skin<br>
+					</p>
+					<p><i>targetname &lt;string&gt;</i> - Set so that the item can be USED.<br>
+					</p>
+					<p>
+					</p>
+					<p>Using the item toggles it state, depending on how it was used. Most things simply reset it (make it respawn).<br>
+						<br>
+						0+ - Item starts ON, and touchable - initial state<br>
+						-1 - Item starts OFF, hidden and untouchable<br>
+						<br>
+						<i>itemname &lt;string&gt;</i> - name of the item. </p>
+					<p>Two game_item's CAN have the same itemname (for the purpose of restricting items). The way that game_item's are kept track of doesn't matter if one or more have the same name.<br>
+					</p>
+					<p><i>teamname &lt;string&gt;</i> - add a teamname to say who 'owns' the item. This is for adding a 'reset' capability if the item is dropped and touched by a player on this team. It is also used to fire a different target if a player on this team touches it while it is still available.<br>
+					</p>
+					<p><i>ally_target &lt;teamname&gt;</i> - goes with 'teamname'. </p>
+					<p>If a player on the team touches the item, but does not pick it up, this target will be fired.<br>
+						<br>
+						<i>return_target &lt;target_source&gt;</i> - goes with 'teamname'. </p>
+					<p>If a player on teamindex team touches a DROPPED version of the item, but does not pick it up, this target will be fired &amp; the original item reset.<br>
+					</p>
+					<p><i>drop_target &lt;target_source&gt;</i> </p>
+					<p>If someone carrying the item drops it (through death etc), this target will be fired<br>
+					</p>
+					<p><i>respawn</i>    </p>
+					<p>0 - When dropped, respawn immediately<br>
+						1+ - When dropped, wait this many seconds and respawn<br>
+						-1 - When picked up, remain normal (don't hide &amp; become untouchable)<br>
+					</p>
+					<p><i>respawn_target &lt;target_source&gt;</i></p>
+					<p>If the item respawns on its own (after being dropped), this target will be fired<br>
+					</p>
+					<p>Spawnflags :<br>
+					</p>
+					<p>SF_NULL 1<br>
+					</p>
+					<p>Exists only for reference. If targetted, will 'give' itself to the target. Use it to give ppl security cards etc<br>
+					</p>
+					<p>SF_FOLLOW 2<br>
+					</p>
+					<p>Copies itself to the person who touched. That copy then follows that person around (Like the flags in TFC CTF etc)<br>
+						<br>
+						SF_WEAPON 4<br>
+					</p>
+					<p>Becomes the players active weapon and looks like they are carrying it. Attacking with the item drops it.<br>
+						NOTE : Player cannot use another weapon while holding such an item.</p>
+					<p><span class="subheadline">Game Text</span><br>
+						Game text displays text upon the screen.</p>
+					<p>Variables:</p>
+					<p><i>teamname &lt;teamname&gt;</i> - CURRENTLY&nbsp;NOT&nbsp;WORKING&nbsp;FOR&nbsp;THIS&nbsp;RELEASE. TEXT IS&nbsp;SEEN&nbsp;BY&nbsp;ALL&nbsp;PLAYERS. </p>
+					<p>Send a message to everyone on this team<br>
+					</p>
+					<p>%p - if in the 'message' part, will be substituted with the activators name instead. eg. &quot;%p has taken the flag!&quot; would come out as &quot;Mr_Grim has taken the flag!&quot;<br>
+					</p>
+					<p>%t - if in the 'message' part, will be substituted with the activators teams name instead. eg. &quot;The %t's flag has been taken!&quot; would come out as &quot;The SAS's flag has been taken!&quot;</p>
+					<p><span class="subheadline">Monster Victim</span><br>
+						Spawns an NPC who just sits there and can be shot/used. Even if killed/gibbed, it will reset when the round does.<br>
+					</p>
+					<p>Variables :<br>
+					</p>
+					<p><i>deadtarget &lt;target_source&gt; </i></p>
+					<p>When killed by a player, will fire this target<br>
+						<br>
+						<i>target &lt;target_source&gt;  </i></p>
+					<p>If 'used' by a player, fires this target<br>
+						<br>
+						<i>model &lt;path/model&gt;</i> </p>
+					<p>Use this model. Defaults to Neo if not set.<br>
+					</p>
+					<p><i>health &lt;integer&gt;</i>  - set health (default : 100)<br>
+						<br>
+					</p>
+					<p><i>angle &lt;0-359&gt; </i>- sets the NPC facing this angle.</p>
+					<p><i>master &lt;game team master name&gt;</i></p>
+					<p>Set to a game_team_master to make them team specific. When an NPC is mastered, the team that shares the same master with the NPC cannot damage or kill the NPC. This is in the interests of stopping 'game spoilers'. </p>
+					<p><span class="subheadline"><b>Monster Hostage *Not working this release*</b></span><br>
+						Exactly the same as a monster_victim when dealing with variables etc, except when a monster_hostage is used, it will follow the user around. They will also move out of the way when you walk into them. If a player uses them again, they will stop following them. For the hostages to get around better, a .wps files should be made for the level.</p>
+					<p><span class="subheadline"><b>Trigger Hostage *Not working this release*</b></span><br>
+						Just like any other basic trigger (needs a brush model), except this one can only be touched by monster_hostages. When they are touched, it fires its target based of the person leading the hostage, and then it removes the hostage from the game (makes non-solid &amp; invisible etc)</p>
+					<p><span class="subheadline"><b>Game Player Equip</b></span><br>
+						This will override weapon/item selection menu for the player using it.(It also disables random item spawn in DeathMatch) In a teamgame, it won't (use info_team's item/weaponlist for that). For instance : if you wanted everyone to start with just a knife, you could add a game_player_equip with 'weapon_knife 1' set. When a player spawned, it would simply spawn them in with one knife, and not bring up the weapon selection menu.</p>
+					<p><span class="subheadline"><b>C</b>reating Overviews</span><br>
+						The way to make overview files doesnt work completely like it says anymore.  Valve changed things slightly.<br>
+					</p>
+					<p>The new way is more fiddly, in order to prevent script kiddies hacking the code I think...<br>
+						<br>
+					</p>
+					<p>Heres how it works, (basically)<br>
+						<br>
+					</p>
+					<p>Start a half-life DEDICATED server (dedicated is important!!).  Make sure bots are turned off<br>
+					</p>
+					<p>Start a hltv proxy, and point it at your server.<br>
+					</p>
+					<p>On the server, change level to the level you want to make an overview for (changelevel ahl_xx)<br>
+					</p>
+					<p>Then start a half-life game, and connect to the proxy, using the hltv slot (its the one that has no text on it at the moment).<br>
+						<br>
+					</p>
+					<p>Type developer 1<br>
+					</p>
+					<p>Change views a couple of times, this should get rid of the &quot;help text borders&quot;. Keep going until you are come to a big green grid.<br>
+						<br>
+					</p>
+					<p>Type dev_overview 1<br>
+					</p>
+					<p>This should put you in the top down mode, if all you get is a green screen, you probably didnt switch to overview mode before typing dev_overview, type dev_overview 0, and cycle through the different views again and it should work.<br>
+						<br>
+					</p>
+					<p>You can move the map around with keys FORWARD,BACKWARD, RIGHT &amp; LEFT. Maps will be automatically rotated to fit optimally onto the screen. If they are rotated, FORWARD and RIGHT are swapped, etc. Use the keys ATTACK and ATTACK2 to change the zoom. With zmin and zmax you can choose which parts of the map should be drawn. Only polygons between these two values are shown. This can be used to cut off ceilings or other unwanted objects. Origin is your viewpoint projected into the map. The map will be rotated around this point if you move the mouse in overview mode. Zmin can be changed with UP &amp; DOWN and zmax with JUMP &amp; DUCK. If you think you've found the correct values for the new map, simply make a screenshot and remember all of the values, which are needed for the overview description file (to avoid console text on the screenshot set developer 0).<br>
+						<br>
+					</p>
+					<p>Align your map to fit the screen.  Note down all of the numbers to do with the position of the camera<br>
+						<br>
+					</p>
+					<p>Grab screenshots of the map.  If necessary, move up and down to grab screen shots of the different levels of the map, then use photoshop to merge them together (use layers and the eraser tool) or add neat effects (eg, no-credit could be re-done to look like a sketch of the map, as seen in the petrol station, or other maps could be changed to look like security blue-prints or something).<br>
+						<br>
+					</p>
+					<p>Save it as the mapname.tga, and place it into the overviews directory.  Take one of the map.txt files from one of the other mods (DMC, TFC, HL), rename it to your maps name.txt, open it, and fill out the values with the ones you noted down earlier...<br>
+						<br>
+					</p>
+					<p>cut and paste again...<br>
+						<br>
+					</p>
+					<p>Next, you have to create an overview description file that will be parsed by the client DLL to get the map image filename and the correct view parameters. This file must be in the overviews\ directory and must have the same name as the current BSP file, but with TXT as its extension. Here is an example (overviews\de_vegas.txt):<br>
+						<br>
+					</p>
+					<p>// overview description file for de_vegas.bsp<br>
+						<br>
+					</p>
+					<p>global <br>
+					</p>
+					<p>{<br>
+					</p>
+					<p>  ZOOM    1.63<br>
+					</p>
+					<p>  ORIGIN  1903  -1283 -1088<br>
+					</p>
+					<p>  ROTATED 0<br>
+					</p>
+					<p>}<br>
+						<br>
+					</p>
+					<p>layer <br>
+					</p>
+					<p>{<br>
+					</p>
+					<p>  IMAGE &quot;overviews/de_vegas.tga&quot;<br>
+					</p>
+					<p>  HEIGHT  -1088<br>
+					</p>
+					<p>}<br>
+						<br>
+					</p>
+					<p>The global section describes zoom, the origin point the map is rotated around, and a boolean to indicate if the map image is rotated or not. The layer section describes the map image filename and at which height (z-axis) the map should be shown. The overview mode uses the some coordinate space as the game world and all icons are drawn at the same position as their corresponding entities<br>
+						<br>
+					</p>
+					<p>Then when you join a hltv server, you should find when you switch to a map view there is a picture of the map, rather than a green grid.<br>
+						<br>
+					</p>
+					<p>I have to say, the biggest problem I've found is that the entities on the map sometimes didn't relate to the position of the entities in the world.  The worst one for this is hondos maps (I tried doing a no-credit one.  It seems ok now..), because the secrets make the maps much larger than the overviews are.  I think the best bet is to make sure the HEIGHT field has the correct value for whatever you used as zmax.  Then watch the game with some bots or something to see if you have the origin set up correctly, if not, adjust the origin, and reload the level.  (this is where running the game in a window comes in useful, add -window 640 480 to your commandline)<br>
+					</p>
+				</td>
+			</tr>
+		</table>
+		<p></p>
+	</body>
+
+</html>

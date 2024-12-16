@@ -1,0 +1,10 @@
+// Suggested mapcycle.txt for goal maps only
+
+ahlg_engholm_dc
+ahlg_wikkedkorp_dc
+ahlg_plexharbour_dc
+ahlg_wikkedcity_dc
+ahlg_urban_riot_dc
+ahlg_onslaught2_dc
+ahlg_actionrail_dc
+ahlg_metro_dc

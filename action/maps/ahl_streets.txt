@@ -1,0 +1,42 @@
+=========================================================================
+
+Title                   : Streets
+Files                   : ahl_streets.bsp, ahl_streets.txt, Nevermore.wav,
+			  SixSirens.wav, chaoscitybk.tga, chaoscitydn.tga, 
+			  chaoscityft.tga, chaoscitytf.tga, chaoscityrt.tga, 
+			  chaoscityup.tga, ahl_streets.ini
+Author                  : Spydre
+Email Address           : rleonard@coe.neu.edu
+Textures		: Telnets and joesmoe
+Recommended # of Players: 4 - 14
+
+===========================================================================
+
+New Textures		: Yes
+New Sounds		: Yes
+New SkyBox		: Yes
+Editor used		: Worldcraft 3.3
+
+===========================================================================
+
+COPYRIGHT INFORMATION
+
+When distributing this map, this text file, and all other files listed in this
+text file, must be included.  No modifications, please.  If you'd like to see 
+changes or borrow elements, contact me first.
+
+Also, the two .wav files included are copyright of their respective owners.
+
+===========================================================================
+
+CREDITS
+
+Special Thanks:
+
+Iced Earth and Metallica for making mapping more exciting.
+Stygian for his help in playtesting and support.
+Telnets and joesmoe for their incredible textures.
+Dengar for shortening the wav files for me and testing the map.
+Bulletbait and those who attended Borg's LAN for testing the map and giving 
+me some helpful feedback.
+

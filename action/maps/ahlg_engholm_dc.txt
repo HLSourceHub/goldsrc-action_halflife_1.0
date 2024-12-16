@@ -1,0 +1,17 @@
+Engholm - Assassination
+=======================
+
+Jeff is the target of a Mafia hit team. The Professionals are coming
+to clean him. Only his Killers can save him. 
+
+Jeff is hiding out in a room on the roof. 
+
+The Killers get infinite lives.
+
+The Professionals get 3 lives each. 
+
+The Professionals must eliminate Jeff to win.
+
+The Killers must eliminate the entire hit team to win.
+
+Original Map Author : Dirk Schraeer (aka banana) 

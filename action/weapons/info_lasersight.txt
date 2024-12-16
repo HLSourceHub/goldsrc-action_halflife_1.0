@@ -1,0 +1,9 @@
+BASICS:
+Type        : Laser sight
+Usage       : Increases accuracy on many weapons.
+
+TACTICAL/COMMENTS: 
+The laser sight makes your weapons much more accurate, especially for single shots. The red dot is merely cosmetic, so do NOT use it to aim. Not all weapons can be equipped with a laser sight.
+ 
+AS SEEN IN:
+Leon, The Terminator (possibly the first ever movie use), Lethal Weapon 4 and Ghost Dog all feature laser sights.
